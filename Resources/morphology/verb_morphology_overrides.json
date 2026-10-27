@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "forms": {
+    "hier": {
+      "P1s": "hie",
+      "P2s": "hies",
+      "P3s": "hie",
+      "P1p": "hions",
+      "P2p": "hiez",
+      "P3p": "hient",
+      "I12s": "hiais",
+      "I3s": "hiait",
+      "I1p": "hiions",
+      "I2p": "hiiez",
+      "I3p": "hiaient",
+      "F1s": "hierai",
+      "F2s": "hieras",
+      "F3s": "hiera",
+      "F1p": "hierons",
+      "F2p": "hierez",
+      "F3p": "hieront",
+      "C12s": "hierais",
+      "C3s": "hierait",
+      "C1p": "hierions",
+      "C2p": "hieriez",
+      "C3p": "hieraient",
+      "Y2s": "hie",
+      "Y1p": "hions",
+      "Y2p": "hiez",
+      "Kms": "hié",
+      "Kfs": "hiée",
+      "Kmp": "hiés",
+      "Kfp": "hiées"
+    },
+    "bruire": {
+      "F2s": "bruiras",
+      "F3s": "bruira",
+      "I1s": "bruyais",
+      "I2s": "bruyais",
+      "I3s": "bruyait"
+    },
+    "faillir": {
+      "Y2s": "faillis"
+    }
+  },
+  "preferredForms": {
+    "être": {
+      "P3p": "sont"
+    },
+    "ressortir": {
+      "P1s": "ressors",
+      "P2s": "ressors",
+      "P3s": "ressort",
+      "P1p": "ressortons",
+      "P2p": "ressortez",
+      "P3p": "ressortent",
+      "I1s": "ressortais",
+      "I2s": "ressortais",
+      "I3s": "ressortait",
+      "I1p": "ressortions",
+      "I2p": "ressortiez",
+      "I3p": "ressortaient",
+      "Y2s": "ressors",
+      "Y1p": "ressortons",
+      "Y2p": "ressortez"
+    },
+    "bruire": {
+      "I3s": "bruyait"
+    },
+    "faillir": {
+      "Y2s": "faillis"
+    }
+  },
+  "editorialNotes": {
+    "faillir.Y2s": "Select faillis over Lefff’s subjunctive-shaped faille for the tu imperative, following Larousse’s displayed imperative paradigm: https://www.larousse.fr/conjugaison/francais/faillir/4596"
+  }
+}

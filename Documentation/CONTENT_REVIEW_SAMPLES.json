@@ -1,0 +1,929 @@
+{
+  "date": "2026-10-27",
+  "counts": {
+    "rawSourceRows": 14236,
+    "selectedB1Rows": 1753,
+    "uniqueLemmaPOS": 1753,
+    "verbs": 395,
+    "generalExamples": 5259,
+    "conjugationRows": 15340,
+    "repeatedGeneralSentences": 0
+  },
+  "pinnedFLELexSHA256": "e0cbdb672fa4f83155acec4c8f01f179b30be08cb3d2d6cf0d9f25042b01e3d4",
+  "resources": {
+    "Resources/vocabulary.json": "ffdd1a1f018bbb45d6f8886f491eb85a59f77f3e719ce24a786bfef34fd90163",
+    "Resources/verbs.json": "c73e875ddad8642ea2a8ad28dac02bdae106d6e75a025d7a392c474420ebd331",
+    "Resources/morphology/lefff-3.4-target-forms.tsv": "db14cc4cbcffc56b0e9ce4f0687c560d31c0fe6d1118846a8456c9ef50a9dbcc"
+  },
+  "reviewScope": "All glossary records and all editable verb frames received a second read-through. Generated form rows were structurally checked and high-risk paradigms spot-checked against cited resources. This is not certification of every linguistic judgment.",
+  "glossary": [
+    {
+      "id": "-ci|ADV",
+      "lemma": "-ci",
+      "pos": "ADV",
+      "gender": null,
+      "article": null,
+      "english": "-here; this one (with demonstratives)",
+      "french": "Particule ajoutée à un démonstratif pour désigner un élément précis ou proche.",
+      "examples": [
+        "Choisis ce sac-ci, il est plus solide.",
+        "Cette année-ci, les prix ont moins augmenté.",
+        "Celui-ci est libre, tu peux t’asseoir."
+      ],
+      "sourceRow": 1,
+      "usageNote": "Particule postposée, souvent reliée par un trait d’union : ce livre-ci, celui-ci."
+    },
+    {
+      "id": "afin|KON",
+      "lemma": "afin",
+      "pos": "KON",
+      "gender": null,
+      "article": null,
+      "english": "so that; in order to",
+      "french": "Mot qui introduit le but d’une action.",
+      "examples": [
+        "Nous sommes partis tôt afin d’éviter les embouteillages.",
+        "Elle a pris des notes afin que chacun puisse suivre la réunion.",
+        "Afin de garder les légumes frais, place-les au réfrigérateur."
+      ],
+      "sourceRow": 274,
+      "usageNote": "Mot souvent suivi de « de » et d’un infinitif, ou de « que » et du subjonctif."
+    },
+    {
+      "id": "de|DET:ART",
+      "lemma": "de",
+      "pos": "DET:ART",
+      "gender": null,
+      "article": null,
+      "english": "of; some; from",
+      "french": "Mot qui marque souvent une relation, une origine ou une quantité dans un groupe nominal.",
+      "examples": [
+        "Elle boit un verre de lait au petit déjeuner.",
+        "Il n’y a pas de bruit dans la salle.",
+        "Nous avons acheté beaucoup de légumes au marché."
+      ],
+      "sourceRow": 3572,
+      "usageNote": "Source tag note: l’entrée conserve le tag DET:ART de la source; de fonctionne notamment comme marqueur de quantité ou de relation et peut aussi être une préposition."
+    },
+    {
+      "id": "dont|PRO",
+      "lemma": "dont",
+      "pos": "PRO",
+      "gender": null,
+      "article": null,
+      "english": "whose; of which; about whom",
+      "french": "Pronom relatif qui reprend une personne ou une chose introduite par de.",
+      "examples": [
+        "Voici le livre dont je t’ai parlé hier.",
+        "Elle connaît l’artiste dont les tableaux sont exposés ici.",
+        "Le projet dont il est responsable commencera en septembre."
+      ],
+      "sourceRow": 3906,
+      "usageNote": "Dont remplace un complément introduit par de : parler de quelque chose, être responsable de quelque chose."
+    },
+    {
+      "id": "hélas|INT",
+      "lemma": "hélas",
+      "pos": "INT",
+      "gender": null,
+      "article": null,
+      "english": "alas; unfortunately",
+      "french": "Interjection qui exprime le regret ou la déception.",
+      "examples": [
+        "Hélas, le dernier train est déjà parti.",
+        "Il a accepté le poste, mais hélas il a dû déménager loin de sa famille.",
+        "Hélas ! la pluie a annulé le concert en plein air."
+      ],
+      "sourceRow": 6322,
+      "usageNote": "Interjection souvent placée au début ou à la fin d’une phrase."
+    },
+    {
+      "id": "quant|PRP",
+      "lemma": "quant",
+      "pos": "PRP",
+      "gender": null,
+      "article": null,
+      "english": "as for; regarding",
+      "french": "Expression qui introduit une personne ou un sujet dont on va parler à part.",
+      "examples": [
+        "Quant à moi, je préfère attendre le prochain train.",
+        "Quant au prix, il n’a pas changé depuis l’an dernier.",
+        "Quant aux enfants, ils sont déjà couchés."
+      ],
+      "sourceRow": 10537,
+      "usageNote": "Quant s’emploie normalement dans l’expression quant à, suivie d’un nom ou d’un pronom."
+    },
+    {
+      "id": "mécher|VER",
+      "lemma": "mécher",
+      "pos": "VER",
+      "gender": null,
+      "article": null,
+      "english": "to fumigate a wine vat; to place a wick in a wound",
+      "french": "Brûler du soufre dans une cuve pour la désinfecter, ou placer une mèche dans une plaie.",
+      "examples": [
+        "Le vigneron a méché le fût avant d’y mettre le vin.",
+        "L’infirmière a méché la plaie après l’avoir nettoyée.",
+        "Il faut mécher la cuve avant de la remplir."
+      ],
+      "sourceRow": 8453,
+      "usageNote": "Verbe technique, surtout utilisé en viticulture et en médecine."
+    },
+    {
+      "id": "rentraire|VER",
+      "lemma": "rentraire",
+      "pos": "VER",
+      "gender": null,
+      "article": null,
+      "english": "to repair a tapestry by sewing its joins",
+      "french": "Réparer une tapisserie ancienne en cousant ensemble ses différentes parties.",
+      "examples": [
+        "Le musée a fait rentraire les relais d’une tapisserie ancienne.",
+        "Cette restauratrice sait rentraire une toile sans abîmer les fils.",
+        "Avant l’exposition, il faut rentraire les parties décousues de la tapisserie."
+      ],
+      "sourceRow": 10994,
+      "usageNote": "Verbe rare de restauration textile : rentraire désigne surtout la réparation des relais d’une tapisserie."
+    },
+    {
+      "id": "étrange|NOM",
+      "lemma": "étrange",
+      "pos": "NOM",
+      "gender": "masculine",
+      "article": "l’",
+      "english": "the strange; strangeness",
+      "french": "Ce qui sort de l’ordinaire et paraît difficile à expliquer.",
+      "examples": [
+        "Ce film nous fait entrer dans le domaine de l’étrange.",
+        "Le peintre explore l’étrange dans ses portraits.",
+        "Cette histoire mêle le quotidien et l’étrange."
+      ],
+      "sourceRow": 14168,
+      "usageNote": "Nominal use l’étrange is literary; the adjective étrange is much more common."
+    },
+    {
+      "id": "être|NOM",
+      "lemma": "être",
+      "pos": "NOM",
+      "gender": "masculine",
+      "article": "un",
+      "english": "being; creature",
+      "french": "Personne ou chose considérée comme vivante ou existante.",
+      "examples": [
+        "Chaque être humain a besoin de respect.",
+        "Ce récit imagine des êtres venus d’une autre planète.",
+        "Elle consacre sa vie à protéger les êtres vivants."
+      ],
+      "sourceRow": 14231,
+      "usageNote": null
+    }
+  ],
+  "representativeVerbs": [
+    {
+      "entryID": "enfuir|VER",
+      "infinitive": "s’enfuir",
+      "usageNote": null,
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je m’enfuis",
+              "example": "Je m’enfuis à la première alerte."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles s’enfuient",
+              "example": "Elles s’enfuient à la première alerte."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je me suis enfui(e)",
+              "example": "Je me suis enfuie à la première alerte."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles se sont enfui(e)s",
+              "example": "Elles se sont enfuies à la première alerte."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais m’enfuir",
+              "example": "Je vais m’enfuir à la première alerte."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont s’enfuir",
+              "example": "Elles vont s’enfuir à la première alerte."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "enfuis-toi",
+              "example": "Enfuis-toi à la première alerte."
+            },
+            {
+              "person": "vous",
+              "form": "enfuyez-vous",
+              "example": "Enfuyez-vous à la première alerte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "neiger|VER",
+      "infinitive": "neiger",
+      "usageNote": "Verbe impersonnel dans son sens météorologique : seules les formes de la troisième personne du singulier (« il ») sont affichées; aucun impératif valide.",
+      "emptyTables": [
+        "imperatif"
+      ],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 1,
+          "rows": [
+            {
+              "person": "il",
+              "form": "il neige",
+              "example": "Il neige sur les hauteurs pendant la nuit."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 1,
+          "rows": [
+            {
+              "person": "il",
+              "form": "il a neigé",
+              "example": "Il a neigé sur les hauteurs pendant la nuit."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 1,
+          "rows": [
+            {
+              "person": "il",
+              "form": "il va neiger",
+              "example": "Il va neiger sur les hauteurs pendant la nuit."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 0,
+          "rows": []
+        }
+      ]
+    },
+    {
+      "entryID": "frire|VER",
+      "infinitive": "frire",
+      "usageNote": "Verbe transitif défectif : le présent se limite au singulier et l’impératif à tu; l’imparfait n’existe pas. Les formes du futur et du conditionnel existent mais sont rares. Les personnes manquantes sont souvent remplacées par faire frire.",
+      "emptyTables": [
+        "imparfait"
+      ],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je fris",
+              "example": "Je fris des beignets pour le goûter."
+            },
+            {
+              "person": "il/elle/on",
+              "form": "il/elle/on frit",
+              "example": "Elle frit des beignets pour le goûter."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai frit",
+              "example": "Pour le dîner, j’ai frit du poisson à la poêle."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont frit",
+              "example": "Pour le dîner, elles ont frit du poisson à la poêle."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais frire",
+              "example": "Ce soir, je vais frire des beignets pour les enfants."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont frire",
+              "example": "Ce soir, elles vont frire des beignets pour les enfants."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 1,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "fris",
+              "example": "Fris les beignets jusqu’à ce qu’ils soient dorés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "bruire|VER",
+      "infinitive": "bruire",
+      "usageNote": "Verbe littéraire défectif. Au passé composé et à l’impératif, on emploie généralement bruisser; les formes simples attestées ici se limitent à je, tu et il/elle/on. Le futur proche se forme avec aller + bruire.",
+      "emptyTables": [
+        "passeCompose",
+        "imperatif"
+      ],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je bruis",
+              "example": "Dans le rôle du vent, je bruis doucement entre les branches."
+            },
+            {
+              "person": "il/elle/on",
+              "form": "il/elle/on bruit",
+              "example": "Dans le rôle du vent, elle bruit doucement entre les branches."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 0,
+          "rows": []
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais bruire",
+              "example": "Dans le rôle du vent, je vais bruire doucement entre les branches."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont bruire",
+              "example": "Dans le rôle du vent, elles vont bruire doucement entre les branches."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 0,
+          "rows": []
+        }
+      ]
+    },
+    {
+      "entryID": "redescendre|VER",
+      "infinitive": "redescendre",
+      "usageNote": "Le tableau montre le déplacement intransitif avec être. L’emploi transitif (« redescendre les cartons ») se conjugue avec avoir.",
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je redescends",
+              "example": "Je redescends vers la vallée par le sentier balisé."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles redescendent",
+              "example": "Elles redescendent vers la vallée par le sentier balisé."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je suis redescendu(e)",
+              "example": "Je suis redescendue vers la vallée par le sentier balisé."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles sont redescendu(e)s",
+              "example": "Elles sont redescendues vers la vallée par le sentier balisé."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais redescendre",
+              "example": "Je vais redescendre vers la vallée par le sentier balisé."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont redescendre",
+              "example": "Elles vont redescendre vers la vallée par le sentier balisé."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "redescends",
+              "example": "Redescends vers la vallée par le sentier balisé."
+            },
+            {
+              "person": "vous",
+              "form": "redescendez",
+              "example": "Redescendez vers la vallée par le sentier balisé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "repasser|VER",
+      "infinitive": "repasser",
+      "usageNote": "Le tableau montre l’emploi transitif « repasser une chemise » avec avoir. L’emploi intransitif de déplacement peut se conjuguer avec être.",
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je repasse",
+              "example": "Je repasse une chemise avant la réunion."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles repassent",
+              "example": "Elles repassent une chemise avant la réunion."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai repassé",
+              "example": "J’ai repassé une chemise avant la réunion."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont repassé",
+              "example": "Elles ont repassé une chemise avant la réunion."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais repasser",
+              "example": "Je vais repasser une chemise avant la réunion."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont repasser",
+              "example": "Elles vont repasser une chemise avant la réunion."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "repasse",
+              "example": "Repasse une chemise avant la réunion."
+            },
+            {
+              "person": "vous",
+              "form": "repassez",
+              "example": "Repassez une chemise avant la réunion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "intervenir|VER",
+      "infinitive": "intervenir",
+      "usageNote": null,
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’interviens",
+              "example": "J’interviens auprès du directeur pour résoudre le problème."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles interviennent",
+              "example": "Elles interviennent auprès du directeur pour résoudre le problème."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je suis intervenu(e)",
+              "example": "Je suis intervenue auprès du directeur pour résoudre le problème."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles sont intervenu(e)s",
+              "example": "Elles sont intervenues auprès du directeur pour résoudre le problème."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais intervenir",
+              "example": "Je vais intervenir auprès du directeur pour résoudre le problème."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont intervenir",
+              "example": "Elles vont intervenir auprès du directeur pour résoudre le problème."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "interviens",
+              "example": "Interviens auprès du directeur pour résoudre le problème."
+            },
+            {
+              "person": "vous",
+              "form": "intervenez",
+              "example": "Intervenez auprès du directeur pour résoudre le problème."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "acquérir|VER",
+      "infinitive": "acquérir",
+      "usageNote": null,
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’acquiers",
+              "example": "J’acquiers de nouvelles compétences grâce à ce stage."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles acquièrent",
+              "example": "Elles acquièrent de nouvelles compétences grâce à ce stage."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai acquis",
+              "example": "Au fil de la formation, j’ai acquis une solide expérience."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont acquis",
+              "example": "Au fil de la formation, elles ont acquis une solide expérience."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais acquérir",
+              "example": "Avec ce stage, je vais acquérir de nouvelles compétences."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont acquérir",
+              "example": "Avec ce stage, elles vont acquérir de nouvelles compétences."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "acquiers",
+              "example": "Acquiers de l’expérience en travaillant sur le terrain."
+            },
+            {
+              "person": "vous",
+              "form": "acquérez",
+              "example": "Acquérez de l’expérience en travaillant sur le terrain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "ailler|VER",
+      "infinitive": "ailler",
+      "usageNote": "Verbe culinaire rare : « garnir ou frotter d’ail ». Ne pas le confondre avec les formes aille, ailles et aillent du verbe aller.",
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’aille",
+              "example": "J’aille le croûton avec une gousse d’ail."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles aillent",
+              "example": "Elles aillent le croûton avec une gousse d’ail."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai aillé",
+              "example": "Pour le repas, j’ai aillé les croûtons avant de les griller."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont aillé",
+              "example": "Pour le repas, elles ont aillé les croûtons avant de les griller."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais ailler",
+              "example": "Pour l’apéritif, je vais ailler les croûtons tout juste préparés."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont ailler",
+              "example": "Pour l’apéritif, elles vont ailler les croûtons tout juste préparés."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "aille",
+              "example": "Aille le pain avec une gousse d’ail."
+            },
+            {
+              "person": "vous",
+              "form": "aillez",
+              "example": "Aillez le pain avec une gousse d’ail."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "consister|VER",
+      "infinitive": "consister",
+      "usageNote": "Le sujet de « consister » est normalement une idée, une activité ou une chose. Les exemples utilisent une personnification littéraire afin d’illustrer les formes avec les pronoms du tableau.",
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je consiste",
+              "example": "Dans cette fable, je consiste en une étincelle qui prend la parole."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles consistent",
+              "example": "Dans cette fable, elles consistent en une étincelle qui prend la parole."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai consisté",
+              "example": "Dans cette fable, j’ai consisté en une étincelle qui prend la parole."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont consisté",
+              "example": "Dans cette fable, elles ont consisté en une étincelle qui prend la parole."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais consister",
+              "example": "Dans cette fable, je vais consister en une étincelle qui prend la parole."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont consister",
+              "example": "Dans cette fable, elles vont consister en une étincelle qui prend la parole."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "consiste",
+              "example": "Dans cette fable, consiste en une étincelle qui prend la parole."
+            },
+            {
+              "person": "vous",
+              "form": "consistez",
+              "example": "Dans cette fable, consistez en une étincelle qui prend la parole."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entryID": "faillir|VER",
+      "infinitive": "faillir",
+      "usageNote": "Le sens « manquer à son devoir » est littéraire et les formes simples sont rares. Le tableau conserve les variantes de la famille en faillir du fichier Lefff (par exemple je faux) et retient faillis à l’impératif tu par correction éditoriale, conformément au paradigme donné par Larousse.",
+      "emptyTables": [],
+      "tables": [
+        {
+          "id": "present",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je faux",
+              "example": "Je faux à la parole donnée à l’équipe."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles faillent",
+              "example": "Elles faillent à la parole donnée à l’équipe."
+            }
+          ]
+        },
+        {
+          "id": "passeCompose",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "j’ai failli",
+              "example": "J’ai failli à la parole donnée à l’équipe."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles ont failli",
+              "example": "Elles ont failli à la parole donnée à l’équipe."
+            }
+          ]
+        },
+        {
+          "id": "futurProche",
+          "validRowCount": 6,
+          "rows": [
+            {
+              "person": "je",
+              "form": "je vais faillir",
+              "example": "Je vais faillir à la parole donnée à l’équipe."
+            },
+            {
+              "person": "ils/elles",
+              "form": "ils/elles vont faillir",
+              "example": "Elles vont faillir à la parole donnée à l’équipe."
+            }
+          ]
+        },
+        {
+          "id": "imperatif",
+          "validRowCount": 3,
+          "rows": [
+            {
+              "person": "tu",
+              "form": "faillis",
+              "example": "Ne faillis pas à la parole donnée à l’équipe."
+            },
+            {
+              "person": "vous",
+              "form": "faillez",
+              "example": "Ne faillez pas à la parole donnée à l’équipe."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
