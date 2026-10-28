@@ -1,0 +1,10609 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-27",
+  "source": {
+    "title": "FLELex / Beacco with TreeTagger parts of speech",
+    "creator": "François, T., Gala, N., Watrin, P. & Fairon, C.; Beacco CEFR-level adaptation by Pintard, A. and François, T.",
+    "downloadPage": "https://cental.uclouvain.be/cefrlex/flelex/download/",
+    "dataURL": "https://cental.uclouvain.be/cefrlex/static/resources/fr/FleLex_TT_Beacco.tsv",
+    "citation": [
+      "François, T., Gala, N., Watrin, P. & Fairon, C. (2014). FLELex: a graded lexical resource for French foreign learners. Proceedings of LREC 2014.",
+      "Pintard, A. & François, T. (2020). Combining expert knowledge with frequency information to infer CEFR levels for words. Proceedings of the 1st Workshop on Tools and Resources to Empower People with REAding DIfficulties (READI), pp. 85–92."
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "licenseFile": "Resources/licenses/FLELex-CC-BY-NC-SA-4.0.txt",
+    "filename": "FleLex_TT_Beacco.tsv",
+    "sha256": "e0cbdb672fa4f83155acec4c8f01f179b30be08cb3d2d6cf0d9f25042b01e3d4",
+    "encoding": "UTF-8",
+    "delimiter": "TAB",
+    "posTagger": "TreeTagger"
+  },
+  "selection": {
+    "predicate": "level == B1",
+    "rawDataRows": 14236,
+    "rawB1Rows": 1753,
+    "uniqueIDs": 1753,
+    "headerExcludedFromSourceRow": true,
+    "sourceRowConvention": "1-based TSV data row, with the header excluded",
+    "posCounts": {
+      "ADJ": 269,
+      "ADV": 92,
+      "DET:ART": 1,
+      "INT": 3,
+      "KON": 3,
+      "NOM": 976,
+      "PRO": 9,
+      "PRP": 5,
+      "VER": 395
+    },
+    "duplicateIDSourceRows": {},
+    "entrySourceRows": [
+      {
+        "id": "-ci|ADV",
+        "sourceRows": [
+          1
+        ]
+      },
+      {
+        "id": "abbaye|NOM",
+        "sourceRows": [
+          9
+        ]
+      },
+      {
+        "id": "abbé|NOM",
+        "sourceRows": [
+          10
+        ]
+      },
+      {
+        "id": "abondant|ADJ",
+        "sourceRows": [
+          19
+        ]
+      },
+      {
+        "id": "aborder|VER",
+        "sourceRows": [
+          26
+        ]
+      },
+      {
+        "id": "aboyer|VER",
+        "sourceRows": [
+          30
+        ]
+      },
+      {
+        "id": "abri|NOM",
+        "sourceRows": [
+          32
+        ]
+      },
+      {
+        "id": "absence|NOM",
+        "sourceRows": [
+          39
+        ]
+      },
+      {
+        "id": "absolu|ADJ",
+        "sourceRows": [
+          44
+        ]
+      },
+      {
+        "id": "absolument|ADV",
+        "sourceRows": [
+          46
+        ]
+      },
+      {
+        "id": "absurde|ADJ",
+        "sourceRows": [
+          54
+        ]
+      },
+      {
+        "id": "accorder|VER",
+        "sourceRows": [
+          95
+        ]
+      },
+      {
+        "id": "accrocher|VER",
+        "sourceRows": [
+          105
+        ]
+      },
+      {
+        "id": "accuser|VER",
+        "sourceRows": [
+          118
+        ]
+      },
+      {
+        "id": "accès|NOM",
+        "sourceRows": [
+          120
+        ]
+      },
+      {
+        "id": "accéder|VER",
+        "sourceRows": [
+          121
+        ]
+      },
+      {
+        "id": "accélérer|VER",
+        "sourceRows": [
+          124
+        ]
+      },
+      {
+        "id": "acier|NOM",
+        "sourceRows": [
+          139
+        ]
+      },
+      {
+        "id": "acquérir|VER",
+        "sourceRows": [
+          145
+        ]
+      },
+      {
+        "id": "acte|NOM",
+        "sourceRows": [
+          148
+        ]
+      },
+      {
+        "id": "acteur|NOM",
+        "sourceRows": [
+          149
+        ]
+      },
+      {
+        "id": "action|NOM",
+        "sourceRows": [
+          152
+        ]
+      },
+      {
+        "id": "actuel|ADJ",
+        "sourceRows": [
+          161
+        ]
+      },
+      {
+        "id": "adaptation|NOM",
+        "sourceRows": [
+          167
+        ]
+      },
+      {
+        "id": "adepte|NOM",
+        "sourceRows": [
+          172
+        ]
+      },
+      {
+        "id": "adieu|NOM",
+        "sourceRows": [
+          178
+        ]
+      },
+      {
+        "id": "admettre|VER",
+        "sourceRows": [
+          186
+        ]
+      },
+      {
+        "id": "administration|NOM",
+        "sourceRows": [
+          189
+        ]
+      },
+      {
+        "id": "adolescent|ADJ",
+        "sourceRows": [
+          201
+        ]
+      },
+      {
+        "id": "adopter|VER",
+        "sourceRows": [
+          203
+        ]
+      },
+      {
+        "id": "adoptif|ADJ",
+        "sourceRows": [
+          204
+        ]
+      },
+      {
+        "id": "adresser|VER",
+        "sourceRows": [
+          214
+        ]
+      },
+      {
+        "id": "adroit|ADJ",
+        "sourceRows": [
+          215
+        ]
+      },
+      {
+        "id": "afficher|VER",
+        "sourceRows": [
+          245
+        ]
+      },
+      {
+        "id": "affirmer|VER",
+        "sourceRows": [
+          253
+        ]
+      },
+      {
+        "id": "affreux|ADJ",
+        "sourceRows": [
+          267
+        ]
+      },
+      {
+        "id": "affronter|VER",
+        "sourceRows": [
+          270
+        ]
+      },
+      {
+        "id": "afin|KON",
+        "sourceRows": [
+          274
+        ]
+      },
+      {
+        "id": "agent|NOM",
+        "sourceRows": [
+          282
+        ]
+      },
+      {
+        "id": "agitation|NOM",
+        "sourceRows": [
+          293
+        ]
+      },
+      {
+        "id": "agiter|VER",
+        "sourceRows": [
+          294
+        ]
+      },
+      {
+        "id": "agrandir|VER",
+        "sourceRows": [
+          299
+        ]
+      },
+      {
+        "id": "agresser|VER",
+        "sourceRows": [
+          301
+        ]
+      },
+      {
+        "id": "agricole|ADJ",
+        "sourceRows": [
+          306
+        ]
+      },
+      {
+        "id": "agriculteur|NOM",
+        "sourceRows": [
+          307
+        ]
+      },
+      {
+        "id": "agréer|VER",
+        "sourceRows": [
+          318
+        ]
+      },
+      {
+        "id": "aiguille|NOM",
+        "sourceRows": [
+          338
+        ]
+      },
+      {
+        "id": "ailler|VER",
+        "sourceRows": [
+          345
+        ]
+      },
+      {
+        "id": "aimable|ADJ",
+        "sourceRows": [
+          348
+        ]
+      },
+      {
+        "id": "aise|NOM",
+        "sourceRows": [
+          358
+        ]
+      },
+      {
+        "id": "alentour|NOM",
+        "sourceRows": [
+          384
+        ]
+      },
+      {
+        "id": "algérien|ADJ",
+        "sourceRows": [
+          389
+        ]
+      },
+      {
+        "id": "alimentaire|ADJ",
+        "sourceRows": [
+          394
+        ]
+      },
+      {
+        "id": "allons|INT",
+        "sourceRows": [
+          418
+        ]
+      },
+      {
+        "id": "amande|NOM",
+        "sourceRows": [
+          456
+        ]
+      },
+      {
+        "id": "amener|VER",
+        "sourceRows": [
+          479
+        ]
+      },
+      {
+        "id": "amélioration|NOM",
+        "sourceRows": [
+          514
+        ]
+      },
+      {
+        "id": "améliorer|VER",
+        "sourceRows": [
+          515
+        ]
+      },
+      {
+        "id": "aménager|VER",
+        "sourceRows": [
+          517
+        ]
+      },
+      {
+        "id": "ancêtre|NOM",
+        "sourceRows": [
+          545
+        ]
+      },
+      {
+        "id": "ange|NOM",
+        "sourceRows": [
+          558
+        ]
+      },
+      {
+        "id": "animateur|ADJ",
+        "sourceRows": [
+          575
+        ]
+      },
+      {
+        "id": "annonce|NOM",
+        "sourceRows": [
+          583
+        ]
+      },
+      {
+        "id": "annuel|ADJ",
+        "sourceRows": [
+          588
+        ]
+      },
+      {
+        "id": "anticiper|VER",
+        "sourceRows": [
+          620
+        ]
+      },
+      {
+        "id": "apparemment|ADV",
+        "sourceRows": [
+          665
+        ]
+      },
+      {
+        "id": "apparence|NOM",
+        "sourceRows": [
+          666
+        ]
+      },
+      {
+        "id": "appel|NOM",
+        "sourceRows": [
+          678
+        ]
+      },
+      {
+        "id": "apprentissage|NOM",
+        "sourceRows": [
+          694
+        ]
+      },
+      {
+        "id": "apprécier|VER",
+        "sourceRows": [
+          710
+        ]
+      },
+      {
+        "id": "armer|VER",
+        "sourceRows": [
+          784
+        ]
+      },
+      {
+        "id": "armoire|NOM",
+        "sourceRows": [
+          785
+        ]
+      },
+      {
+        "id": "armure|NOM",
+        "sourceRows": [
+          787
+        ]
+      },
+      {
+        "id": "armée|NOM",
+        "sourceRows": [
+          789
+        ]
+      },
+      {
+        "id": "arranger|VER",
+        "sourceRows": [
+          798
+        ]
+      },
+      {
+        "id": "arrestation|NOM",
+        "sourceRows": [
+          799
+        ]
+      },
+      {
+        "id": "arrivé|NOM",
+        "sourceRows": [
+          803
+        ]
+      },
+      {
+        "id": "arrière|NOM",
+        "sourceRows": [
+          806
+        ]
+      },
+      {
+        "id": "arroser|VER",
+        "sourceRows": [
+          817
+        ]
+      },
+      {
+        "id": "arrêt|NOM",
+        "sourceRows": [
+          820
+        ]
+      },
+      {
+        "id": "arrêté|NOM",
+        "sourceRows": [
+          822
+        ]
+      },
+      {
+        "id": "artificiel|ADJ",
+        "sourceRows": [
+          833
+        ]
+      },
+      {
+        "id": "artiste|ADJ",
+        "sourceRows": [
+          838
+        ]
+      },
+      {
+        "id": "artistique|ADJ",
+        "sourceRows": [
+          840
+        ]
+      },
+      {
+        "id": "arène|NOM",
+        "sourceRows": [
+          844
+        ]
+      },
+      {
+        "id": "aspect|NOM",
+        "sourceRows": [
+          856
+        ]
+      },
+      {
+        "id": "aspirateur|NOM",
+        "sourceRows": [
+          859
+        ]
+      },
+      {
+        "id": "assassin|NOM",
+        "sourceRows": [
+          866
+        ]
+      },
+      {
+        "id": "assemblée|NOM",
+        "sourceRows": [
+          874
+        ]
+      },
+      {
+        "id": "assiette|NOM",
+        "sourceRows": [
+          886
+        ]
+      },
+      {
+        "id": "associer|VER",
+        "sourceRows": [
+          899
+        ]
+      },
+      {
+        "id": "assurer|VER",
+        "sourceRows": [
+          913
+        ]
+      },
+      {
+        "id": "atmosphère|NOM",
+        "sourceRows": [
+          944
+        ]
+      },
+      {
+        "id": "attaque|NOM",
+        "sourceRows": [
+          961
+        ]
+      },
+      {
+        "id": "atteindre|VER",
+        "sourceRows": [
+          964
+        ]
+      },
+      {
+        "id": "attente|NOM",
+        "sourceRows": [
+          970
+        ]
+      },
+      {
+        "id": "attentif|ADJ",
+        "sourceRows": [
+          972
+        ]
+      },
+      {
+        "id": "attentivement|ADV",
+        "sourceRows": [
+          977
+        ]
+      },
+      {
+        "id": "attirer|VER",
+        "sourceRows": [
+          986
+        ]
+      },
+      {
+        "id": "attitude|NOM",
+        "sourceRows": [
+          988
+        ]
+      },
+      {
+        "id": "attribuer|VER",
+        "sourceRows": [
+          995
+        ]
+      },
+      {
+        "id": "au-dessous|ADV",
+        "sourceRows": [
+          1006
+        ]
+      },
+      {
+        "id": "auditeur|NOM",
+        "sourceRows": [
+          1024
+        ]
+      },
+      {
+        "id": "augmentation|NOM",
+        "sourceRows": [
+          1029
+        ]
+      },
+      {
+        "id": "augmenter|VER",
+        "sourceRows": [
+          1030
+        ]
+      },
+      {
+        "id": "auparavant|ADV",
+        "sourceRows": [
+          1037
+        ]
+      },
+      {
+        "id": "auto|NOM",
+        "sourceRows": [
+          1057
+        ]
+      },
+      {
+        "id": "autobus|NOM",
+        "sourceRows": [
+          1062
+        ]
+      },
+      {
+        "id": "automatiquement|ADV",
+        "sourceRows": [
+          1073
+        ]
+      },
+      {
+        "id": "automobile|NOM",
+        "sourceRows": [
+          1078
+        ]
+      },
+      {
+        "id": "automobile|ADJ",
+        "sourceRows": [
+          1079
+        ]
+      },
+      {
+        "id": "automobiliste|NOM",
+        "sourceRows": [
+          1080
+        ]
+      },
+      {
+        "id": "autorisation|NOM",
+        "sourceRows": [
+          1084
+        ]
+      },
+      {
+        "id": "autorité|NOM",
+        "sourceRows": [
+          1087
+        ]
+      },
+      {
+        "id": "autrefois|ADV",
+        "sourceRows": [
+          1094
+        ]
+      },
+      {
+        "id": "autrement|ADV",
+        "sourceRows": [
+          1095
+        ]
+      },
+      {
+        "id": "avance|NOM",
+        "sourceRows": [
+          1104
+        ]
+      },
+      {
+        "id": "avec|ADV",
+        "sourceRows": [
+          1122
+        ]
+      },
+      {
+        "id": "avenir|NOM",
+        "sourceRows": [
+          1126
+        ]
+      },
+      {
+        "id": "aventurier|NOM",
+        "sourceRows": [
+          1131
+        ]
+      },
+      {
+        "id": "avertir|VER",
+        "sourceRows": [
+          1135
+        ]
+      },
+      {
+        "id": "aveugle|NOM",
+        "sourceRows": [
+          1139
+        ]
+      },
+      {
+        "id": "aveugle|ADJ",
+        "sourceRows": [
+          1140
+        ]
+      },
+      {
+        "id": "avocat|NOM",
+        "sourceRows": [
+          1154
+        ]
+      },
+      {
+        "id": "aérer|VER",
+        "sourceRows": [
+          1171
+        ]
+      },
+      {
+        "id": "aîné|NOM",
+        "sourceRows": [
+          1179
+        ]
+      },
+      {
+        "id": "baccalauréat|NOM",
+        "sourceRows": [
+          1188
+        ]
+      },
+      {
+        "id": "bagage|NOM",
+        "sourceRows": [
+          1194
+        ]
+      },
+      {
+        "id": "bagarre|NOM",
+        "sourceRows": [
+          1195
+        ]
+      },
+      {
+        "id": "bague|NOM",
+        "sourceRows": [
+          1199
+        ]
+      },
+      {
+        "id": "bah|INT",
+        "sourceRows": [
+          1202
+        ]
+      },
+      {
+        "id": "baiser|NOM",
+        "sourceRows": [
+          1210
+        ]
+      },
+      {
+        "id": "baisse|NOM",
+        "sourceRows": [
+          1211
+        ]
+      },
+      {
+        "id": "baisser|VER",
+        "sourceRows": [
+          1213
+        ]
+      },
+      {
+        "id": "ballet|NOM",
+        "sourceRows": [
+          1229
+        ]
+      },
+      {
+        "id": "banal|ADJ",
+        "sourceRows": [
+          1237
+        ]
+      },
+      {
+        "id": "banc|NOM",
+        "sourceRows": [
+          1243
+        ]
+      },
+      {
+        "id": "barbe|NOM",
+        "sourceRows": [
+          1271
+        ]
+      },
+      {
+        "id": "barque|NOM",
+        "sourceRows": [
+          1286
+        ]
+      },
+      {
+        "id": "barreau|NOM",
+        "sourceRows": [
+          1290
+        ]
+      },
+      {
+        "id": "barrière|NOM",
+        "sourceRows": [
+          1294
+        ]
+      },
+      {
+        "id": "bas|NOM",
+        "sourceRows": [
+          1296
+        ]
+      },
+      {
+        "id": "basque|ADJ",
+        "sourceRows": [
+          1308
+        ]
+      },
+      {
+        "id": "bassin|NOM",
+        "sourceRows": [
+          1310
+        ]
+      },
+      {
+        "id": "bataille|NOM",
+        "sourceRows": [
+          1313
+        ]
+      },
+      {
+        "id": "batterie|NOM",
+        "sourceRows": [
+          1321
+        ]
+      },
+      {
+        "id": "bavard|ADJ",
+        "sourceRows": [
+          1327
+        ]
+      },
+      {
+        "id": "belle-fille|NOM",
+        "sourceRows": [
+          1349
+        ]
+      },
+      {
+        "id": "berger|NOM",
+        "sourceRows": [
+          1362
+        ]
+      },
+      {
+        "id": "bien|NOM",
+        "sourceRows": [
+          1389
+        ]
+      },
+      {
+        "id": "bienvenu|NOM",
+        "sourceRows": [
+          1403
+        ]
+      },
+      {
+        "id": "bijou|NOM",
+        "sourceRows": [
+          1406
+        ]
+      },
+      {
+        "id": "bilan|NOM",
+        "sourceRows": [
+          1410
+        ]
+      },
+      {
+        "id": "bizarrement|ADV",
+        "sourceRows": [
+          1451
+        ]
+      },
+      {
+        "id": "blesser|VER",
+        "sourceRows": [
+          1469
+        ]
+      },
+      {
+        "id": "blouse|NOM",
+        "sourceRows": [
+          1486
+        ]
+      },
+      {
+        "id": "bohémien|ADJ",
+        "sourceRows": [
+          1497
+        ]
+      },
+      {
+        "id": "bohémien|NOM",
+        "sourceRows": [
+          1498
+        ]
+      },
+      {
+        "id": "bon|ADV",
+        "sourceRows": [
+          1516
+        ]
+      },
+      {
+        "id": "bonbon|NOM",
+        "sourceRows": [
+          1518
+        ]
+      },
+      {
+        "id": "bond|NOM",
+        "sourceRows": [
+          1519
+        ]
+      },
+      {
+        "id": "bonhomme|NOM",
+        "sourceRows": [
+          1524
+        ]
+      },
+      {
+        "id": "bonnet|NOM",
+        "sourceRows": [
+          1530
+        ]
+      },
+      {
+        "id": "bonté|NOM",
+        "sourceRows": [
+          1533
+        ]
+      },
+      {
+        "id": "boucher|VER",
+        "sourceRows": [
+          1559
+        ]
+      },
+      {
+        "id": "boucle|NOM",
+        "sourceRows": [
+          1566
+        ]
+      },
+      {
+        "id": "bouclier|NOM",
+        "sourceRows": [
+          1568
+        ]
+      },
+      {
+        "id": "boue|NOM",
+        "sourceRows": [
+          1576
+        ]
+      },
+      {
+        "id": "bouger|VER",
+        "sourceRows": [
+          1585
+        ]
+      },
+      {
+        "id": "bougie|NOM",
+        "sourceRows": [
+          1586
+        ]
+      },
+      {
+        "id": "bouillir|VER",
+        "sourceRows": [
+          1591
+        ]
+      },
+      {
+        "id": "bouleverser|VER",
+        "sourceRows": [
+          1604
+        ]
+      },
+      {
+        "id": "boulot|NOM",
+        "sourceRows": [
+          1607
+        ]
+      },
+      {
+        "id": "boulot|ADJ",
+        "sourceRows": [
+          1608
+        ]
+      },
+      {
+        "id": "bourgade|NOM",
+        "sourceRows": [
+          1618
+        ]
+      },
+      {
+        "id": "bourgeoisie|NOM",
+        "sourceRows": [
+          1622
+        ]
+      },
+      {
+        "id": "bouton|NOM",
+        "sourceRows": [
+          1639
+        ]
+      },
+      {
+        "id": "branche|NOM",
+        "sourceRows": [
+          1652
+        ]
+      },
+      {
+        "id": "brancher|VER",
+        "sourceRows": [
+          1653
+        ]
+      },
+      {
+        "id": "bref|ADV",
+        "sourceRows": [
+          1674
+        ]
+      },
+      {
+        "id": "breton|ADJ",
+        "sourceRows": [
+          1676
+        ]
+      },
+      {
+        "id": "brevet|NOM",
+        "sourceRows": [
+          1678
+        ]
+      },
+      {
+        "id": "bricolage|NOM",
+        "sourceRows": [
+          1680
+        ]
+      },
+      {
+        "id": "brigadier|NOM",
+        "sourceRows": [
+          1687
+        ]
+      },
+      {
+        "id": "brillant|ADJ",
+        "sourceRows": [
+          1690
+        ]
+      },
+      {
+        "id": "briser|VER",
+        "sourceRows": [
+          1700
+        ]
+      },
+      {
+        "id": "britannique|ADJ",
+        "sourceRows": [
+          1702
+        ]
+      },
+      {
+        "id": "bronze|NOM",
+        "sourceRows": [
+          1710
+        ]
+      },
+      {
+        "id": "brouillard|NOM",
+        "sourceRows": [
+          1716
+        ]
+      },
+      {
+        "id": "bruire|VER",
+        "sourceRows": [
+          1725
+        ]
+      },
+      {
+        "id": "brume|NOM",
+        "sourceRows": [
+          1728
+        ]
+      },
+      {
+        "id": "brusquement|ADV",
+        "sourceRows": [
+          1734
+        ]
+      },
+      {
+        "id": "brutal|ADJ",
+        "sourceRows": [
+          1736
+        ]
+      },
+      {
+        "id": "bruyant|ADJ",
+        "sourceRows": [
+          1742
+        ]
+      },
+      {
+        "id": "brûlant|ADJ",
+        "sourceRows": [
+          1747
+        ]
+      },
+      {
+        "id": "budget|NOM",
+        "sourceRows": [
+          1750
+        ]
+      },
+      {
+        "id": "but|NOM",
+        "sourceRows": [
+          1770
+        ]
+      },
+      {
+        "id": "bâton|NOM",
+        "sourceRows": [
+          1788
+        ]
+      },
+      {
+        "id": "bénéficier|VER",
+        "sourceRows": [
+          1802
+        ]
+      },
+      {
+        "id": "bête|ADJ",
+        "sourceRows": [
+          1811
+        ]
+      },
+      {
+        "id": "bête|NOM",
+        "sourceRows": [
+          1812
+        ]
+      },
+      {
+        "id": "bûcheron|NOM",
+        "sourceRows": [
+          1816
+        ]
+      },
+      {
+        "id": "cabane|NOM",
+        "sourceRows": [
+          1818
+        ]
+      },
+      {
+        "id": "cabine|NOM",
+        "sourceRows": [
+          1821
+        ]
+      },
+      {
+        "id": "cabinet|NOM",
+        "sourceRows": [
+          1822
+        ]
+      },
+      {
+        "id": "cachette|NOM",
+        "sourceRows": [
+          1830
+        ]
+      },
+      {
+        "id": "cadre|NOM",
+        "sourceRows": [
+          1843
+        ]
+      },
+      {
+        "id": "cadrer|VER",
+        "sourceRows": [
+          1844
+        ]
+      },
+      {
+        "id": "caillou|NOM",
+        "sourceRows": [
+          1855
+        ]
+      },
+      {
+        "id": "calculer|VER",
+        "sourceRows": [
+          1867
+        ]
+      },
+      {
+        "id": "calendrier|NOM",
+        "sourceRows": [
+          1870
+        ]
+      },
+      {
+        "id": "calmer|VER",
+        "sourceRows": [
+          1877
+        ]
+      },
+      {
+        "id": "camionnette|NOM",
+        "sourceRows": [
+          1890
+        ]
+      },
+      {
+        "id": "camp|NOM",
+        "sourceRows": [
+          1893
+        ]
+      },
+      {
+        "id": "camper|VER",
+        "sourceRows": [
+          1896
+        ]
+      },
+      {
+        "id": "caméra|NOM",
+        "sourceRows": [
+          1903
+        ]
+      },
+      {
+        "id": "candidature|NOM",
+        "sourceRows": [
+          1919
+        ]
+      },
+      {
+        "id": "capitaine|NOM",
+        "sourceRows": [
+          1947
+        ]
+      },
+      {
+        "id": "caractère|NOM",
+        "sourceRows": [
+          1976
+        ]
+      },
+      {
+        "id": "caractéristique|NOM",
+        "sourceRows": [
+          1978
+        ]
+      },
+      {
+        "id": "carafe|NOM",
+        "sourceRows": [
+          1980
+        ]
+      },
+      {
+        "id": "carburant|NOM",
+        "sourceRows": [
+          1991
+        ]
+      },
+      {
+        "id": "carburer|VER",
+        "sourceRows": [
+          1992
+        ]
+      },
+      {
+        "id": "caresse|NOM",
+        "sourceRows": [
+          2002
+        ]
+      },
+      {
+        "id": "caresser|VER",
+        "sourceRows": [
+          2003
+        ]
+      },
+      {
+        "id": "carrefour|NOM",
+        "sourceRows": [
+          2018
+        ]
+      },
+      {
+        "id": "carrosse|NOM",
+        "sourceRows": [
+          2022
+        ]
+      },
+      {
+        "id": "carton|NOM",
+        "sourceRows": [
+          2033
+        ]
+      },
+      {
+        "id": "case|NOM",
+        "sourceRows": [
+          2041
+        ]
+      },
+      {
+        "id": "caserne|NOM",
+        "sourceRows": [
+          2043
+        ]
+      },
+      {
+        "id": "cassé|ADJ",
+        "sourceRows": [
+          2063
+        ]
+      },
+      {
+        "id": "castagnettes|NOM",
+        "sourceRows": [
+          2066
+        ]
+      },
+      {
+        "id": "catastrophe|NOM",
+        "sourceRows": [
+          2075
+        ]
+      },
+      {
+        "id": "catholique|ADJ",
+        "sourceRows": [
+          2081
+        ]
+      },
+      {
+        "id": "catégorie|NOM",
+        "sourceRows": [
+          2083
+        ]
+      },
+      {
+        "id": "cauchemar|NOM",
+        "sourceRows": [
+          2087
+        ]
+      },
+      {
+        "id": "causer|VER",
+        "sourceRows": [
+          2090
+        ]
+      },
+      {
+        "id": "cavalier|NOM",
+        "sourceRows": [
+          2095
+        ]
+      },
+      {
+        "id": "ceinture|NOM",
+        "sourceRows": [
+          2106
+        ]
+      },
+      {
+        "id": "celer|VER",
+        "sourceRows": [
+          2109
+        ]
+      },
+      {
+        "id": "celte|ADJ",
+        "sourceRows": [
+          2112
+        ]
+      },
+      {
+        "id": "celtique|ADJ",
+        "sourceRows": [
+          2113
+        ]
+      },
+      {
+        "id": "cendrillon|NOM",
+        "sourceRows": [
+          2117
+        ]
+      },
+      {
+        "id": "cent|NOM",
+        "sourceRows": [
+          2121
+        ]
+      },
+      {
+        "id": "centaine|NOM",
+        "sourceRows": [
+          2122
+        ]
+      },
+      {
+        "id": "centimètre|NOM",
+        "sourceRows": [
+          2126
+        ]
+      },
+      {
+        "id": "central|ADJ",
+        "sourceRows": [
+          2127
+        ]
+      },
+      {
+        "id": "centraliser|VER",
+        "sourceRows": [
+          2131
+        ]
+      },
+      {
+        "id": "certes|ADV",
+        "sourceRows": [
+          2149
+        ]
+      },
+      {
+        "id": "cerveau|NOM",
+        "sourceRows": [
+          2155
+        ]
+      },
+      {
+        "id": "cesser|VER",
+        "sourceRows": [
+          2161
+        ]
+      },
+      {
+        "id": "chaleur|NOM",
+        "sourceRows": [
+          2169
+        ]
+      },
+      {
+        "id": "champignon|NOM",
+        "sourceRows": [
+          2179
+        ]
+      },
+      {
+        "id": "championnat|NOM",
+        "sourceRows": [
+          2181
+        ]
+      },
+      {
+        "id": "chandelier|NOM",
+        "sourceRows": [
+          2188
+        ]
+      },
+      {
+        "id": "change|NOM",
+        "sourceRows": [
+          2190
+        ]
+      },
+      {
+        "id": "changement|NOM",
+        "sourceRows": [
+          2192
+        ]
+      },
+      {
+        "id": "char|NOM",
+        "sourceRows": [
+          2218
+        ]
+      },
+      {
+        "id": "charbon|NOM",
+        "sourceRows": [
+          2220
+        ]
+      },
+      {
+        "id": "charge|NOM",
+        "sourceRows": [
+          2225
+        ]
+      },
+      {
+        "id": "charger|VER",
+        "sourceRows": [
+          2227
+        ]
+      },
+      {
+        "id": "chasse|NOM",
+        "sourceRows": [
+          2243
+        ]
+      },
+      {
+        "id": "chasser|VER",
+        "sourceRows": [
+          2244
+        ]
+      },
+      {
+        "id": "chasseur|NOM",
+        "sourceRows": [
+          2245
+        ]
+      },
+      {
+        "id": "chauffer|VER",
+        "sourceRows": [
+          2256
+        ]
+      },
+      {
+        "id": "chausser|VER",
+        "sourceRows": [
+          2258
+        ]
+      },
+      {
+        "id": "chef|NOM",
+        "sourceRows": [
+          2270
+        ]
+      },
+      {
+        "id": "chemise|NOM",
+        "sourceRows": [
+          2277
+        ]
+      },
+      {
+        "id": "choc|NOM",
+        "sourceRows": [
+          2326
+        ]
+      },
+      {
+        "id": "choquant|ADJ",
+        "sourceRows": [
+          2332
+        ]
+      },
+      {
+        "id": "choquer|VER",
+        "sourceRows": [
+          2333
+        ]
+      },
+      {
+        "id": "chérir|VER",
+        "sourceRows": [
+          2387
+        ]
+      },
+      {
+        "id": "cigare|NOM",
+        "sourceRows": [
+          2405
+        ]
+      },
+      {
+        "id": "cigarette|NOM",
+        "sourceRows": [
+          2406
+        ]
+      },
+      {
+        "id": "cinquantaine|NOM",
+        "sourceRows": [
+          2415
+        ]
+      },
+      {
+        "id": "cinquième|NOM",
+        "sourceRows": [
+          2419
+        ]
+      },
+      {
+        "id": "cinéaste|NOM",
+        "sourceRows": [
+          2423
+        ]
+      },
+      {
+        "id": "cinématographique|ADJ",
+        "sourceRows": [
+          2426
+        ]
+      },
+      {
+        "id": "circuit|NOM",
+        "sourceRows": [
+          2434
+        ]
+      },
+      {
+        "id": "circulation|NOM",
+        "sourceRows": [
+          2436
+        ]
+      },
+      {
+        "id": "circuler|VER",
+        "sourceRows": [
+          2437
+        ]
+      },
+      {
+        "id": "cirer|VER",
+        "sourceRows": [
+          2439
+        ]
+      },
+      {
+        "id": "cirque|NOM",
+        "sourceRows": [
+          2440
+        ]
+      },
+      {
+        "id": "citadin|NOM",
+        "sourceRows": [
+          2443
+        ]
+      },
+      {
+        "id": "citoyen|NOM",
+        "sourceRows": [
+          2446
+        ]
+      },
+      {
+        "id": "civil|ADJ",
+        "sourceRows": [
+          2453
+        ]
+      },
+      {
+        "id": "civilisation|NOM",
+        "sourceRows": [
+          2454
+        ]
+      },
+      {
+        "id": "clairement|ADV",
+        "sourceRows": [
+          2463
+        ]
+      },
+      {
+        "id": "classement|NOM",
+        "sourceRows": [
+          2475
+        ]
+      },
+      {
+        "id": "clef|NOM",
+        "sourceRows": [
+          2484
+        ]
+      },
+      {
+        "id": "cliché|NOM",
+        "sourceRows": [
+          2490
+        ]
+      },
+      {
+        "id": "clientèle|NOM",
+        "sourceRows": [
+          2492
+        ]
+      },
+      {
+        "id": "cloche|NOM",
+        "sourceRows": [
+          2516
+        ]
+      },
+      {
+        "id": "clôture|NOM",
+        "sourceRows": [
+          2537
+        ]
+      },
+      {
+        "id": "coach|NOM",
+        "sourceRows": [
+          2538
+        ]
+      },
+      {
+        "id": "cocher|NOM",
+        "sourceRows": [
+          2547
+        ]
+      },
+      {
+        "id": "cochon|NOM",
+        "sourceRows": [
+          2548
+        ]
+      },
+      {
+        "id": "coffret|NOM",
+        "sourceRows": [
+          2565
+        ]
+      },
+      {
+        "id": "cohabitation|NOM",
+        "sourceRows": [
+          2572
+        ]
+      },
+      {
+        "id": "col|NOM",
+        "sourceRows": [
+          2585
+        ]
+      },
+      {
+        "id": "collectif|ADJ",
+        "sourceRows": [
+          2601
+        ]
+      },
+      {
+        "id": "colocataire|NOM",
+        "sourceRows": [
+          2620
+        ]
+      },
+      {
+        "id": "colocation|NOM",
+        "sourceRows": [
+          2621
+        ]
+      },
+      {
+        "id": "colonel|NOM",
+        "sourceRows": [
+          2622
+        ]
+      },
+      {
+        "id": "combattant|NOM",
+        "sourceRows": [
+          2639
+        ]
+      },
+      {
+        "id": "combattre|VER",
+        "sourceRows": [
+          2641
+        ]
+      },
+      {
+        "id": "commande|NOM",
+        "sourceRows": [
+          2656
+        ]
+      },
+      {
+        "id": "commencement|NOM",
+        "sourceRows": [
+          2663
+        ]
+      },
+      {
+        "id": "commissaire|NOM",
+        "sourceRows": [
+          2679
+        ]
+      },
+      {
+        "id": "commun|NOM",
+        "sourceRows": [
+          2684
+        ]
+      },
+      {
+        "id": "commune|NOM",
+        "sourceRows": [
+          2691
+        ]
+      },
+      {
+        "id": "communion|NOM",
+        "sourceRows": [
+          2698
+        ]
+      },
+      {
+        "id": "communiquer|VER",
+        "sourceRows": [
+          2699
+        ]
+      },
+      {
+        "id": "compagnon|NOM",
+        "sourceRows": [
+          2712
+        ]
+      },
+      {
+        "id": "comparaison|NOM",
+        "sourceRows": [
+          2715
+        ]
+      },
+      {
+        "id": "comparer|VER",
+        "sourceRows": [
+          2719
+        ]
+      },
+      {
+        "id": "compassion|NOM",
+        "sourceRows": [
+          2721
+        ]
+      },
+      {
+        "id": "complètement|ADV",
+        "sourceRows": [
+          2747
+        ]
+      },
+      {
+        "id": "comportement|NOM",
+        "sourceRows": [
+          2754
+        ]
+      },
+      {
+        "id": "comporter|VER",
+        "sourceRows": [
+          2756
+        ]
+      },
+      {
+        "id": "compte|NOM",
+        "sourceRows": [
+          2783
+        ]
+      },
+      {
+        "id": "compétition|NOM",
+        "sourceRows": [
+          2793
+        ]
+      },
+      {
+        "id": "concentrer|VER",
+        "sourceRows": [
+          2805
+        ]
+      },
+      {
+        "id": "concierge|NOM",
+        "sourceRows": [
+          2818
+        ]
+      },
+      {
+        "id": "conclure|VER",
+        "sourceRows": [
+          2826
+        ]
+      },
+      {
+        "id": "concret|ADJ",
+        "sourceRows": [
+          2836
+        ]
+      },
+      {
+        "id": "concurrence|NOM",
+        "sourceRows": [
+          2842
+        ]
+      },
+      {
+        "id": "condamnation|NOM",
+        "sourceRows": [
+          2847
+        ]
+      },
+      {
+        "id": "condamner|VER",
+        "sourceRows": [
+          2848
+        ]
+      },
+      {
+        "id": "conduite|NOM",
+        "sourceRows": [
+          2862
+        ]
+      },
+      {
+        "id": "confier|VER",
+        "sourceRows": [
+          2873
+        ]
+      },
+      {
+        "id": "conflit|NOM",
+        "sourceRows": [
+          2886
+        ]
+      },
+      {
+        "id": "confondre|VER",
+        "sourceRows": [
+          2888
+        ]
+      },
+      {
+        "id": "confort|NOM",
+        "sourceRows": [
+          2893
+        ]
+      },
+      {
+        "id": "conquérir|VER",
+        "sourceRows": [
+          2935
+        ]
+      },
+      {
+        "id": "conquête|NOM",
+        "sourceRows": [
+          2936
+        ]
+      },
+      {
+        "id": "conscience|NOM",
+        "sourceRows": [
+          2939
+        ]
+      },
+      {
+        "id": "conseiller|NOM",
+        "sourceRows": [
+          2946
+        ]
+      },
+      {
+        "id": "conservateur|NOM",
+        "sourceRows": [
+          2951
+        ]
+      },
+      {
+        "id": "conservateur|ADJ",
+        "sourceRows": [
+          2952
+        ]
+      },
+      {
+        "id": "considérable|ADJ",
+        "sourceRows": [
+          2957
+        ]
+      },
+      {
+        "id": "consister|VER",
+        "sourceRows": [
+          2965
+        ]
+      },
+      {
+        "id": "consommateur|NOM",
+        "sourceRows": [
+          2971
+        ]
+      },
+      {
+        "id": "consommation|NOM",
+        "sourceRows": [
+          2972
+        ]
+      },
+      {
+        "id": "constamment|ADV",
+        "sourceRows": [
+          2978
+        ]
+      },
+      {
+        "id": "constitution|NOM",
+        "sourceRows": [
+          2990
+        ]
+      },
+      {
+        "id": "consulter|VER",
+        "sourceRows": [
+          3005
+        ]
+      },
+      {
+        "id": "conséquence|NOM",
+        "sourceRows": [
+          3009
+        ]
+      },
+      {
+        "id": "conséquent|ADJ",
+        "sourceRows": [
+          3010
+        ]
+      },
+      {
+        "id": "contagieux|ADJ",
+        "sourceRows": [
+          3013
+        ]
+      },
+      {
+        "id": "contenir|VER",
+        "sourceRows": [
+          3027
+        ]
+      },
+      {
+        "id": "contenter|VER",
+        "sourceRows": [
+          3029
+        ]
+      },
+      {
+        "id": "contenu|NOM",
+        "sourceRows": [
+          3031
+        ]
+      },
+      {
+        "id": "contexte|NOM",
+        "sourceRows": [
+          3037
+        ]
+      },
+      {
+        "id": "contrainte|NOM",
+        "sourceRows": [
+          3067
+        ]
+      },
+      {
+        "id": "contraire|NOM",
+        "sourceRows": [
+          3069
+        ]
+      },
+      {
+        "id": "contrairement|ADV",
+        "sourceRows": [
+          3070
+        ]
+      },
+      {
+        "id": "contrat|NOM",
+        "sourceRows": [
+          3074
+        ]
+      },
+      {
+        "id": "contribuer|VER",
+        "sourceRows": [
+          3101
+        ]
+      },
+      {
+        "id": "contrôler|VER",
+        "sourceRows": [
+          3109
+        ]
+      },
+      {
+        "id": "convaincant|ADJ",
+        "sourceRows": [
+          3110
+        ]
+      },
+      {
+        "id": "convenir|VER",
+        "sourceRows": [
+          3114
+        ]
+      },
+      {
+        "id": "convention|NOM",
+        "sourceRows": [
+          3115
+        ]
+      },
+      {
+        "id": "convertir|VER",
+        "sourceRows": [
+          3124
+        ]
+      },
+      {
+        "id": "convivialité|NOM",
+        "sourceRows": [
+          3129
+        ]
+      },
+      {
+        "id": "copain|ADJ",
+        "sourceRows": [
+          3143
+        ]
+      },
+      {
+        "id": "copieux|ADJ",
+        "sourceRows": [
+          3147
+        ]
+      },
+      {
+        "id": "coq|NOM",
+        "sourceRows": [
+          3151
+        ]
+      },
+      {
+        "id": "corne|NOM",
+        "sourceRows": [
+          3167
+        ]
+      },
+      {
+        "id": "correct|ADJ",
+        "sourceRows": [
+          3177
+        ]
+      },
+      {
+        "id": "correspondre|VER",
+        "sourceRows": [
+          3183
+        ]
+      },
+      {
+        "id": "corrida|NOM",
+        "sourceRows": [
+          3184
+        ]
+      },
+      {
+        "id": "costume|NOM",
+        "sourceRows": [
+          3206
+        ]
+      },
+      {
+        "id": "coton|NOM",
+        "sourceRows": [
+          3214
+        ]
+      },
+      {
+        "id": "cou|NOM",
+        "sourceRows": [
+          3216
+        ]
+      },
+      {
+        "id": "coucher|NOM",
+        "sourceRows": [
+          3225
+        ]
+      },
+      {
+        "id": "coude|NOM",
+        "sourceRows": [
+          3228
+        ]
+      },
+      {
+        "id": "coudre|VER",
+        "sourceRows": [
+          3229
+        ]
+      },
+      {
+        "id": "couler|VER",
+        "sourceRows": [
+          3230
+        ]
+      },
+      {
+        "id": "coupable|ADJ",
+        "sourceRows": [
+          3241
+        ]
+      },
+      {
+        "id": "courageusement|ADV",
+        "sourceRows": [
+          3253
+        ]
+      },
+      {
+        "id": "courant|ADJ",
+        "sourceRows": [
+          3257
+        ]
+      },
+      {
+        "id": "courant|NOM",
+        "sourceRows": [
+          3258
+        ]
+      },
+      {
+        "id": "couronne|NOM",
+        "sourceRows": [
+          3266
+        ]
+      },
+      {
+        "id": "courrier|NOM",
+        "sourceRows": [
+          3269
+        ]
+      },
+      {
+        "id": "court|ADV",
+        "sourceRows": [
+          3273
+        ]
+      },
+      {
+        "id": "court|NOM",
+        "sourceRows": [
+          3275
+        ]
+      },
+      {
+        "id": "couteau|NOM",
+        "sourceRows": [
+          3286
+        ]
+      },
+      {
+        "id": "couturier|NOM",
+        "sourceRows": [
+          3292
+        ]
+      },
+      {
+        "id": "couvercle|NOM",
+        "sourceRows": [
+          3297
+        ]
+      },
+      {
+        "id": "couverture|NOM",
+        "sourceRows": [
+          3300
+        ]
+      },
+      {
+        "id": "coïncidence|NOM",
+        "sourceRows": [
+          3305
+        ]
+      },
+      {
+        "id": "coût|NOM",
+        "sourceRows": [
+          3307
+        ]
+      },
+      {
+        "id": "cracher|VER",
+        "sourceRows": [
+          3310
+        ]
+      },
+      {
+        "id": "craquer|VER",
+        "sourceRows": [
+          3325
+        ]
+      },
+      {
+        "id": "cravate|NOM",
+        "sourceRows": [
+          3327
+        ]
+      },
+      {
+        "id": "crayon|NOM",
+        "sourceRows": [
+          3329
+        ]
+      },
+      {
+        "id": "creuser|VER",
+        "sourceRows": [
+          3332
+        ]
+      },
+      {
+        "id": "crime|NOM",
+        "sourceRows": [
+          3347
+        ]
+      },
+      {
+        "id": "critique|ADJ",
+        "sourceRows": [
+          3363
+        ]
+      },
+      {
+        "id": "critique|NOM",
+        "sourceRows": [
+          3364
+        ]
+      },
+      {
+        "id": "critère|NOM",
+        "sourceRows": [
+          3366
+        ]
+      },
+      {
+        "id": "croiser|VER",
+        "sourceRows": [
+          3373
+        ]
+      },
+      {
+        "id": "croix|NOM",
+        "sourceRows": [
+          3381
+        ]
+      },
+      {
+        "id": "créateur|NOM",
+        "sourceRows": [
+          3412
+        ]
+      },
+      {
+        "id": "création|NOM",
+        "sourceRows": [
+          3415
+        ]
+      },
+      {
+        "id": "cueillir|VER",
+        "sourceRows": [
+          3443
+        ]
+      },
+      {
+        "id": "curieusement|ADV",
+        "sourceRows": [
+          3480
+        ]
+      },
+      {
+        "id": "curiosité|NOM",
+        "sourceRows": [
+          3483
+        ]
+      },
+      {
+        "id": "curé|NOM",
+        "sourceRows": [
+          3486
+        ]
+      },
+      {
+        "id": "cycle|NOM",
+        "sourceRows": [
+          3493
+        ]
+      },
+      {
+        "id": "cycliste|NOM",
+        "sourceRows": [
+          3496
+        ]
+      },
+      {
+        "id": "d'ailleurs|ADV",
+        "sourceRows": [
+          3538
+        ]
+      },
+      {
+        "id": "danger|NOM",
+        "sourceRows": [
+          3557
+        ]
+      },
+      {
+        "id": "davantage|ADV",
+        "sourceRows": [
+          3571
+        ]
+      },
+      {
+        "id": "de|DET:ART",
+        "sourceRows": [
+          3572
+        ]
+      },
+      {
+        "id": "debout|ADV",
+        "sourceRows": [
+          3574
+        ]
+      },
+      {
+        "id": "dedans|ADV",
+        "sourceRows": [
+          3575
+        ]
+      },
+      {
+        "id": "dehors|NOM",
+        "sourceRows": [
+          3579
+        ]
+      },
+      {
+        "id": "demeurer|VER",
+        "sourceRows": [
+          3591
+        ]
+      },
+      {
+        "id": "demoiselle|NOM",
+        "sourceRows": [
+          3608
+        ]
+      },
+      {
+        "id": "dentelle|NOM",
+        "sourceRows": [
+          3615
+        ]
+      },
+      {
+        "id": "dernièrement|ADV",
+        "sourceRows": [
+          3625
+        ]
+      },
+      {
+        "id": "derrière|ADV",
+        "sourceRows": [
+          3626
+        ]
+      },
+      {
+        "id": "description|NOM",
+        "sourceRows": [
+          3635
+        ]
+      },
+      {
+        "id": "design|NOM",
+        "sourceRows": [
+          3636
+        ]
+      },
+      {
+        "id": "dessous|ADV",
+        "sourceRows": [
+          3645
+        ]
+      },
+      {
+        "id": "dessus|ADV",
+        "sourceRows": [
+          3646
+        ]
+      },
+      {
+        "id": "destin|NOM",
+        "sourceRows": [
+          3649
+        ]
+      },
+      {
+        "id": "destiner|VER",
+        "sourceRows": [
+          3652
+        ]
+      },
+      {
+        "id": "dette|NOM",
+        "sourceRows": [
+          3657
+        ]
+      },
+      {
+        "id": "devant|NOM",
+        "sourceRows": [
+          3662
+        ]
+      },
+      {
+        "id": "deviner|VER",
+        "sourceRows": [
+          3668
+        ]
+      },
+      {
+        "id": "diamètre|NOM",
+        "sourceRows": [
+          3687
+        ]
+      },
+      {
+        "id": "difficilement|ADV",
+        "sourceRows": [
+          3701
+        ]
+      },
+      {
+        "id": "diffusion|NOM",
+        "sourceRows": [
+          3707
+        ]
+      },
+      {
+        "id": "différemment|ADV",
+        "sourceRows": [
+          3708
+        ]
+      },
+      {
+        "id": "dimension|NOM",
+        "sourceRows": [
+          3729
+        ]
+      },
+      {
+        "id": "diminuer|VER",
+        "sourceRows": [
+          3730
+        ]
+      },
+      {
+        "id": "diplôme|NOM",
+        "sourceRows": [
+          3744
+        ]
+      },
+      {
+        "id": "discipline|NOM",
+        "sourceRows": [
+          3764
+        ]
+      },
+      {
+        "id": "discret|ADJ",
+        "sourceRows": [
+          3771
+        ]
+      },
+      {
+        "id": "disparition|NOM",
+        "sourceRows": [
+          3783
+        ]
+      },
+      {
+        "id": "disponible|ADJ",
+        "sourceRows": [
+          3787
+        ]
+      },
+      {
+        "id": "disposition|NOM",
+        "sourceRows": [
+          3791
+        ]
+      },
+      {
+        "id": "dispute|NOM",
+        "sourceRows": [
+          3793
+        ]
+      },
+      {
+        "id": "disputer|VER",
+        "sourceRows": [
+          3794
+        ]
+      },
+      {
+        "id": "dissiper|VER",
+        "sourceRows": [
+          3801
+        ]
+      },
+      {
+        "id": "distance|NOM",
+        "sourceRows": [
+          3811
+        ]
+      },
+      {
+        "id": "distinction|NOM",
+        "sourceRows": [
+          3819
+        ]
+      },
+      {
+        "id": "distinguer|VER",
+        "sourceRows": [
+          3820
+        ]
+      },
+      {
+        "id": "distribuer|VER",
+        "sourceRows": [
+          3830
+        ]
+      },
+      {
+        "id": "dizaine|NOM",
+        "sourceRows": [
+          3864
+        ]
+      },
+      {
+        "id": "docteur|NOM",
+        "sourceRows": [
+          3870
+        ]
+      },
+      {
+        "id": "doctorat|NOM",
+        "sourceRows": [
+          3872
+        ]
+      },
+      {
+        "id": "documentaire|NOM",
+        "sourceRows": [
+          3876
+        ]
+      },
+      {
+        "id": "dollar|NOM",
+        "sourceRows": [
+          3882
+        ]
+      },
+      {
+        "id": "domestique|NOM",
+        "sourceRows": [
+          3887
+        ]
+      },
+      {
+        "id": "domicile|NOM",
+        "sourceRows": [
+          3888
+        ]
+      },
+      {
+        "id": "dominant|ADJ",
+        "sourceRows": [
+          3889
+        ]
+      },
+      {
+        "id": "dominer|VER",
+        "sourceRows": [
+          3892
+        ]
+      },
+      {
+        "id": "dominical|ADJ",
+        "sourceRows": [
+          3893
+        ]
+      },
+      {
+        "id": "dommage|NOM",
+        "sourceRows": [
+          3895
+        ]
+      },
+      {
+        "id": "don|NOM",
+        "sourceRows": [
+          3898
+        ]
+      },
+      {
+        "id": "dont|PRO",
+        "sourceRows": [
+          3906
+        ]
+      },
+      {
+        "id": "dorer|VER",
+        "sourceRows": [
+          3910
+        ]
+      },
+      {
+        "id": "doré|ADJ",
+        "sourceRows": [
+          3914
+        ]
+      },
+      {
+        "id": "dossier|NOM",
+        "sourceRows": [
+          3919
+        ]
+      },
+      {
+        "id": "doubler|VER",
+        "sourceRows": [
+          3924
+        ]
+      },
+      {
+        "id": "douceur|NOM",
+        "sourceRows": [
+          3926
+        ]
+      },
+      {
+        "id": "douer|VER",
+        "sourceRows": [
+          3929
+        ]
+      },
+      {
+        "id": "douter|VER",
+        "sourceRows": [
+          3935
+        ]
+      },
+      {
+        "id": "dragon|NOM",
+        "sourceRows": [
+          3943
+        ]
+      },
+      {
+        "id": "dramatique|ADJ",
+        "sourceRows": [
+          3947
+        ]
+      },
+      {
+        "id": "dramaturge|NOM",
+        "sourceRows": [
+          3951
+        ]
+      },
+      {
+        "id": "drame|NOM",
+        "sourceRows": [
+          3952
+        ]
+      },
+      {
+        "id": "drap|NOM",
+        "sourceRows": [
+          3953
+        ]
+      },
+      {
+        "id": "drapeau|NOM",
+        "sourceRows": [
+          3954
+        ]
+      },
+      {
+        "id": "dresser|VER",
+        "sourceRows": [
+          3958
+        ]
+      },
+      {
+        "id": "duc|NOM",
+        "sourceRows": [
+          3974
+        ]
+      },
+      {
+        "id": "dur|NOM",
+        "sourceRows": [
+          3987
+        ]
+      },
+      {
+        "id": "durant|PRP",
+        "sourceRows": [
+          3992
+        ]
+      },
+      {
+        "id": "durcir|VER",
+        "sourceRows": [
+          3993
+        ]
+      },
+      {
+        "id": "durée|NOM",
+        "sourceRows": [
+          3997
+        ]
+      },
+      {
+        "id": "débarrasser|VER",
+        "sourceRows": [
+          4014
+        ]
+      },
+      {
+        "id": "déborder|VER",
+        "sourceRows": [
+          4027
+        ]
+      },
+      {
+        "id": "débrouiller|VER",
+        "sourceRows": [
+          4037
+        ]
+      },
+      {
+        "id": "débutant|ADJ",
+        "sourceRows": [
+          4039
+        ]
+      },
+      {
+        "id": "débuter|VER",
+        "sourceRows": [
+          4040
+        ]
+      },
+      {
+        "id": "décerner|VER",
+        "sourceRows": [
+          4056
+        ]
+      },
+      {
+        "id": "décharge|NOM",
+        "sourceRows": [
+          4059
+        ]
+      },
+      {
+        "id": "déchet|NOM",
+        "sourceRows": [
+          4063
+        ]
+      },
+      {
+        "id": "déchirer|VER",
+        "sourceRows": [
+          4066
+        ]
+      },
+      {
+        "id": "décourager|VER",
+        "sourceRows": [
+          4117
+        ]
+      },
+      {
+        "id": "décrocher|VER",
+        "sourceRows": [
+          4125
+        ]
+      },
+      {
+        "id": "décès|NOM",
+        "sourceRows": [
+          4130
+        ]
+      },
+      {
+        "id": "déesse|NOM",
+        "sourceRows": [
+          4143
+        ]
+      },
+      {
+        "id": "défense|NOM",
+        "sourceRows": [
+          4155
+        ]
+      },
+      {
+        "id": "défenseur|NOM",
+        "sourceRows": [
+          4156
+        ]
+      },
+      {
+        "id": "dégager|VER",
+        "sourceRows": [
+          4181
+        ]
+      },
+      {
+        "id": "délai|NOM",
+        "sourceRows": [
+          4204
+        ]
+      },
+      {
+        "id": "démolir|VER",
+        "sourceRows": [
+          4259
+        ]
+      },
+      {
+        "id": "démonstration|NOM",
+        "sourceRows": [
+          4262
+        ]
+      },
+      {
+        "id": "déménagement|NOM",
+        "sourceRows": [
+          4273
+        ]
+      },
+      {
+        "id": "dénoncer|VER",
+        "sourceRows": [
+          4286
+        ]
+      },
+      {
+        "id": "dépasser|VER",
+        "sourceRows": [
+          4300
+        ]
+      },
+      {
+        "id": "dépense|NOM",
+        "sourceRows": [
+          4307
+        ]
+      },
+      {
+        "id": "dépenser|VER",
+        "sourceRows": [
+          4308
+        ]
+      },
+      {
+        "id": "déplacement|NOM",
+        "sourceRows": [
+          4316
+        ]
+      },
+      {
+        "id": "déplacer|VER",
+        "sourceRows": [
+          4317
+        ]
+      },
+      {
+        "id": "déprimer|VER",
+        "sourceRows": [
+          4340
+        ]
+      },
+      {
+        "id": "dérouler|VER",
+        "sourceRows": [
+          4361
+        ]
+      },
+      {
+        "id": "désarmer|VER",
+        "sourceRows": [
+          4377
+        ]
+      },
+      {
+        "id": "désert|ADJ",
+        "sourceRows": [
+          4384
+        ]
+      },
+      {
+        "id": "désert|NOM",
+        "sourceRows": [
+          4385
+        ]
+      },
+      {
+        "id": "déserter|VER",
+        "sourceRows": [
+          4386
+        ]
+      },
+      {
+        "id": "désespoir|NOM",
+        "sourceRows": [
+          4390
+        ]
+      },
+      {
+        "id": "désespérément|ADV",
+        "sourceRows": [
+          4394
+        ]
+      },
+      {
+        "id": "déshabiller|VER",
+        "sourceRows": [
+          4395
+        ]
+      },
+      {
+        "id": "désir|NOM",
+        "sourceRows": [
+          4408
+        ]
+      },
+      {
+        "id": "désordre|NOM",
+        "sourceRows": [
+          4420
+        ]
+      },
+      {
+        "id": "détacher|VER",
+        "sourceRows": [
+          4429
+        ]
+      },
+      {
+        "id": "détective|NOM",
+        "sourceRows": [
+          4435
+        ]
+      },
+      {
+        "id": "détendre|VER",
+        "sourceRows": [
+          4437
+        ]
+      },
+      {
+        "id": "détruire|VER",
+        "sourceRows": [
+          4457
+        ]
+      },
+      {
+        "id": "déçu|ADJ",
+        "sourceRows": [
+          4481
+        ]
+      },
+      {
+        "id": "effacer|VER",
+        "sourceRows": [
+          4488
+        ]
+      },
+      {
+        "id": "effectivement|ADV",
+        "sourceRows": [
+          4491
+        ]
+      },
+      {
+        "id": "effectuer|VER",
+        "sourceRows": [
+          4492
+        ]
+      },
+      {
+        "id": "efficace|ADJ",
+        "sourceRows": [
+          4497
+        ]
+      },
+      {
+        "id": "efficacité|NOM",
+        "sourceRows": [
+          4499
+        ]
+      },
+      {
+        "id": "effort|NOM",
+        "sourceRows": [
+          4505
+        ]
+      },
+      {
+        "id": "elle-même|PRO",
+        "sourceRows": [
+          4518
+        ]
+      },
+      {
+        "id": "embouteillage|NOM",
+        "sourceRows": [
+          4539
+        ]
+      },
+      {
+        "id": "embrasse|NOM",
+        "sourceRows": [
+          4545
+        ]
+      },
+      {
+        "id": "emparer|VER",
+        "sourceRows": [
+          4559
+        ]
+      },
+      {
+        "id": "empire|NOM",
+        "sourceRows": [
+          4568
+        ]
+      },
+      {
+        "id": "emplacement|NOM",
+        "sourceRows": [
+          4570
+        ]
+      },
+      {
+        "id": "employer|VER",
+        "sourceRows": [
+          4574
+        ]
+      },
+      {
+        "id": "employé|NOM",
+        "sourceRows": [
+          4576
+        ]
+      },
+      {
+        "id": "empoisonner|VER",
+        "sourceRows": [
+          4579
+        ]
+      },
+      {
+        "id": "emporter|VER",
+        "sourceRows": [
+          4581
+        ]
+      },
+      {
+        "id": "emprunter|VER",
+        "sourceRows": [
+          4590
+        ]
+      },
+      {
+        "id": "empêcher|VER",
+        "sourceRows": [
+          4592
+        ]
+      },
+      {
+        "id": "encourager|VER",
+        "sourceRows": [
+          4631
+        ]
+      },
+      {
+        "id": "enfuir|VER",
+        "sourceRows": [
+          4663
+        ]
+      },
+      {
+        "id": "enjeu|NOM",
+        "sourceRows": [
+          4679
+        ]
+      },
+      {
+        "id": "ennemi|NOM",
+        "sourceRows": [
+          4689
+        ]
+      },
+      {
+        "id": "ennui|NOM",
+        "sourceRows": [
+          4690
+        ]
+      },
+      {
+        "id": "enregistrement|NOM",
+        "sourceRows": [
+          4700
+        ]
+      },
+      {
+        "id": "enregistrer|VER",
+        "sourceRows": [
+          4701
+        ]
+      },
+      {
+        "id": "enrichir|VER",
+        "sourceRows": [
+          4703
+        ]
+      },
+      {
+        "id": "enseigner|VER",
+        "sourceRows": [
+          4712
+        ]
+      },
+      {
+        "id": "enterrer|VER",
+        "sourceRows": [
+          4727
+        ]
+      },
+      {
+        "id": "enthousiasme|NOM",
+        "sourceRows": [
+          4728
+        ]
+      },
+      {
+        "id": "entièrement|ADV",
+        "sourceRows": [
+          4733
+        ]
+      },
+      {
+        "id": "entourage|NOM",
+        "sourceRows": [
+          4737
+        ]
+      },
+      {
+        "id": "entourer|VER",
+        "sourceRows": [
+          4738
+        ]
+      },
+      {
+        "id": "entraîneur|NOM",
+        "sourceRows": [
+          4747
+        ]
+      },
+      {
+        "id": "entretien|NOM",
+        "sourceRows": [
+          4765
+        ]
+      },
+      {
+        "id": "envahir|VER",
+        "sourceRows": [
+          4772
+        ]
+      },
+      {
+        "id": "enveloppe|NOM",
+        "sourceRows": [
+          4774
+        ]
+      },
+      {
+        "id": "envelopper|VER",
+        "sourceRows": [
+          4775
+        ]
+      },
+      {
+        "id": "envers|PRP",
+        "sourceRows": [
+          4777
+        ]
+      },
+      {
+        "id": "envier|VER",
+        "sourceRows": [
+          4782
+        ]
+      },
+      {
+        "id": "envoi|NOM",
+        "sourceRows": [
+          4791
+        ]
+      },
+      {
+        "id": "envoler|VER",
+        "sourceRows": [
+          4792
+        ]
+      },
+      {
+        "id": "escalade|NOM",
+        "sourceRows": [
+          4802
+        ]
+      },
+      {
+        "id": "espoir|NOM",
+        "sourceRows": [
+          4828
+        ]
+      },
+      {
+        "id": "esprit|NOM",
+        "sourceRows": [
+          4829
+        ]
+      },
+      {
+        "id": "espèce|NOM",
+        "sourceRows": [
+          4830
+        ]
+      },
+      {
+        "id": "espérance|NOM",
+        "sourceRows": [
+          4831
+        ]
+      },
+      {
+        "id": "essence|NOM",
+        "sourceRows": [
+          4841
+        ]
+      },
+      {
+        "id": "essuyer|VER",
+        "sourceRows": [
+          4850
+        ]
+      },
+      {
+        "id": "est-à-dire|ADV",
+        "sourceRows": [
+          4852
+        ]
+      },
+      {
+        "id": "estimer|VER",
+        "sourceRows": [
+          4860
+        ]
+      },
+      {
+        "id": "ethnique|ADJ",
+        "sourceRows": [
+          4868
+        ]
+      },
+      {
+        "id": "exact|ADJ",
+        "sourceRows": [
+          4885
+        ]
+      },
+      {
+        "id": "examiner|VER",
+        "sourceRows": [
+          4896
+        ]
+      },
+      {
+        "id": "exceptionnel|ADJ",
+        "sourceRows": [
+          4906
+        ]
+      },
+      {
+        "id": "excursion|NOM",
+        "sourceRows": [
+          4923
+        ]
+      },
+      {
+        "id": "excuse|NOM",
+        "sourceRows": [
+          4924
+        ]
+      },
+      {
+        "id": "excès|NOM",
+        "sourceRows": [
+          4926
+        ]
+      },
+      {
+        "id": "exemplaire|NOM",
+        "sourceRows": [
+          4929
+        ]
+      },
+      {
+        "id": "exercer|VER",
+        "sourceRows": [
+          4934
+        ]
+      },
+      {
+        "id": "exiger|VER",
+        "sourceRows": [
+          4944
+        ]
+      },
+      {
+        "id": "exil|NOM",
+        "sourceRows": [
+          4947
+        ]
+      },
+      {
+        "id": "exiler|VER",
+        "sourceRows": [
+          4948
+        ]
+      },
+      {
+        "id": "existence|NOM",
+        "sourceRows": [
+          4950
+        ]
+      },
+      {
+        "id": "exotisme|NOM",
+        "sourceRows": [
+          4958
+        ]
+      },
+      {
+        "id": "exploration|NOM",
+        "sourceRows": [
+          4977
+        ]
+      },
+      {
+        "id": "explorer|VER",
+        "sourceRows": [
+          4978
+        ]
+      },
+      {
+        "id": "exploser|VER",
+        "sourceRows": [
+          4979
+        ]
+      },
+      {
+        "id": "expression|NOM",
+        "sourceRows": [
+          4993
+        ]
+      },
+      {
+        "id": "exprès|ADV",
+        "sourceRows": [
+          4997
+        ]
+      },
+      {
+        "id": "expérience|NOM",
+        "sourceRows": [
+          5006
+        ]
+      },
+      {
+        "id": "extraire|VER",
+        "sourceRows": [
+          5021
+        ]
+      },
+      {
+        "id": "extraordinaire|NOM",
+        "sourceRows": [
+          5023
+        ]
+      },
+      {
+        "id": "extérieur|NOM",
+        "sourceRows": [
+          5035
+        ]
+      },
+      {
+        "id": "extérieur|ADJ",
+        "sourceRows": [
+          5036
+        ]
+      },
+      {
+        "id": "fabuleux|ADJ",
+        "sourceRows": [
+          5052
+        ]
+      },
+      {
+        "id": "faciliter|VER",
+        "sourceRows": [
+          5059
+        ]
+      },
+      {
+        "id": "facture|NOM",
+        "sourceRows": [
+          5066
+        ]
+      },
+      {
+        "id": "faible|ADJ",
+        "sourceRows": [
+          5071
+        ]
+      },
+      {
+        "id": "faiblement|ADV",
+        "sourceRows": [
+          5072
+        ]
+      },
+      {
+        "id": "faiblesse|NOM",
+        "sourceRows": [
+          5073
+        ]
+      },
+      {
+        "id": "faillir|VER",
+        "sourceRows": [
+          5076
+        ]
+      },
+      {
+        "id": "familial|ADJ",
+        "sourceRows": [
+          5091
+        ]
+      },
+      {
+        "id": "familier|ADJ",
+        "sourceRows": [
+          5095
+        ]
+      },
+      {
+        "id": "fantaisie|NOM",
+        "sourceRows": [
+          5106
+        ]
+      },
+      {
+        "id": "fantôme|NOM",
+        "sourceRows": [
+          5112
+        ]
+      },
+      {
+        "id": "fascination|NOM",
+        "sourceRows": [
+          5122
+        ]
+      },
+      {
+        "id": "fatal|ADJ",
+        "sourceRows": [
+          5130
+        ]
+      },
+      {
+        "id": "fatigue|NOM",
+        "sourceRows": [
+          5134
+        ]
+      },
+      {
+        "id": "faune|NOM",
+        "sourceRows": [
+          5142
+        ]
+      },
+      {
+        "id": "faute|NOM",
+        "sourceRows": [
+          5146
+        ]
+      },
+      {
+        "id": "fauteuil|NOM",
+        "sourceRows": [
+          5148
+        ]
+      },
+      {
+        "id": "façade|NOM",
+        "sourceRows": [
+          5162
+        ]
+      },
+      {
+        "id": "ferme|ADV",
+        "sourceRows": [
+          5179
+        ]
+      },
+      {
+        "id": "ferme|ADJ",
+        "sourceRows": [
+          5180
+        ]
+      },
+      {
+        "id": "ferme|NOM",
+        "sourceRows": [
+          5181
+        ]
+      },
+      {
+        "id": "ferment|NOM",
+        "sourceRows": [
+          5183
+        ]
+      },
+      {
+        "id": "festival|NOM",
+        "sourceRows": [
+          5200
+        ]
+      },
+      {
+        "id": "feuillage|NOM",
+        "sourceRows": [
+          5204
+        ]
+      },
+      {
+        "id": "fiancé|NOM",
+        "sourceRows": [
+          5215
+        ]
+      },
+      {
+        "id": "fiche|NOM",
+        "sourceRows": [
+          5220
+        ]
+      },
+      {
+        "id": "fichier|NOM",
+        "sourceRows": [
+          5222
+        ]
+      },
+      {
+        "id": "fiction|NOM",
+        "sourceRows": [
+          5224
+        ]
+      },
+      {
+        "id": "fier|ADJ",
+        "sourceRows": [
+          5234
+        ]
+      },
+      {
+        "id": "fierté|NOM",
+        "sourceRows": [
+          5235
+        ]
+      },
+      {
+        "id": "figure|NOM",
+        "sourceRows": [
+          5240
+        ]
+      },
+      {
+        "id": "figurer|VER",
+        "sourceRows": [
+          5241
+        ]
+      },
+      {
+        "id": "fil|NOM",
+        "sourceRows": [
+          5243
+        ]
+      },
+      {
+        "id": "file|NOM",
+        "sourceRows": [
+          5248
+        ]
+      },
+      {
+        "id": "fillette|NOM",
+        "sourceRows": [
+          5256
+        ]
+      },
+      {
+        "id": "filmer|VER",
+        "sourceRows": [
+          5258
+        ]
+      },
+      {
+        "id": "filtre|NOM",
+        "sourceRows": [
+          5260
+        ]
+      },
+      {
+        "id": "financer|VER",
+        "sourceRows": [
+          5272
+        ]
+      },
+      {
+        "id": "financier|ADJ",
+        "sourceRows": [
+          5274
+        ]
+      },
+      {
+        "id": "fixe|ADJ",
+        "sourceRows": [
+          5290
+        ]
+      },
+      {
+        "id": "fièrement|ADV",
+        "sourceRows": [
+          5294
+        ]
+      },
+      {
+        "id": "fièvre|NOM",
+        "sourceRows": [
+          5295
+        ]
+      },
+      {
+        "id": "flamme|NOM",
+        "sourceRows": [
+          5306
+        ]
+      },
+      {
+        "id": "flash|NOM",
+        "sourceRows": [
+          5308
+        ]
+      },
+      {
+        "id": "fleurir|VER",
+        "sourceRows": [
+          5316
+        ]
+      },
+      {
+        "id": "flore|NOM",
+        "sourceRows": [
+          5328
+        ]
+      },
+      {
+        "id": "folie|NOM",
+        "sourceRows": [
+          5358
+        ]
+      },
+      {
+        "id": "foncer|VER",
+        "sourceRows": [
+          5362
+        ]
+      },
+      {
+        "id": "foncier|ADJ",
+        "sourceRows": [
+          5363
+        ]
+      },
+      {
+        "id": "fonctionnaire|NOM",
+        "sourceRows": [
+          5366
+        ]
+      },
+      {
+        "id": "forcer|VER",
+        "sourceRows": [
+          5395
+        ]
+      },
+      {
+        "id": "formation|NOM",
+        "sourceRows": [
+          5406
+        ]
+      },
+      {
+        "id": "formule|NOM",
+        "sourceRows": [
+          5415
+        ]
+      },
+      {
+        "id": "formuler|VER",
+        "sourceRows": [
+          5416
+        ]
+      },
+      {
+        "id": "fort|ADV",
+        "sourceRows": [
+          5420
+        ]
+      },
+      {
+        "id": "fortement|ADV",
+        "sourceRows": [
+          5421
+        ]
+      },
+      {
+        "id": "fortune|NOM",
+        "sourceRows": [
+          5427
+        ]
+      },
+      {
+        "id": "fossé|NOM",
+        "sourceRows": [
+          5436
+        ]
+      },
+      {
+        "id": "foudre|NOM",
+        "sourceRows": [
+          5439
+        ]
+      },
+      {
+        "id": "foule|NOM",
+        "sourceRows": [
+          5448
+        ]
+      },
+      {
+        "id": "four|NOM",
+        "sourceRows": [
+          5452
+        ]
+      },
+      {
+        "id": "fourchette|NOM",
+        "sourceRows": [
+          5454
+        ]
+      },
+      {
+        "id": "franc|NOM",
+        "sourceRows": [
+          5484
+        ]
+      },
+      {
+        "id": "franc|ADJ",
+        "sourceRows": [
+          5485
+        ]
+      },
+      {
+        "id": "franchir|VER",
+        "sourceRows": [
+          5487
+        ]
+      },
+      {
+        "id": "frappe|NOM",
+        "sourceRows": [
+          5503
+        ]
+      },
+      {
+        "id": "fraîcheur|NOM",
+        "sourceRows": [
+          5512
+        ]
+      },
+      {
+        "id": "frein|NOM",
+        "sourceRows": [
+          5515
+        ]
+      },
+      {
+        "id": "frigo|NOM",
+        "sourceRows": [
+          5524
+        ]
+      },
+      {
+        "id": "frire|VER",
+        "sourceRows": [
+          5530
+        ]
+      },
+      {
+        "id": "frissonner|VER",
+        "sourceRows": [
+          5535
+        ]
+      },
+      {
+        "id": "frite|NOM",
+        "sourceRows": [
+          5538
+        ]
+      },
+      {
+        "id": "front|NOM",
+        "sourceRows": [
+          5553
+        ]
+      },
+      {
+        "id": "frontière|NOM",
+        "sourceRows": [
+          5555
+        ]
+      },
+      {
+        "id": "frotter|VER",
+        "sourceRows": [
+          5560
+        ]
+      },
+      {
+        "id": "fréquent|ADJ",
+        "sourceRows": [
+          5576
+        ]
+      },
+      {
+        "id": "fréquentation|NOM",
+        "sourceRows": [
+          5577
+        ]
+      },
+      {
+        "id": "fréquenter|VER",
+        "sourceRows": [
+          5578
+        ]
+      },
+      {
+        "id": "frôler|VER",
+        "sourceRows": [
+          5581
+        ]
+      },
+      {
+        "id": "fuir|VER",
+        "sourceRows": [
+          5585
+        ]
+      },
+      {
+        "id": "fuite|NOM",
+        "sourceRows": [
+          5586
+        ]
+      },
+      {
+        "id": "fumeur|NOM",
+        "sourceRows": [
+          5591
+        ]
+      },
+      {
+        "id": "fumée|NOM",
+        "sourceRows": [
+          5595
+        ]
+      },
+      {
+        "id": "furieux|ADJ",
+        "sourceRows": [
+          5602
+        ]
+      },
+      {
+        "id": "fusil|NOM",
+        "sourceRows": [
+          5606
+        ]
+      },
+      {
+        "id": "fâcher|VER",
+        "sourceRows": [
+          5620
+        ]
+      },
+      {
+        "id": "fécondité|NOM",
+        "sourceRows": [
+          5627
+        ]
+      },
+      {
+        "id": "fédération|NOM",
+        "sourceRows": [
+          5632
+        ]
+      },
+      {
+        "id": "fée|NOM",
+        "sourceRows": [
+          5634
+        ]
+      },
+      {
+        "id": "féminisme|NOM",
+        "sourceRows": [
+          5642
+        ]
+      },
+      {
+        "id": "féministe|ADJ",
+        "sourceRows": [
+          5644
+        ]
+      },
+      {
+        "id": "fût|NOM",
+        "sourceRows": [
+          5657
+        ]
+      },
+      {
+        "id": "gagnant|NOM",
+        "sourceRows": [
+          5664
+        ]
+      },
+      {
+        "id": "gai|ADJ",
+        "sourceRows": [
+          5667
+        ]
+      },
+      {
+        "id": "gallo-romain|ADJ",
+        "sourceRows": [
+          5679
+        ]
+      },
+      {
+        "id": "gant|NOM",
+        "sourceRows": [
+          5693
+        ]
+      },
+      {
+        "id": "garantie|NOM",
+        "sourceRows": [
+          5697
+        ]
+      },
+      {
+        "id": "garer|VER",
+        "sourceRows": [
+          5710
+        ]
+      },
+      {
+        "id": "gars|NOM",
+        "sourceRows": [
+          5717
+        ]
+      },
+      {
+        "id": "gaulois|ADJ",
+        "sourceRows": [
+          5729
+        ]
+      },
+      {
+        "id": "gaz|NOM",
+        "sourceRows": [
+          5733
+        ]
+      },
+      {
+        "id": "gelée|NOM",
+        "sourceRows": [
+          5746
+        ]
+      },
+      {
+        "id": "gendarme|NOM",
+        "sourceRows": [
+          5749
+        ]
+      },
+      {
+        "id": "geste|NOM",
+        "sourceRows": [
+          5765
+        ]
+      },
+      {
+        "id": "gestion|NOM",
+        "sourceRows": [
+          5766
+        ]
+      },
+      {
+        "id": "gigantesque|ADJ",
+        "sourceRows": [
+          5774
+        ]
+      },
+      {
+        "id": "glacer|VER",
+        "sourceRows": [
+          5783
+        ]
+      },
+      {
+        "id": "global|ADJ",
+        "sourceRows": [
+          5798
+        ]
+      },
+      {
+        "id": "golf|NOM",
+        "sourceRows": [
+          5813
+        ]
+      },
+      {
+        "id": "gorge|NOM",
+        "sourceRows": [
+          5821
+        ]
+      },
+      {
+        "id": "goutte|NOM",
+        "sourceRows": [
+          5836
+        ]
+      },
+      {
+        "id": "gouvernemental|ADJ",
+        "sourceRows": [
+          5842
+        ]
+      },
+      {
+        "id": "goûter|NOM",
+        "sourceRows": [
+          5846
+        ]
+      },
+      {
+        "id": "grandeur|NOM",
+        "sourceRows": [
+          5866
+        ]
+      },
+      {
+        "id": "grandir|VER",
+        "sourceRows": [
+          5868
+        ]
+      },
+      {
+        "id": "gratitude|NOM",
+        "sourceRows": [
+          5880
+        ]
+      },
+      {
+        "id": "gratter|VER",
+        "sourceRows": [
+          5882
+        ]
+      },
+      {
+        "id": "grecque|ADJ",
+        "sourceRows": [
+          5900
+        ]
+      },
+      {
+        "id": "grenier|NOM",
+        "sourceRows": [
+          5905
+        ]
+      },
+      {
+        "id": "grimper|VER",
+        "sourceRows": [
+          5921
+        ]
+      },
+      {
+        "id": "grippe|NOM",
+        "sourceRows": [
+          5926
+        ]
+      },
+      {
+        "id": "grossir|VER",
+        "sourceRows": [
+          5945
+        ]
+      },
+      {
+        "id": "grève|NOM",
+        "sourceRows": [
+          5957
+        ]
+      },
+      {
+        "id": "guerrier|ADJ",
+        "sourceRows": [
+          5966
+        ]
+      },
+      {
+        "id": "guerrier|NOM",
+        "sourceRows": [
+          5967
+        ]
+      },
+      {
+        "id": "guide|NOM",
+        "sourceRows": [
+          5975
+        ]
+      },
+      {
+        "id": "guider|VER",
+        "sourceRows": [
+          5976
+        ]
+      },
+      {
+        "id": "guillotine|NOM",
+        "sourceRows": [
+          5979
+        ]
+      },
+      {
+        "id": "guérir|VER",
+        "sourceRows": [
+          5990
+        ]
+      },
+      {
+        "id": "gâcher|VER",
+        "sourceRows": [
+          5998
+        ]
+      },
+      {
+        "id": "géant|NOM",
+        "sourceRows": [
+          6002
+        ]
+      },
+      {
+        "id": "généralement|ADV",
+        "sourceRows": [
+          6011
+        ]
+      },
+      {
+        "id": "générosité|NOM",
+        "sourceRows": [
+          6024
+        ]
+      },
+      {
+        "id": "gênant|ADJ",
+        "sourceRows": [
+          6043
+        ]
+      },
+      {
+        "id": "gêner|VER",
+        "sourceRows": [
+          6045
+        ]
+      },
+      {
+        "id": "gêné|ADJ",
+        "sourceRows": [
+          6046
+        ]
+      },
+      {
+        "id": "gîte|NOM",
+        "sourceRows": [
+          6047
+        ]
+      },
+      {
+        "id": "habile|ADJ",
+        "sourceRows": [
+          6048
+        ]
+      },
+      {
+        "id": "habit|NOM",
+        "sourceRows": [
+          6055
+        ]
+      },
+      {
+        "id": "habitation|NOM",
+        "sourceRows": [
+          6059
+        ]
+      },
+      {
+        "id": "habituel|ADJ",
+        "sourceRows": [
+          6062
+        ]
+      },
+      {
+        "id": "habituellement|ADV",
+        "sourceRows": [
+          6063
+        ]
+      },
+      {
+        "id": "habituer|VER",
+        "sourceRows": [
+          6064
+        ]
+      },
+      {
+        "id": "hache|NOM",
+        "sourceRows": [
+          6067
+        ]
+      },
+      {
+        "id": "haine|NOM",
+        "sourceRows": [
+          6071
+        ]
+      },
+      {
+        "id": "hall|NOM",
+        "sourceRows": [
+          6076
+        ]
+      },
+      {
+        "id": "halte|NOM",
+        "sourceRows": [
+          6079
+        ]
+      },
+      {
+        "id": "hasard|NOM",
+        "sourceRows": [
+          6116
+        ]
+      },
+      {
+        "id": "hausse|NOM",
+        "sourceRows": [
+          6118
+        ]
+      },
+      {
+        "id": "haut|NOM",
+        "sourceRows": [
+          6121
+        ]
+      },
+      {
+        "id": "hauteur|NOM",
+        "sourceRows": [
+          6127
+        ]
+      },
+      {
+        "id": "haïr|VER",
+        "sourceRows": [
+          6129
+        ]
+      },
+      {
+        "id": "hier|VER",
+        "sourceRows": [
+          6160
+        ]
+      },
+      {
+        "id": "hier|NOM",
+        "sourceRows": [
+          6162
+        ]
+      },
+      {
+        "id": "high-tech|ADJ",
+        "sourceRows": [
+          6163
+        ]
+      },
+      {
+        "id": "hisser|VER",
+        "sourceRows": [
+          6172
+        ]
+      },
+      {
+        "id": "hommage|NOM",
+        "sourceRows": [
+          6193
+        ]
+      },
+      {
+        "id": "honnête|ADJ",
+        "sourceRows": [
+          6210
+        ]
+      },
+      {
+        "id": "honte|NOM",
+        "sourceRows": [
+          6216
+        ]
+      },
+      {
+        "id": "horloge|NOM",
+        "sourceRows": [
+          6226
+        ]
+      },
+      {
+        "id": "hors|PRP",
+        "sourceRows": [
+          6234
+        ]
+      },
+      {
+        "id": "humain|NOM",
+        "sourceRows": [
+          6260
+        ]
+      },
+      {
+        "id": "humanitaire|ADJ",
+        "sourceRows": [
+          6266
+        ]
+      },
+      {
+        "id": "hurler|VER",
+        "sourceRows": [
+          6284
+        ]
+      },
+      {
+        "id": "héberger|VER",
+        "sourceRows": [
+          6319
+        ]
+      },
+      {
+        "id": "hélas|INT",
+        "sourceRows": [
+          6322
+        ]
+      },
+      {
+        "id": "héroïne|NOM",
+        "sourceRows": [
+          6338
+        ]
+      },
+      {
+        "id": "identifier|VER",
+        "sourceRows": [
+          6361
+        ]
+      },
+      {
+        "id": "idiot|ADJ",
+        "sourceRows": [
+          6366
+        ]
+      },
+      {
+        "id": "idiot|NOM",
+        "sourceRows": [
+          6367
+        ]
+      },
+      {
+        "id": "illusion|NOM",
+        "sourceRows": [
+          6391
+        ]
+      },
+      {
+        "id": "illégal|ADJ",
+        "sourceRows": [
+          6397
+        ]
+      },
+      {
+        "id": "imagination|NOM",
+        "sourceRows": [
+          6405
+        ]
+      },
+      {
+        "id": "imbécile|NOM",
+        "sourceRows": [
+          6411
+        ]
+      },
+      {
+        "id": "imiter|VER",
+        "sourceRows": [
+          6414
+        ]
+      },
+      {
+        "id": "immigrer|VER",
+        "sourceRows": [
+          6430
+        ]
+      },
+      {
+        "id": "immobile|ADJ",
+        "sourceRows": [
+          6432
+        ]
+      },
+      {
+        "id": "immobilier|ADJ",
+        "sourceRows": [
+          6433
+        ]
+      },
+      {
+        "id": "impatient|ADJ",
+        "sourceRows": [
+          6457
+        ]
+      },
+      {
+        "id": "implanter|VER",
+        "sourceRows": [
+          6470
+        ]
+      },
+      {
+        "id": "impliquer|VER",
+        "sourceRows": [
+          6474
+        ]
+      },
+      {
+        "id": "importance|NOM",
+        "sourceRows": [
+          6481
+        ]
+      },
+      {
+        "id": "importer|VER",
+        "sourceRows": [
+          6484
+        ]
+      },
+      {
+        "id": "imposant|ADJ",
+        "sourceRows": [
+          6488
+        ]
+      },
+      {
+        "id": "imposer|VER",
+        "sourceRows": [
+          6489
+        ]
+      },
+      {
+        "id": "impossible|NOM",
+        "sourceRows": [
+          6492
+        ]
+      },
+      {
+        "id": "impressionnant|ADJ",
+        "sourceRows": [
+          6498
+        ]
+      },
+      {
+        "id": "imprimer|VER",
+        "sourceRows": [
+          6504
+        ]
+      },
+      {
+        "id": "impôt|NOM",
+        "sourceRows": [
+          6535
+        ]
+      },
+      {
+        "id": "inaugurer|VER",
+        "sourceRows": [
+          6555
+        ]
+      },
+      {
+        "id": "incapable|ADJ",
+        "sourceRows": [
+          6561
+        ]
+      },
+      {
+        "id": "incendie|NOM",
+        "sourceRows": [
+          6567
+        ]
+      },
+      {
+        "id": "incendier|VER",
+        "sourceRows": [
+          6568
+        ]
+      },
+      {
+        "id": "incident|NOM",
+        "sourceRows": [
+          6575
+        ]
+      },
+      {
+        "id": "inclure|VER",
+        "sourceRows": [
+          6583
+        ]
+      },
+      {
+        "id": "inconnu|NOM",
+        "sourceRows": [
+          6601
+        ]
+      },
+      {
+        "id": "inconvénient|NOM",
+        "sourceRows": [
+          6612
+        ]
+      },
+      {
+        "id": "indemne|ADJ",
+        "sourceRows": [
+          6623
+        ]
+      },
+      {
+        "id": "indication|NOM",
+        "sourceRows": [
+          6631
+        ]
+      },
+      {
+        "id": "indifférence|NOM",
+        "sourceRows": [
+          6637
+        ]
+      },
+      {
+        "id": "indifférent|ADJ",
+        "sourceRows": [
+          6638
+        ]
+      },
+      {
+        "id": "indigner|VER",
+        "sourceRows": [
+          6645
+        ]
+      },
+      {
+        "id": "indispensable|ADJ",
+        "sourceRows": [
+          6660
+        ]
+      },
+      {
+        "id": "individu|NOM",
+        "sourceRows": [
+          6664
+        ]
+      },
+      {
+        "id": "industrie|NOM",
+        "sourceRows": [
+          6684
+        ]
+      },
+      {
+        "id": "industriel|NOM",
+        "sourceRows": [
+          6685
+        ]
+      },
+      {
+        "id": "indépendance|NOM",
+        "sourceRows": [
+          6694
+        ]
+      },
+      {
+        "id": "influence|NOM",
+        "sourceRows": [
+          6744
+        ]
+      },
+      {
+        "id": "initiation|NOM",
+        "sourceRows": [
+          6792
+        ]
+      },
+      {
+        "id": "initiative|NOM",
+        "sourceRows": [
+          6794
+        ]
+      },
+      {
+        "id": "initier|VER",
+        "sourceRows": [
+          6795
+        ]
+      },
+      {
+        "id": "injuste|ADJ",
+        "sourceRows": [
+          6803
+        ]
+      },
+      {
+        "id": "injustice|NOM",
+        "sourceRows": [
+          6804
+        ]
+      },
+      {
+        "id": "inquiétant|ADJ",
+        "sourceRows": [
+          6827
+        ]
+      },
+      {
+        "id": "insolite|ADJ",
+        "sourceRows": [
+          6847
+        ]
+      },
+      {
+        "id": "insulte|NOM",
+        "sourceRows": [
+          6894
+        ]
+      },
+      {
+        "id": "insécurité|NOM",
+        "sourceRows": [
+          6900
+        ]
+      },
+      {
+        "id": "intact|ADJ",
+        "sourceRows": [
+          6903
+        ]
+      },
+      {
+        "id": "intellectuel|NOM",
+        "sourceRows": [
+          6904
+        ]
+      },
+      {
+        "id": "intelligence|NOM",
+        "sourceRows": [
+          6908
+        ]
+      },
+      {
+        "id": "intensif|ADJ",
+        "sourceRows": [
+          6915
+        ]
+      },
+      {
+        "id": "intention|NOM",
+        "sourceRows": [
+          6921
+        ]
+      },
+      {
+        "id": "interactif|ADJ",
+        "sourceRows": [
+          6924
+        ]
+      },
+      {
+        "id": "interpeller|VER",
+        "sourceRows": [
+          6957
+        ]
+      },
+      {
+        "id": "interprète|NOM",
+        "sourceRows": [
+          6961
+        ]
+      },
+      {
+        "id": "interpréter|VER",
+        "sourceRows": [
+          6963
+        ]
+      },
+      {
+        "id": "interrompre|VER",
+        "sourceRows": [
+          6967
+        ]
+      },
+      {
+        "id": "intervenir|VER",
+        "sourceRows": [
+          6973
+        ]
+      },
+      {
+        "id": "intervention|NOM",
+        "sourceRows": [
+          6974
+        ]
+      },
+      {
+        "id": "interview|NOM",
+        "sourceRows": [
+          6975
+        ]
+      },
+      {
+        "id": "intituler|VER",
+        "sourceRows": [
+          6983
+        ]
+      },
+      {
+        "id": "intriguer|VER",
+        "sourceRows": [
+          6995
+        ]
+      },
+      {
+        "id": "intégrer|VER",
+        "sourceRows": [
+          7012
+        ]
+      },
+      {
+        "id": "intérêt|NOM",
+        "sourceRows": [
+          7024
+        ]
+      },
+      {
+        "id": "inutile|ADJ",
+        "sourceRows": [
+          7026
+        ]
+      },
+      {
+        "id": "invisible|ADJ",
+        "sourceRows": [
+          7050
+        ]
+      },
+      {
+        "id": "invite|NOM",
+        "sourceRows": [
+          7052
+        ]
+      },
+      {
+        "id": "ironique|ADJ",
+        "sourceRows": [
+          7078
+        ]
+      },
+      {
+        "id": "isoler|VER",
+        "sourceRows": [
+          7112
+        ]
+      },
+      {
+        "id": "isolé|ADJ",
+        "sourceRows": [
+          7113
+        ]
+      },
+      {
+        "id": "jalousie|NOM",
+        "sourceRows": [
+          7135
+        ]
+      },
+      {
+        "id": "jambon|NOM",
+        "sourceRows": [
+          7139
+        ]
+      },
+      {
+        "id": "jardinier|ADJ",
+        "sourceRows": [
+          7148
+        ]
+      },
+      {
+        "id": "jaune|NOM",
+        "sourceRows": [
+          7153
+        ]
+      },
+      {
+        "id": "jet|NOM",
+        "sourceRows": [
+          7159
+        ]
+      },
+      {
+        "id": "job|NOM",
+        "sourceRows": [
+          7177
+        ]
+      },
+      {
+        "id": "joindre|VER",
+        "sourceRows": [
+          7182
+        ]
+      },
+      {
+        "id": "joue|NOM",
+        "sourceRows": [
+          7192
+        ]
+      },
+      {
+        "id": "journal|ADJ",
+        "sourceRows": [
+          7201
+        ]
+      },
+      {
+        "id": "joyeusement|ADV",
+        "sourceRows": [
+          7211
+        ]
+      },
+      {
+        "id": "jugement|NOM",
+        "sourceRows": [
+          7223
+        ]
+      },
+      {
+        "id": "juger|VER",
+        "sourceRows": [
+          7224
+        ]
+      },
+      {
+        "id": "jungle|NOM",
+        "sourceRows": [
+          7237
+        ]
+      },
+      {
+        "id": "jupe|NOM",
+        "sourceRows": [
+          7240
+        ]
+      },
+      {
+        "id": "jurer|VER",
+        "sourceRows": [
+          7242
+        ]
+      },
+      {
+        "id": "jury|NOM",
+        "sourceRows": [
+          7246
+        ]
+      },
+      {
+        "id": "juste|NOM",
+        "sourceRows": [
+          7251
+        ]
+      },
+      {
+        "id": "lac|NOM",
+        "sourceRows": [
+          7301
+        ]
+      },
+      {
+        "id": "laid|ADJ",
+        "sourceRows": [
+          7306
+        ]
+      },
+      {
+        "id": "laine|NOM",
+        "sourceRows": [
+          7308
+        ]
+      },
+      {
+        "id": "lame|NOM",
+        "sourceRows": [
+          7316
+        ]
+      },
+      {
+        "id": "lance|NOM",
+        "sourceRows": [
+          7323
+        ]
+      },
+      {
+        "id": "langage|NOM",
+        "sourceRows": [
+          7332
+        ]
+      },
+      {
+        "id": "largement|ADV",
+        "sourceRows": [
+          7350
+        ]
+      },
+      {
+        "id": "lavabo|NOM",
+        "sourceRows": [
+          7365
+        ]
+      },
+      {
+        "id": "lecteur|NOM",
+        "sourceRows": [
+          7383
+        ]
+      },
+      {
+        "id": "lent|ADJ",
+        "sourceRows": [
+          7388
+        ]
+      },
+      {
+        "id": "lenteur|NOM",
+        "sourceRows": [
+          7390
+        ]
+      },
+      {
+        "id": "lessive|NOM",
+        "sourceRows": [
+          7393
+        ]
+      },
+      {
+        "id": "librement|ADV",
+        "sourceRows": [
+          7412
+        ]
+      },
+      {
+        "id": "licence|NOM",
+        "sourceRows": [
+          7423
+        ]
+      },
+      {
+        "id": "lier|VER",
+        "sourceRows": [
+          7430
+        ]
+      },
+      {
+        "id": "ligne|NOM",
+        "sourceRows": [
+          7436
+        ]
+      },
+      {
+        "id": "lilas|NOM",
+        "sourceRows": [
+          7439
+        ]
+      },
+      {
+        "id": "limite|NOM",
+        "sourceRows": [
+          7442
+        ]
+      },
+      {
+        "id": "limiter|VER",
+        "sourceRows": [
+          7443
+        ]
+      },
+      {
+        "id": "linge|NOM",
+        "sourceRows": [
+          7448
+        ]
+      },
+      {
+        "id": "lion|NOM",
+        "sourceRows": [
+          7455
+        ]
+      },
+      {
+        "id": "littoral|NOM",
+        "sourceRows": [
+          7479
+        ]
+      },
+      {
+        "id": "littéraire|ADJ",
+        "sourceRows": [
+          7480
+        ]
+      },
+      {
+        "id": "littéralement|ADV",
+        "sourceRows": [
+          7481
+        ]
+      },
+      {
+        "id": "livrer|VER",
+        "sourceRows": [
+          7489
+        ]
+      },
+      {
+        "id": "loger|VER",
+        "sourceRows": [
+          7512
+        ]
+      },
+      {
+        "id": "logiciel|NOM",
+        "sourceRows": [
+          7513
+        ]
+      },
+      {
+        "id": "longuement|ADV",
+        "sourceRows": [
+          7537
+        ]
+      },
+      {
+        "id": "lors|ADV",
+        "sourceRows": [
+          7546
+        ]
+      },
+      {
+        "id": "loto|NOM",
+        "sourceRows": [
+          7552
+        ]
+      },
+      {
+        "id": "lourdement|ADV",
+        "sourceRows": [
+          7564
+        ]
+      },
+      {
+        "id": "loyal|ADJ",
+        "sourceRows": [
+          7566
+        ]
+      },
+      {
+        "id": "loyer|NOM",
+        "sourceRows": [
+          7569
+        ]
+      },
+      {
+        "id": "lutte|NOM",
+        "sourceRows": [
+          7597
+        ]
+      },
+      {
+        "id": "lyonnais|ADJ",
+        "sourceRows": [
+          7609
+        ]
+      },
+      {
+        "id": "là-dedans|ADV",
+        "sourceRows": [
+          7615
+        ]
+      },
+      {
+        "id": "là-haut|ADV",
+        "sourceRows": [
+          7617
+        ]
+      },
+      {
+        "id": "lâche|ADJ",
+        "sourceRows": [
+          7618
+        ]
+      },
+      {
+        "id": "lèvre|NOM",
+        "sourceRows": [
+          7625
+        ]
+      },
+      {
+        "id": "légion|NOM",
+        "sourceRows": [
+          7634
+        ]
+      },
+      {
+        "id": "légèrement|ADV",
+        "sourceRows": [
+          7649
+        ]
+      },
+      {
+        "id": "mac|NOM",
+        "sourceRows": [
+          7658
+        ]
+      },
+      {
+        "id": "machine|NOM",
+        "sourceRows": [
+          7664
+        ]
+      },
+      {
+        "id": "maghrébin|ADJ",
+        "sourceRows": [
+          7680
+        ]
+      },
+      {
+        "id": "magicien|NOM",
+        "sourceRows": [
+          7681
+        ]
+      },
+      {
+        "id": "magie|NOM",
+        "sourceRows": [
+          7682
+        ]
+      },
+      {
+        "id": "magique|ADJ",
+        "sourceRows": [
+          7683
+        ]
+      },
+      {
+        "id": "maigre|ADJ",
+        "sourceRows": [
+          7699
+        ]
+      },
+      {
+        "id": "maigrir|VER",
+        "sourceRows": [
+          7700
+        ]
+      },
+      {
+        "id": "maillot|NOM",
+        "sourceRows": [
+          7703
+        ]
+      },
+      {
+        "id": "maintenir|VER",
+        "sourceRows": [
+          7710
+        ]
+      },
+      {
+        "id": "majeur|ADJ",
+        "sourceRows": [
+          7721
+        ]
+      },
+      {
+        "id": "majorité|NOM",
+        "sourceRows": [
+          7728
+        ]
+      },
+      {
+        "id": "mal|ADJ",
+        "sourceRows": [
+          7729
+        ]
+      },
+      {
+        "id": "maladie|NOM",
+        "sourceRows": [
+          7736
+        ]
+      },
+      {
+        "id": "malgré|PRP",
+        "sourceRows": [
+          7749
+        ]
+      },
+      {
+        "id": "malheur|NOM",
+        "sourceRows": [
+          7750
+        ]
+      },
+      {
+        "id": "malheureux|NOM",
+        "sourceRows": [
+          7753
+        ]
+      },
+      {
+        "id": "mamie|NOM",
+        "sourceRows": [
+          7775
+        ]
+      },
+      {
+        "id": "manche|NOM",
+        "sourceRows": [
+          7782
+        ]
+      },
+      {
+        "id": "manger|NOM",
+        "sourceRows": [
+          7790
+        ]
+      },
+      {
+        "id": "manifestation|NOM",
+        "sourceRows": [
+          7799
+        ]
+      },
+      {
+        "id": "manque|NOM",
+        "sourceRows": [
+          7814
+        ]
+      },
+      {
+        "id": "manteau|NOM",
+        "sourceRows": [
+          7820
+        ]
+      },
+      {
+        "id": "manuel|ADJ",
+        "sourceRows": [
+          7823
+        ]
+      },
+      {
+        "id": "marathon|NOM",
+        "sourceRows": [
+          7841
+        ]
+      },
+      {
+        "id": "marchand|NOM",
+        "sourceRows": [
+          7843
+        ]
+      },
+      {
+        "id": "marchand|ADJ",
+        "sourceRows": [
+          7844
+        ]
+      },
+      {
+        "id": "marchandise|NOM",
+        "sourceRows": [
+          7846
+        ]
+      },
+      {
+        "id": "marin|ADJ",
+        "sourceRows": [
+          7867
+        ]
+      },
+      {
+        "id": "marié|NOM",
+        "sourceRows": [
+          7875
+        ]
+      },
+      {
+        "id": "marteau|NOM",
+        "sourceRows": [
+          7897
+        ]
+      },
+      {
+        "id": "masse|NOM",
+        "sourceRows": [
+          7916
+        ]
+      },
+      {
+        "id": "match|NOM",
+        "sourceRows": [
+          7925
+        ]
+      },
+      {
+        "id": "matinée|NOM",
+        "sourceRows": [
+          7937
+        ]
+      },
+      {
+        "id": "matériel|ADJ",
+        "sourceRows": [
+          7949
+        ]
+      },
+      {
+        "id": "matériel|NOM",
+        "sourceRows": [
+          7950
+        ]
+      },
+      {
+        "id": "maîtrise|NOM",
+        "sourceRows": [
+          7976
+        ]
+      },
+      {
+        "id": "maîtriser|VER",
+        "sourceRows": [
+          7977
+        ]
+      },
+      {
+        "id": "membre|NOM",
+        "sourceRows": [
+          7986
+        ]
+      },
+      {
+        "id": "menace|NOM",
+        "sourceRows": [
+          7987
+        ]
+      },
+      {
+        "id": "menacer|VER",
+        "sourceRows": [
+          7988
+        ]
+      },
+      {
+        "id": "mensonge|NOM",
+        "sourceRows": [
+          7995
+        ]
+      },
+      {
+        "id": "mensuel|ADJ",
+        "sourceRows": [
+          7997
+        ]
+      },
+      {
+        "id": "menteur|NOM",
+        "sourceRows": [
+          8001
+        ]
+      },
+      {
+        "id": "menton|NOM",
+        "sourceRows": [
+          8007
+        ]
+      },
+      {
+        "id": "mesdames|NOM",
+        "sourceRows": [
+          8025
+        ]
+      },
+      {
+        "id": "mesdemoiselles|NOM",
+        "sourceRows": [
+          8026
+        ]
+      },
+      {
+        "id": "mesure|NOM",
+        "sourceRows": [
+          8035
+        ]
+      },
+      {
+        "id": "mets|NOM",
+        "sourceRows": [
+          8037
+        ]
+      },
+      {
+        "id": "meuble|NOM",
+        "sourceRows": [
+          8042
+        ]
+      },
+      {
+        "id": "mi-temps|NOM",
+        "sourceRows": [
+          8056
+        ]
+      },
+      {
+        "id": "mien|PRO",
+        "sourceRows": [
+          8076
+        ]
+      },
+      {
+        "id": "militaire|ADJ",
+        "sourceRows": [
+          8088
+        ]
+      },
+      {
+        "id": "mille|NOM",
+        "sourceRows": [
+          8092
+        ]
+      },
+      {
+        "id": "milliard|NOM",
+        "sourceRows": [
+          8094
+        ]
+      },
+      {
+        "id": "millier|NOM",
+        "sourceRows": [
+          8097
+        ]
+      },
+      {
+        "id": "millénaire|NOM",
+        "sourceRows": [
+          8102
+        ]
+      },
+      {
+        "id": "mine|NOM",
+        "sourceRows": [
+          8113
+        ]
+      },
+      {
+        "id": "mineur|ADJ",
+        "sourceRows": [
+          8117
+        ]
+      },
+      {
+        "id": "minimum|NOM",
+        "sourceRows": [
+          8125
+        ]
+      },
+      {
+        "id": "ministre|NOM",
+        "sourceRows": [
+          8126
+        ]
+      },
+      {
+        "id": "ministère|NOM",
+        "sourceRows": [
+          8127
+        ]
+      },
+      {
+        "id": "minuit|NOM",
+        "sourceRows": [
+          8131
+        ]
+      },
+      {
+        "id": "miracle|NOM",
+        "sourceRows": [
+          8140
+        ]
+      },
+      {
+        "id": "miroir|NOM",
+        "sourceRows": [
+          8144
+        ]
+      },
+      {
+        "id": "mise|NOM",
+        "sourceRows": [
+          8146
+        ]
+      },
+      {
+        "id": "mission|NOM",
+        "sourceRows": [
+          8151
+        ]
+      },
+      {
+        "id": "misère|NOM",
+        "sourceRows": [
+          8154
+        ]
+      },
+      {
+        "id": "misérable|ADJ",
+        "sourceRows": [
+          8157
+        ]
+      },
+      {
+        "id": "mobiliser|VER",
+        "sourceRows": [
+          8172
+        ]
+      },
+      {
+        "id": "mobylette|NOM",
+        "sourceRows": [
+          8174
+        ]
+      },
+      {
+        "id": "modeste|ADJ",
+        "sourceRows": [
+          8186
+        ]
+      },
+      {
+        "id": "modifier|VER",
+        "sourceRows": [
+          8190
+        ]
+      },
+      {
+        "id": "modèle|NOM",
+        "sourceRows": [
+          8194
+        ]
+      },
+      {
+        "id": "moi-même|PRO",
+        "sourceRows": [
+          8205
+        ]
+      },
+      {
+        "id": "monarchie|NOM",
+        "sourceRows": [
+          8222
+        ]
+      },
+      {
+        "id": "monastère|NOM",
+        "sourceRows": [
+          8227
+        ]
+      },
+      {
+        "id": "monstre|NOM",
+        "sourceRows": [
+          8253
+        ]
+      },
+      {
+        "id": "monte|NOM",
+        "sourceRows": [
+          8267
+        ]
+      },
+      {
+        "id": "moral|ADJ",
+        "sourceRows": [
+          8287
+        ]
+      },
+      {
+        "id": "moralité|NOM",
+        "sourceRows": [
+          8291
+        ]
+      },
+      {
+        "id": "mordre|VER",
+        "sourceRows": [
+          8295
+        ]
+      },
+      {
+        "id": "mort|ADJ",
+        "sourceRows": [
+          8306
+        ]
+      },
+      {
+        "id": "motivation|NOM",
+        "sourceRows": [
+          8320
+        ]
+      },
+      {
+        "id": "motiver|VER",
+        "sourceRows": [
+          8321
+        ]
+      },
+      {
+        "id": "moto|NOM",
+        "sourceRows": [
+          8322
+        ]
+      },
+      {
+        "id": "mouche|NOM",
+        "sourceRows": [
+          8327
+        ]
+      },
+      {
+        "id": "mouchoir|NOM",
+        "sourceRows": [
+          8329
+        ]
+      },
+      {
+        "id": "mouiller|VER",
+        "sourceRows": [
+          8334
+        ]
+      },
+      {
+        "id": "mourant|ADJ",
+        "sourceRows": [
+          8338
+        ]
+      },
+      {
+        "id": "moustache|NOM",
+        "sourceRows": [
+          8347
+        ]
+      },
+      {
+        "id": "mouvement|NOM",
+        "sourceRows": [
+          8354
+        ]
+      },
+      {
+        "id": "muet|ADJ",
+        "sourceRows": [
+          8365
+        ]
+      },
+      {
+        "id": "multiplier|VER",
+        "sourceRows": [
+          8382
+        ]
+      },
+      {
+        "id": "municipal|ADJ",
+        "sourceRows": [
+          8384
+        ]
+      },
+      {
+        "id": "murmure|NOM",
+        "sourceRows": [
+          8391
+        ]
+      },
+      {
+        "id": "murmurer|VER",
+        "sourceRows": [
+          8392
+        ]
+      },
+      {
+        "id": "muscler|VER",
+        "sourceRows": [
+          8396
+        ]
+      },
+      {
+        "id": "mythe|NOM",
+        "sourceRows": [
+          8429
+        ]
+      },
+      {
+        "id": "mère|ADJ",
+        "sourceRows": [
+          8439
+        ]
+      },
+      {
+        "id": "méchant|ADJ",
+        "sourceRows": [
+          8451
+        ]
+      },
+      {
+        "id": "méchant|NOM",
+        "sourceRows": [
+          8452
+        ]
+      },
+      {
+        "id": "mécher|VER",
+        "sourceRows": [
+          8453
+        ]
+      },
+      {
+        "id": "médaille|NOM",
+        "sourceRows": [
+          8462
+        ]
+      },
+      {
+        "id": "médiathèque|NOM",
+        "sourceRows": [
+          8468
+        ]
+      },
+      {
+        "id": "médical|ADJ",
+        "sourceRows": [
+          8473
+        ]
+      },
+      {
+        "id": "méfier|VER",
+        "sourceRows": [
+          8490
+        ]
+      },
+      {
+        "id": "mélange|NOM",
+        "sourceRows": [
+          8494
+        ]
+      },
+      {
+        "id": "mélodie|NOM",
+        "sourceRows": [
+          8499
+        ]
+      },
+      {
+        "id": "mémoire|NOM",
+        "sourceRows": [
+          8503
+        ]
+      },
+      {
+        "id": "ménager|ADJ",
+        "sourceRows": [
+          8509
+        ]
+      },
+      {
+        "id": "ménestrel|NOM",
+        "sourceRows": [
+          8511
+        ]
+      },
+      {
+        "id": "mérite|NOM",
+        "sourceRows": [
+          8522
+        ]
+      },
+      {
+        "id": "mériter|VER",
+        "sourceRows": [
+          8523
+        ]
+      },
+      {
+        "id": "métallique|ADJ",
+        "sourceRows": [
+          8527
+        ]
+      },
+      {
+        "id": "méthode|NOM",
+        "sourceRows": [
+          8534
+        ]
+      },
+      {
+        "id": "mêler|VER",
+        "sourceRows": [
+          8551
+        ]
+      },
+      {
+        "id": "nappe|NOM",
+        "sourceRows": [
+          8570
+        ]
+      },
+      {
+        "id": "natal|ADJ",
+        "sourceRows": [
+          8582
+        ]
+      },
+      {
+        "id": "naturellement|ADV",
+        "sourceRows": [
+          8600
+        ]
+      },
+      {
+        "id": "navette|NOM",
+        "sourceRows": [
+          8607
+        ]
+      },
+      {
+        "id": "neiger|VER",
+        "sourceRows": [
+          8620
+        ]
+      },
+      {
+        "id": "nettoyage|NOM",
+        "sourceRows": [
+          8628
+        ]
+      },
+      {
+        "id": "neuf|NOM",
+        "sourceRows": [
+          8631
+        ]
+      },
+      {
+        "id": "noble|ADJ",
+        "sourceRows": [
+          8663
+        ]
+      },
+      {
+        "id": "noble|NOM",
+        "sourceRows": [
+          8664
+        ]
+      },
+      {
+        "id": "nommer|VER",
+        "sourceRows": [
+          8682
+        ]
+      },
+      {
+        "id": "nommé|ADJ",
+        "sourceRows": [
+          8683
+        ]
+      },
+      {
+        "id": "nord|ADJ",
+        "sourceRows": [
+          8699
+        ]
+      },
+      {
+        "id": "normalement|ADV",
+        "sourceRows": [
+          8708
+        ]
+      },
+      {
+        "id": "notion|NOM",
+        "sourceRows": [
+          8727
+        ]
+      },
+      {
+        "id": "nourrir|VER",
+        "sourceRows": [
+          8736
+        ]
+      },
+      {
+        "id": "nouveau|NOM",
+        "sourceRows": [
+          8741
+        ]
+      },
+      {
+        "id": "nouveauté|NOM",
+        "sourceRows": [
+          8744
+        ]
+      },
+      {
+        "id": "nu|NOM",
+        "sourceRows": [
+          8753
+        ]
+      },
+      {
+        "id": "nucléaire|NOM",
+        "sourceRows": [
+          8758
+        ]
+      },
+      {
+        "id": "nucléaire|ADJ",
+        "sourceRows": [
+          8759
+        ]
+      },
+      {
+        "id": "numérique|ADJ",
+        "sourceRows": [
+          8770
+        ]
+      },
+      {
+        "id": "négatif|ADJ",
+        "sourceRows": [
+          8795
+        ]
+      },
+      {
+        "id": "négociation|NOM",
+        "sourceRows": [
+          8802
+        ]
+      },
+      {
+        "id": "nôtre|PRO",
+        "sourceRows": [
+          8813
+        ]
+      },
+      {
+        "id": "objectif|NOM",
+        "sourceRows": [
+          8816
+        ]
+      },
+      {
+        "id": "objectif|ADJ",
+        "sourceRows": [
+          8817
+        ]
+      },
+      {
+        "id": "obligation|NOM",
+        "sourceRows": [
+          8821
+        ]
+      },
+      {
+        "id": "obscurité|NOM",
+        "sourceRows": [
+          8830
+        ]
+      },
+      {
+        "id": "obtenir|VER",
+        "sourceRows": [
+          8846
+        ]
+      },
+      {
+        "id": "obéir|VER",
+        "sourceRows": [
+          8851
+        ]
+      },
+      {
+        "id": "occidental|ADJ",
+        "sourceRows": [
+          8861
+        ]
+      },
+      {
+        "id": "officier|NOM",
+        "sourceRows": [
+          8896
+        ]
+      },
+      {
+        "id": "offre|NOM",
+        "sourceRows": [
+          8900
+        ]
+      },
+      {
+        "id": "ogre|NOM",
+        "sourceRows": [
+          8903
+        ]
+      },
+      {
+        "id": "olympique|ADJ",
+        "sourceRows": [
+          8916
+        ]
+      },
+      {
+        "id": "opinion|NOM",
+        "sourceRows": [
+          8942
+        ]
+      },
+      {
+        "id": "opposer|VER",
+        "sourceRows": [
+          8947
+        ]
+      },
+      {
+        "id": "opposition|NOM",
+        "sourceRows": [
+          8948
+        ]
+      },
+      {
+        "id": "option|NOM",
+        "sourceRows": [
+          8955
+        ]
+      },
+      {
+        "id": "opérer|VER",
+        "sourceRows": [
+          8964
+        ]
+      },
+      {
+        "id": "orage|NOM",
+        "sourceRows": [
+          8968
+        ]
+      },
+      {
+        "id": "orange|NOM",
+        "sourceRows": [
+          8974
+        ]
+      },
+      {
+        "id": "ordinateur|ADJ",
+        "sourceRows": [
+          8987
+        ]
+      },
+      {
+        "id": "ordonnance|NOM",
+        "sourceRows": [
+          8988
+        ]
+      },
+      {
+        "id": "ordonner|VER",
+        "sourceRows": [
+          8990
+        ]
+      },
+      {
+        "id": "oreiller|NOM",
+        "sourceRows": [
+          8994
+        ]
+      },
+      {
+        "id": "originalité|NOM",
+        "sourceRows": [
+          9019
+        ]
+      },
+      {
+        "id": "orthographe|NOM",
+        "sourceRows": [
+          9030
+        ]
+      },
+      {
+        "id": "os|NOM",
+        "sourceRows": [
+          9032
+        ]
+      },
+      {
+        "id": "oser|VER",
+        "sourceRows": [
+          9036
+        ]
+      },
+      {
+        "id": "ouest|ADJ",
+        "sourceRows": [
+          9052
+        ]
+      },
+      {
+        "id": "ours|NOM",
+        "sourceRows": [
+          9058
+        ]
+      },
+      {
+        "id": "ouvert|ADJ",
+        "sourceRows": [
+          9067
+        ]
+      },
+      {
+        "id": "ouvrier|ADJ",
+        "sourceRows": [
+          9073
+        ]
+      },
+      {
+        "id": "paille|NOM",
+        "sourceRows": [
+          9099
+        ]
+      },
+      {
+        "id": "pair|NOM",
+        "sourceRows": [
+          9102
+        ]
+      },
+      {
+        "id": "palme|NOM",
+        "sourceRows": [
+          9121
+        ]
+      },
+      {
+        "id": "panier|NOM",
+        "sourceRows": [
+          9140
+        ]
+      },
+      {
+        "id": "panique|NOM",
+        "sourceRows": [
+          9141
+        ]
+      },
+      {
+        "id": "panne|NOM",
+        "sourceRows": [
+          9143
+        ]
+      },
+      {
+        "id": "papi|NOM",
+        "sourceRows": [
+          9157
+        ]
+      },
+      {
+        "id": "paquebot|NOM",
+        "sourceRows": [
+          9162
+        ]
+      },
+      {
+        "id": "par-dessus|ADV",
+        "sourceRows": [
+          9169
+        ]
+      },
+      {
+        "id": "paraître|VER",
+        "sourceRows": [
+          9199
+        ]
+      },
+      {
+        "id": "parcourir|VER",
+        "sourceRows": [
+          9204
+        ]
+      },
+      {
+        "id": "parcours|NOM",
+        "sourceRows": [
+          9205
+        ]
+      },
+      {
+        "id": "pardonner|VER",
+        "sourceRows": [
+          9211
+        ]
+      },
+      {
+        "id": "pareil|ADJ",
+        "sourceRows": [
+          9214
+        ]
+      },
+      {
+        "id": "pareil|NOM",
+        "sourceRows": [
+          9215
+        ]
+      },
+      {
+        "id": "paresseux|ADJ",
+        "sourceRows": [
+          9226
+        ]
+      },
+      {
+        "id": "parfaitement|ADV",
+        "sourceRows": [
+          9229
+        ]
+      },
+      {
+        "id": "parier|VER",
+        "sourceRows": [
+          9237
+        ]
+      },
+      {
+        "id": "parler|NOM",
+        "sourceRows": [
+          9248
+        ]
+      },
+      {
+        "id": "partenaire|NOM",
+        "sourceRows": [
+          9267
+        ]
+      },
+      {
+        "id": "participant|ADJ",
+        "sourceRows": [
+          9273
+        ]
+      },
+      {
+        "id": "particularité|NOM",
+        "sourceRows": [
+          9279
+        ]
+      },
+      {
+        "id": "particulier|NOM",
+        "sourceRows": [
+          9282
+        ]
+      },
+      {
+        "id": "partiel|ADJ",
+        "sourceRows": [
+          9285
+        ]
+      },
+      {
+        "id": "parvenir|VER",
+        "sourceRows": [
+          9295
+        ]
+      },
+      {
+        "id": "passager|NOM",
+        "sourceRows": [
+          9302
+        ]
+      },
+      {
+        "id": "passant|NOM",
+        "sourceRows": [
+          9304
+        ]
+      },
+      {
+        "id": "passe|NOM",
+        "sourceRows": [
+          9305
+        ]
+      },
+      {
+        "id": "passeport|NOM",
+        "sourceRows": [
+          9310
+        ]
+      },
+      {
+        "id": "paternité|NOM",
+        "sourceRows": [
+          9335
+        ]
+      },
+      {
+        "id": "patiemment|ADV",
+        "sourceRows": [
+          9339
+        ]
+      },
+      {
+        "id": "patience|NOM",
+        "sourceRows": [
+          9340
+        ]
+      },
+      {
+        "id": "patienter|VER",
+        "sourceRows": [
+          9343
+        ]
+      },
+      {
+        "id": "patte|NOM",
+        "sourceRows": [
+          9356
+        ]
+      },
+      {
+        "id": "pause|NOM",
+        "sourceRows": [
+          9360
+        ]
+      },
+      {
+        "id": "pauvre|ADJ",
+        "sourceRows": [
+          9363
+        ]
+      },
+      {
+        "id": "pauvreté|NOM",
+        "sourceRows": [
+          9365
+        ]
+      },
+      {
+        "id": "payant|ADJ",
+        "sourceRows": [
+          9371
+        ]
+      },
+      {
+        "id": "paysan|ADJ",
+        "sourceRows": [
+          9376
+        ]
+      },
+      {
+        "id": "paysan|NOM",
+        "sourceRows": [
+          9377
+        ]
+      },
+      {
+        "id": "pelote|NOM",
+        "sourceRows": [
+          9392
+        ]
+      },
+      {
+        "id": "pencher|VER",
+        "sourceRows": [
+          9398
+        ]
+      },
+      {
+        "id": "pensée|NOM",
+        "sourceRows": [
+          9413
+        ]
+      },
+      {
+        "id": "perfectionner|VER",
+        "sourceRows": [
+          9431
+        ]
+      },
+      {
+        "id": "permis|NOM",
+        "sourceRows": [
+          9443
+        ]
+      },
+      {
+        "id": "permission|NOM",
+        "sourceRows": [
+          9444
+        ]
+      },
+      {
+        "id": "personnalité|NOM",
+        "sourceRows": [
+          9464
+        ]
+      },
+      {
+        "id": "personnel|NOM",
+        "sourceRows": [
+          9467
+        ]
+      },
+      {
+        "id": "peser|VER",
+        "sourceRows": [
+          9490
+        ]
+      },
+      {
+        "id": "petits-enfants|NOM",
+        "sourceRows": [
+          9505
+        ]
+      },
+      {
+        "id": "peuple|NOM",
+        "sourceRows": [
+          9509
+        ]
+      },
+      {
+        "id": "philosophie|NOM",
+        "sourceRows": [
+          9530
+        ]
+      },
+      {
+        "id": "photographie|NOM",
+        "sourceRows": [
+          9546
+        ]
+      },
+      {
+        "id": "photographier|VER",
+        "sourceRows": [
+          9547
+        ]
+      },
+      {
+        "id": "physique|ADJ",
+        "sourceRows": [
+          9558
+        ]
+      },
+      {
+        "id": "physique|NOM",
+        "sourceRows": [
+          9559
+        ]
+      },
+      {
+        "id": "physiquement|ADV",
+        "sourceRows": [
+          9560
+        ]
+      },
+      {
+        "id": "phénomène|NOM",
+        "sourceRows": [
+          9563
+        ]
+      },
+      {
+        "id": "pic|NOM",
+        "sourceRows": [
+          9573
+        ]
+      },
+      {
+        "id": "pilote|NOM",
+        "sourceRows": [
+          9592
+        ]
+      },
+      {
+        "id": "pique-nique|NOM",
+        "sourceRows": [
+          9616
+        ]
+      },
+      {
+        "id": "pique-niquer|VER",
+        "sourceRows": [
+          9617
+        ]
+      },
+      {
+        "id": "piquer|VER",
+        "sourceRows": [
+          9618
+        ]
+      },
+      {
+        "id": "pirogue|NOM",
+        "sourceRows": [
+          9623
+        ]
+      },
+      {
+        "id": "pitié|NOM",
+        "sourceRows": [
+          9633
+        ]
+      },
+      {
+        "id": "pizza|NOM",
+        "sourceRows": [
+          9639
+        ]
+      },
+      {
+        "id": "piège|NOM",
+        "sourceRows": [
+          9642
+        ]
+      },
+      {
+        "id": "placard|NOM",
+        "sourceRows": [
+          9649
+        ]
+      },
+      {
+        "id": "plafond|NOM",
+        "sourceRows": [
+          9654
+        ]
+      },
+      {
+        "id": "plaindre|VER",
+        "sourceRows": [
+          9661
+        ]
+      },
+      {
+        "id": "plaine|NOM",
+        "sourceRows": [
+          9662
+        ]
+      },
+      {
+        "id": "plainte|NOM",
+        "sourceRows": [
+          9663
+        ]
+      },
+      {
+        "id": "plaisanterie|NOM",
+        "sourceRows": [
+          9667
+        ]
+      },
+      {
+        "id": "planète|NOM",
+        "sourceRows": [
+          9685
+        ]
+      },
+      {
+        "id": "plaque|NOM",
+        "sourceRows": [
+          9689
+        ]
+      },
+      {
+        "id": "plat|ADJ",
+        "sourceRows": [
+          9697
+        ]
+      },
+      {
+        "id": "pli|NOM",
+        "sourceRows": [
+          9711
+        ]
+      },
+      {
+        "id": "plier|VER",
+        "sourceRows": [
+          9715
+        ]
+      },
+      {
+        "id": "plongeur|NOM",
+        "sourceRows": [
+          9723
+        ]
+      },
+      {
+        "id": "plupart|NOM",
+        "sourceRows": [
+          9729
+        ]
+      },
+      {
+        "id": "pneu|NOM",
+        "sourceRows": [
+          9749
+        ]
+      },
+      {
+        "id": "poche|NOM",
+        "sourceRows": [
+          9755
+        ]
+      },
+      {
+        "id": "poids|NOM",
+        "sourceRows": [
+          9761
+        ]
+      },
+      {
+        "id": "poil|NOM",
+        "sourceRows": [
+          9767
+        ]
+      },
+      {
+        "id": "poing|NOM",
+        "sourceRows": [
+          9770
+        ]
+      },
+      {
+        "id": "pointe|NOM",
+        "sourceRows": [
+          9773
+        ]
+      },
+      {
+        "id": "poire|NOM",
+        "sourceRows": [
+          9782
+        ]
+      },
+      {
+        "id": "poison|NOM",
+        "sourceRows": [
+          9786
+        ]
+      },
+      {
+        "id": "poitrine|NOM",
+        "sourceRows": [
+          9789
+        ]
+      },
+      {
+        "id": "policier|NOM",
+        "sourceRows": [
+          9799
+        ]
+      },
+      {
+        "id": "policier|ADJ",
+        "sourceRows": [
+          9800
+        ]
+      },
+      {
+        "id": "politesse|NOM",
+        "sourceRows": [
+          9803
+        ]
+      },
+      {
+        "id": "politique|NOM",
+        "sourceRows": [
+          9806
+        ]
+      },
+      {
+        "id": "pollution|NOM",
+        "sourceRows": [
+          9816
+        ]
+      },
+      {
+        "id": "pompier|NOM",
+        "sourceRows": [
+          9838
+        ]
+      },
+      {
+        "id": "pop|ADJ",
+        "sourceRows": [
+          9851
+        ]
+      },
+      {
+        "id": "porcelaine|NOM",
+        "sourceRows": [
+          9860
+        ]
+      },
+      {
+        "id": "porte|ADJ",
+        "sourceRows": [
+          9872
+        ]
+      },
+      {
+        "id": "porter|NOM",
+        "sourceRows": [
+          9883
+        ]
+      },
+      {
+        "id": "portrait|NOM",
+        "sourceRows": [
+          9886
+        ]
+      },
+      {
+        "id": "portée|NOM",
+        "sourceRows": [
+          9890
+        ]
+      },
+      {
+        "id": "positif|ADJ",
+        "sourceRows": [
+          9895
+        ]
+      },
+      {
+        "id": "possession|NOM",
+        "sourceRows": [
+          9902
+        ]
+      },
+      {
+        "id": "possible|NOM",
+        "sourceRows": [
+          9904
+        ]
+      },
+      {
+        "id": "pot|NOM",
+        "sourceRows": [
+          9922
+        ]
+      },
+      {
+        "id": "poubelle|NOM",
+        "sourceRows": [
+          9937
+        ]
+      },
+      {
+        "id": "poumon|NOM",
+        "sourceRows": [
+          9946
+        ]
+      },
+      {
+        "id": "poursuivre|VER",
+        "sourceRows": [
+          9961
+        ]
+      },
+      {
+        "id": "pousse|NOM",
+        "sourceRows": [
+          9967
+        ]
+      },
+      {
+        "id": "pouvoir|NOM",
+        "sourceRows": [
+          9975
+        ]
+      },
+      {
+        "id": "poème|NOM",
+        "sourceRows": [
+          9977
+        ]
+      },
+      {
+        "id": "prairie|NOM",
+        "sourceRows": [
+          9986
+        ]
+      },
+      {
+        "id": "pratiquement|ADV",
+        "sourceRows": [
+          9992
+        ]
+      },
+      {
+        "id": "premièrement|ADV",
+        "sourceRows": [
+          9995
+        ]
+      },
+      {
+        "id": "pressant|ADJ",
+        "sourceRows": [
+          10005
+        ]
+      },
+      {
+        "id": "pressé|ADJ",
+        "sourceRows": [
+          10013
+        ]
+      },
+      {
+        "id": "prestigieux|ADJ",
+        "sourceRows": [
+          10018
+        ]
+      },
+      {
+        "id": "preuve|NOM",
+        "sourceRows": [
+          10019
+        ]
+      },
+      {
+        "id": "primaire|ADJ",
+        "sourceRows": [
+          10023
+        ]
+      },
+      {
+        "id": "princesse|NOM",
+        "sourceRows": [
+          10032
+        ]
+      },
+      {
+        "id": "principalement|ADV",
+        "sourceRows": [
+          10035
+        ]
+      },
+      {
+        "id": "principe|NOM",
+        "sourceRows": [
+          10036
+        ]
+      },
+      {
+        "id": "prise|NOM",
+        "sourceRows": [
+          10045
+        ]
+      },
+      {
+        "id": "priver|VER",
+        "sourceRows": [
+          10051
+        ]
+      },
+      {
+        "id": "privé|ADJ",
+        "sourceRows": [
+          10056
+        ]
+      },
+      {
+        "id": "prière|NOM",
+        "sourceRows": [
+          10058
+        ]
+      },
+      {
+        "id": "probablement|ADV",
+        "sourceRows": [
+          10062
+        ]
+      },
+      {
+        "id": "procurer|VER",
+        "sourceRows": [
+          10079
+        ]
+      },
+      {
+        "id": "producteur|NOM",
+        "sourceRows": [
+          10089
+        ]
+      },
+      {
+        "id": "professionnel|NOM",
+        "sourceRows": [
+          10104
+        ]
+      },
+      {
+        "id": "professionnel|ADJ",
+        "sourceRows": [
+          10105
+        ]
+      },
+      {
+        "id": "profil|NOM",
+        "sourceRows": [
+          10109
+        ]
+      },
+      {
+        "id": "profond|ADJ",
+        "sourceRows": [
+          10115
+        ]
+      },
+      {
+        "id": "profondeur|NOM",
+        "sourceRows": [
+          10116
+        ]
+      },
+      {
+        "id": "profondément|ADV",
+        "sourceRows": [
+          10117
+        ]
+      },
+      {
+        "id": "programmer|VER",
+        "sourceRows": [
+          10124
+        ]
+      },
+      {
+        "id": "progresser|VER",
+        "sourceRows": [
+          10125
+        ]
+      },
+      {
+        "id": "progressivement|ADV",
+        "sourceRows": [
+          10128
+        ]
+      },
+      {
+        "id": "projection|NOM",
+        "sourceRows": [
+          10137
+        ]
+      },
+      {
+        "id": "promotion|NOM",
+        "sourceRows": [
+          10158
+        ]
+      },
+      {
+        "id": "prononcer|VER",
+        "sourceRows": [
+          10165
+        ]
+      },
+      {
+        "id": "proportion|NOM",
+        "sourceRows": [
+          10175
+        ]
+      },
+      {
+        "id": "propos|NOM",
+        "sourceRows": [
+          10179
+        ]
+      },
+      {
+        "id": "propreté|NOM",
+        "sourceRows": [
+          10184
+        ]
+      },
+      {
+        "id": "propriétaire|ADJ",
+        "sourceRows": [
+          10185
+        ]
+      },
+      {
+        "id": "propriété|NOM",
+        "sourceRows": [
+          10187
+        ]
+      },
+      {
+        "id": "protestant|NOM",
+        "sourceRows": [
+          10210
+        ]
+      },
+      {
+        "id": "provenir|VER",
+        "sourceRows": [
+          10225
+        ]
+      },
+      {
+        "id": "provincial|NOM",
+        "sourceRows": [
+          10231
+        ]
+      },
+      {
+        "id": "provision|NOM",
+        "sourceRows": [
+          10233
+        ]
+      },
+      {
+        "id": "provoquer|VER",
+        "sourceRows": [
+          10241
+        ]
+      },
+      {
+        "id": "prudent|ADJ",
+        "sourceRows": [
+          10246
+        ]
+      },
+      {
+        "id": "précipiter|VER",
+        "sourceRows": [
+          10268
+        ]
+      },
+      {
+        "id": "préciser|VER",
+        "sourceRows": [
+          10270
+        ]
+      },
+      {
+        "id": "précisément|ADV",
+        "sourceRows": [
+          10272
+        ]
+      },
+      {
+        "id": "précédent|ADJ",
+        "sourceRows": [
+          10280
+        ]
+      },
+      {
+        "id": "préfecture|NOM",
+        "sourceRows": [
+          10296
+        ]
+      },
+      {
+        "id": "préférence|NOM",
+        "sourceRows": [
+          10301
+        ]
+      },
+      {
+        "id": "préhistorique|ADJ",
+        "sourceRows": [
+          10306
+        ]
+      },
+      {
+        "id": "présence|NOM",
+        "sourceRows": [
+          10328
+        ]
+      },
+      {
+        "id": "présent|NOM",
+        "sourceRows": [
+          10330
+        ]
+      },
+      {
+        "id": "présentation|NOM",
+        "sourceRows": [
+          10332
+        ]
+      },
+      {
+        "id": "présidence|NOM",
+        "sourceRows": [
+          10339
+        ]
+      },
+      {
+        "id": "présider|VER",
+        "sourceRows": [
+          10343
+        ]
+      },
+      {
+        "id": "prétendre|VER",
+        "sourceRows": [
+          10348
+        ]
+      },
+      {
+        "id": "prévenir|VER",
+        "sourceRows": [
+          10357
+        ]
+      },
+      {
+        "id": "prévision|NOM",
+        "sourceRows": [
+          10362
+        ]
+      },
+      {
+        "id": "prêt|NOM",
+        "sourceRows": [
+          10367
+        ]
+      },
+      {
+        "id": "prêtre|NOM",
+        "sourceRows": [
+          10371
+        ]
+      },
+      {
+        "id": "psychologique|ADJ",
+        "sourceRows": [
+          10386
+        ]
+      },
+      {
+        "id": "psychologue|NOM",
+        "sourceRows": [
+          10388
+        ]
+      },
+      {
+        "id": "public|ADJ",
+        "sourceRows": [
+          10398
+        ]
+      },
+      {
+        "id": "public|NOM",
+        "sourceRows": [
+          10399
+        ]
+      },
+      {
+        "id": "publication|NOM",
+        "sourceRows": [
+          10400
+        ]
+      },
+      {
+        "id": "publicitaire|ADJ",
+        "sourceRows": [
+          10401
+        ]
+      },
+      {
+        "id": "puisque|KON",
+        "sourceRows": [
+          10415
+        ]
+      },
+      {
+        "id": "puissance|NOM",
+        "sourceRows": [
+          10417
+        ]
+      },
+      {
+        "id": "puissant|ADJ",
+        "sourceRows": [
+          10419
+        ]
+      },
+      {
+        "id": "punition|NOM",
+        "sourceRows": [
+          10430
+        ]
+      },
+      {
+        "id": "pureté|NOM",
+        "sourceRows": [
+          10435
+        ]
+      },
+      {
+        "id": "pâle|ADJ",
+        "sourceRows": [
+          10448
+        ]
+      },
+      {
+        "id": "pénible|ADJ",
+        "sourceRows": [
+          10477
+        ]
+      },
+      {
+        "id": "pénétrer|VER",
+        "sourceRows": [
+          10487
+        ]
+      },
+      {
+        "id": "périple|NOM",
+        "sourceRows": [
+          10501
+        ]
+      },
+      {
+        "id": "pêcher|VER",
+        "sourceRows": [
+          10519
+        ]
+      },
+      {
+        "id": "qualifier|VER",
+        "sourceRows": [
+          10532
+        ]
+      },
+      {
+        "id": "quant|PRP",
+        "sourceRows": [
+          10537
+        ]
+      },
+      {
+        "id": "quasiment|ADV",
+        "sourceRows": [
+          10548
+        ]
+      },
+      {
+        "id": "que|ADV",
+        "sourceRows": [
+          10552
+        ]
+      },
+      {
+        "id": "quelques-uns|PRO",
+        "sourceRows": [
+          10560
+        ]
+      },
+      {
+        "id": "quinzaine|NOM",
+        "sourceRows": [
+          10578
+        ]
+      },
+      {
+        "id": "quotidien|NOM",
+        "sourceRows": [
+          10588
+        ]
+      },
+      {
+        "id": "quotidiennement|ADV",
+        "sourceRows": [
+          10589
+        ]
+      },
+      {
+        "id": "quête|NOM",
+        "sourceRows": [
+          10591
+        ]
+      },
+      {
+        "id": "rage|NOM",
+        "sourceRows": [
+          10641
+        ]
+      },
+      {
+        "id": "raisonnable|ADJ",
+        "sourceRows": [
+          10656
+        ]
+      },
+      {
+        "id": "rallumer|VER",
+        "sourceRows": [
+          10665
+        ]
+      },
+      {
+        "id": "rapport|NOM",
+        "sourceRows": [
+          10707
+        ]
+      },
+      {
+        "id": "rapporter|VER",
+        "sourceRows": [
+          10708
+        ]
+      },
+      {
+        "id": "rarement|ADV",
+        "sourceRows": [
+          10714
+        ]
+      },
+      {
+        "id": "rassembler|VER",
+        "sourceRows": [
+          10722
+        ]
+      },
+      {
+        "id": "rater|VER",
+        "sourceRows": [
+          10728
+        ]
+      },
+      {
+        "id": "rattacher|VER",
+        "sourceRows": [
+          10738
+        ]
+      },
+      {
+        "id": "rayon|NOM",
+        "sourceRows": [
+          10758
+        ]
+      },
+      {
+        "id": "rebelle|ADJ",
+        "sourceRows": [
+          10763
+        ]
+      },
+      {
+        "id": "recette|NOM",
+        "sourceRows": [
+          10779
+        ]
+      },
+      {
+        "id": "recommander|VER",
+        "sourceRows": [
+          10791
+        ]
+      },
+      {
+        "id": "reconduire|VER",
+        "sourceRows": [
+          10798
+        ]
+      },
+      {
+        "id": "reconnaissance|NOM",
+        "sourceRows": [
+          10800
+        ]
+      },
+      {
+        "id": "record|NOM",
+        "sourceRows": [
+          10810
+        ]
+      },
+      {
+        "id": "recours|NOM",
+        "sourceRows": [
+          10816
+        ]
+      },
+      {
+        "id": "recueil|NOM",
+        "sourceRows": [
+          10826
+        ]
+      },
+      {
+        "id": "reculer|VER",
+        "sourceRows": [
+          10830
+        ]
+      },
+      {
+        "id": "redescendre|VER",
+        "sourceRows": [
+          10834
+        ]
+      },
+      {
+        "id": "redevenir|VER",
+        "sourceRows": [
+          10838
+        ]
+      },
+      {
+        "id": "redonner|VER",
+        "sourceRows": [
+          10844
+        ]
+      },
+      {
+        "id": "refaire|VER",
+        "sourceRows": [
+          10853
+        ]
+      },
+      {
+        "id": "refermer|VER",
+        "sourceRows": [
+          10854
+        ]
+      },
+      {
+        "id": "refuge|NOM",
+        "sourceRows": [
+          10867
+        ]
+      },
+      {
+        "id": "regagner|VER",
+        "sourceRows": [
+          10870
+        ]
+      },
+      {
+        "id": "regard|NOM",
+        "sourceRows": [
+          10871
+        ]
+      },
+      {
+        "id": "reggae|NOM",
+        "sourceRows": [
+          10874
+        ]
+      },
+      {
+        "id": "regret|NOM",
+        "sourceRows": [
+          10877
+        ]
+      },
+      {
+        "id": "regrouper|VER",
+        "sourceRows": [
+          10881
+        ]
+      },
+      {
+        "id": "rejeter|VER",
+        "sourceRows": [
+          10889
+        ]
+      },
+      {
+        "id": "rejoindre|VER",
+        "sourceRows": [
+          10890
+        ]
+      },
+      {
+        "id": "relever|VER",
+        "sourceRows": [
+          10905
+        ]
+      },
+      {
+        "id": "relier|VER",
+        "sourceRows": [
+          10909
+        ]
+      },
+      {
+        "id": "religieux|ADJ",
+        "sourceRows": [
+          10911
+        ]
+      },
+      {
+        "id": "religieux|NOM",
+        "sourceRows": [
+          10912
+        ]
+      },
+      {
+        "id": "relique|NOM",
+        "sourceRows": [
+          10914
+        ]
+      },
+      {
+        "id": "remarier|VER",
+        "sourceRows": [
+          10926
+        ]
+      },
+      {
+        "id": "remarque|NOM",
+        "sourceRows": [
+          10929
+        ]
+      },
+      {
+        "id": "remettre|VER",
+        "sourceRows": [
+          10936
+        ]
+      },
+      {
+        "id": "remuer|VER",
+        "sourceRows": [
+          10954
+        ]
+      },
+      {
+        "id": "renard|NOM",
+        "sourceRows": [
+          10959
+        ]
+      },
+      {
+        "id": "renoncer|VER",
+        "sourceRows": [
+          10983
+        ]
+      },
+      {
+        "id": "renouveler|VER",
+        "sourceRows": [
+          10987
+        ]
+      },
+      {
+        "id": "renseignement|NOM",
+        "sourceRows": [
+          10989
+        ]
+      },
+      {
+        "id": "rentraire|VER",
+        "sourceRows": [
+          10994
+        ]
+      },
+      {
+        "id": "rentrée|NOM",
+        "sourceRows": [
+          10997
+        ]
+      },
+      {
+        "id": "renverser|VER",
+        "sourceRows": [
+          11001
+        ]
+      },
+      {
+        "id": "renvoyer|VER",
+        "sourceRows": [
+          11004
+        ]
+      },
+      {
+        "id": "repasser|VER",
+        "sourceRows": [
+          11012
+        ]
+      },
+      {
+        "id": "repenser|VER",
+        "sourceRows": [
+          11016
+        ]
+      },
+      {
+        "id": "replier|VER",
+        "sourceRows": [
+          11021
+        ]
+      },
+      {
+        "id": "reportage|NOM",
+        "sourceRows": [
+          11023
+        ]
+      },
+      {
+        "id": "repos|NOM",
+        "sourceRows": [
+          11026
+        ]
+      },
+      {
+        "id": "repousser|VER",
+        "sourceRows": [
+          11029
+        ]
+      },
+      {
+        "id": "reprise|NOM",
+        "sourceRows": [
+          11032
+        ]
+      },
+      {
+        "id": "reproche|NOM",
+        "sourceRows": [
+          11033
+        ]
+      },
+      {
+        "id": "respect|NOM",
+        "sourceRows": [
+          11053
+        ]
+      },
+      {
+        "id": "respectueux|ADJ",
+        "sourceRows": [
+          11058
+        ]
+      },
+      {
+        "id": "respiration|NOM",
+        "sourceRows": [
+          11059
+        ]
+      },
+      {
+        "id": "respirer|VER",
+        "sourceRows": [
+          11061
+        ]
+      },
+      {
+        "id": "ressentir|VER",
+        "sourceRows": [
+          11071
+        ]
+      },
+      {
+        "id": "ressort|NOM",
+        "sourceRows": [
+          11073
+        ]
+      },
+      {
+        "id": "ressortir|VER",
+        "sourceRows": [
+          11074
+        ]
+      },
+      {
+        "id": "ressource|NOM",
+        "sourceRows": [
+          11075
+        ]
+      },
+      {
+        "id": "restauration|NOM",
+        "sourceRows": [
+          11082
+        ]
+      },
+      {
+        "id": "retomber|VER",
+        "sourceRows": [
+          11103
+        ]
+      },
+      {
+        "id": "retracer|VER",
+        "sourceRows": [
+          11109
+        ]
+      },
+      {
+        "id": "retraiter|VER",
+        "sourceRows": [
+          11115
+        ]
+      },
+      {
+        "id": "retraité|NOM",
+        "sourceRows": [
+          11116
+        ]
+      },
+      {
+        "id": "revanche|NOM",
+        "sourceRows": [
+          11124
+        ]
+      },
+      {
+        "id": "revendiquer|VER",
+        "sourceRows": [
+          11128
+        ]
+      },
+      {
+        "id": "revenu|NOM",
+        "sourceRows": [
+          11132
+        ]
+      },
+      {
+        "id": "revivre|VER",
+        "sourceRows": [
+          11140
+        ]
+      },
+      {
+        "id": "revue|NOM",
+        "sourceRows": [
+          11143
+        ]
+      },
+      {
+        "id": "rez-de-chaussée|NOM",
+        "sourceRows": [
+          11146
+        ]
+      },
+      {
+        "id": "rhume|NOM",
+        "sourceRows": [
+          11156
+        ]
+      },
+      {
+        "id": "riche|NOM",
+        "sourceRows": [
+          11163
+        ]
+      },
+      {
+        "id": "rideau|NOM",
+        "sourceRows": [
+          11168
+        ]
+      },
+      {
+        "id": "risque|NOM",
+        "sourceRows": [
+          11190
+        ]
+      },
+      {
+        "id": "risquer|VER",
+        "sourceRows": [
+          11191
+        ]
+      },
+      {
+        "id": "robot|NOM",
+        "sourceRows": [
+          11209
+        ]
+      },
+      {
+        "id": "robotique|NOM",
+        "sourceRows": [
+          11210
+        ]
+      },
+      {
+        "id": "roche|NOM",
+        "sourceRows": [
+          11217
+        ]
+      },
+      {
+        "id": "rocher|NOM",
+        "sourceRows": [
+          11219
+        ]
+      },
+      {
+        "id": "roman|ADJ",
+        "sourceRows": [
+          11227
+        ]
+      },
+      {
+        "id": "romancier|NOM",
+        "sourceRows": [
+          11233
+        ]
+      },
+      {
+        "id": "rompre|VER",
+        "sourceRows": [
+          11239
+        ]
+      },
+      {
+        "id": "rond|NOM",
+        "sourceRows": [
+          11242
+        ]
+      },
+      {
+        "id": "ronde|NOM",
+        "sourceRows": [
+          11245
+        ]
+      },
+      {
+        "id": "rose|NOM",
+        "sourceRows": [
+          11257
+        ]
+      },
+      {
+        "id": "rose|ADJ",
+        "sourceRows": [
+          11258
+        ]
+      },
+      {
+        "id": "rougir|VER",
+        "sourceRows": [
+          11274
+        ]
+      },
+      {
+        "id": "routier|ADJ",
+        "sourceRows": [
+          11290
+        ]
+      },
+      {
+        "id": "roux|ADJ",
+        "sourceRows": [
+          11294
+        ]
+      },
+      {
+        "id": "ruban|NOM",
+        "sourceRows": [
+          11300
+        ]
+      },
+      {
+        "id": "ruine|NOM",
+        "sourceRows": [
+          11313
+        ]
+      },
+      {
+        "id": "ruisseau|NOM",
+        "sourceRows": [
+          11316
+        ]
+      },
+      {
+        "id": "rythme|NOM",
+        "sourceRows": [
+          11329
+        ]
+      },
+      {
+        "id": "règle|NOM",
+        "sourceRows": [
+          11337
+        ]
+      },
+      {
+        "id": "règne|NOM",
+        "sourceRows": [
+          11339
+        ]
+      },
+      {
+        "id": "réaction|NOM",
+        "sourceRows": [
+          11344
+        ]
+      },
+      {
+        "id": "réagir|VER",
+        "sourceRows": [
+          11351
+        ]
+      },
+      {
+        "id": "réalisation|NOM",
+        "sourceRows": [
+          11355
+        ]
+      },
+      {
+        "id": "réaliste|ADJ",
+        "sourceRows": [
+          11358
+        ]
+      },
+      {
+        "id": "réapparaître|VER",
+        "sourceRows": [
+          11362
+        ]
+      },
+      {
+        "id": "récent|ADJ",
+        "sourceRows": [
+          11370
+        ]
+      },
+      {
+        "id": "récit|NOM",
+        "sourceRows": [
+          11382
+        ]
+      },
+      {
+        "id": "réclamer|VER",
+        "sourceRows": [
+          11386
+        ]
+      },
+      {
+        "id": "récompense|NOM",
+        "sourceRows": [
+          11391
+        ]
+      },
+      {
+        "id": "récompenser|VER",
+        "sourceRows": [
+          11392
+        ]
+      },
+      {
+        "id": "récupérer|VER",
+        "sourceRows": [
+          11398
+        ]
+      },
+      {
+        "id": "rédaction|NOM",
+        "sourceRows": [
+          11402
+        ]
+      },
+      {
+        "id": "réduire|VER",
+        "sourceRows": [
+          11408
+        ]
+      },
+      {
+        "id": "réel|ADJ",
+        "sourceRows": [
+          11411
+        ]
+      },
+      {
+        "id": "réellement|ADV",
+        "sourceRows": [
+          11412
+        ]
+      },
+      {
+        "id": "réflexion|NOM",
+        "sourceRows": [
+          11417
+        ]
+      },
+      {
+        "id": "référence|NOM",
+        "sourceRows": [
+          11424
+        ]
+      },
+      {
+        "id": "régaler|VER",
+        "sourceRows": [
+          11431
+        ]
+      },
+      {
+        "id": "régime|NOM",
+        "sourceRows": [
+          11435
+        ]
+      },
+      {
+        "id": "régional|ADJ",
+        "sourceRows": [
+          11438
+        ]
+      },
+      {
+        "id": "régulier|ADJ",
+        "sourceRows": [
+          11455
+        ]
+      },
+      {
+        "id": "régulièrement|ADV",
+        "sourceRows": [
+          11456
+        ]
+      },
+      {
+        "id": "réjouir|VER",
+        "sourceRows": [
+          11470
+        ]
+      },
+      {
+        "id": "répandre|VER",
+        "sourceRows": [
+          11483
+        ]
+      },
+      {
+        "id": "réparation|NOM",
+        "sourceRows": [
+          11486
+        ]
+      },
+      {
+        "id": "réparer|VER",
+        "sourceRows": [
+          11487
+        ]
+      },
+      {
+        "id": "répertoire|NOM",
+        "sourceRows": [
+          11492
+        ]
+      },
+      {
+        "id": "républicain|ADJ",
+        "sourceRows": [
+          11507
+        ]
+      },
+      {
+        "id": "réputation|NOM",
+        "sourceRows": [
+          11511
+        ]
+      },
+      {
+        "id": "répétition|NOM",
+        "sourceRows": [
+          11516
+        ]
+      },
+      {
+        "id": "réservation|NOM",
+        "sourceRows": [
+          11519
+        ]
+      },
+      {
+        "id": "résider|VER",
+        "sourceRows": [
+          11528
+        ]
+      },
+      {
+        "id": "résidu|NOM",
+        "sourceRows": [
+          11529
+        ]
+      },
+      {
+        "id": "résistance|NOM",
+        "sourceRows": [
+          11535
+        ]
+      },
+      {
+        "id": "résister|VER",
+        "sourceRows": [
+          11538
+        ]
+      },
+      {
+        "id": "résultat|NOM",
+        "sourceRows": [
+          11545
+        ]
+      },
+      {
+        "id": "réussite|NOM",
+        "sourceRows": [
+          11572
+        ]
+      },
+      {
+        "id": "révolution|NOM",
+        "sourceRows": [
+          11585
+        ]
+      },
+      {
+        "id": "révolutionnaire|ADJ",
+        "sourceRows": [
+          11587
+        ]
+      },
+      {
+        "id": "révolutionner|VER",
+        "sourceRows": [
+          11588
+        ]
+      },
+      {
+        "id": "révélation|NOM",
+        "sourceRows": [
+          11591
+        ]
+      },
+      {
+        "id": "révéler|VER",
+        "sourceRows": [
+          11592
+        ]
+      },
+      {
+        "id": "rêverie|NOM",
+        "sourceRows": [
+          11603
+        ]
+      },
+      {
+        "id": "sabot|NOM",
+        "sourceRows": [
+          11616
+        ]
+      },
+      {
+        "id": "sacré|ADJ",
+        "sourceRows": [
+          11633
+        ]
+      },
+      {
+        "id": "saint|ADJ",
+        "sourceRows": [
+          11648
+        ]
+      },
+      {
+        "id": "saisir|VER",
+        "sourceRows": [
+          11651
+        ]
+      },
+      {
+        "id": "salaire|NOM",
+        "sourceRows": [
+          11658
+        ]
+      },
+      {
+        "id": "salarié|NOM",
+        "sourceRows": [
+          11663
+        ]
+      },
+      {
+        "id": "salir|VER",
+        "sourceRows": [
+          11669
+        ]
+      },
+      {
+        "id": "sandwich|NOM",
+        "sourceRows": [
+          11685
+        ]
+      },
+      {
+        "id": "satisfaction|NOM",
+        "sourceRows": [
+          11719
+        ]
+      },
+      {
+        "id": "satisfaire|VER",
+        "sourceRows": [
+          11720
+        ]
+      },
+      {
+        "id": "saucisse|NOM",
+        "sourceRows": [
+          11726
+        ]
+      },
+      {
+        "id": "savoir|NOM",
+        "sourceRows": [
+          11754
+        ]
+      },
+      {
+        "id": "savoureux|ADJ",
+        "sourceRows": [
+          11761
+        ]
+      },
+      {
+        "id": "science-fiction|NOM",
+        "sourceRows": [
+          11782
+        ]
+      },
+      {
+        "id": "sculpteur|NOM",
+        "sourceRows": [
+          11802
+        ]
+      },
+      {
+        "id": "seau|NOM",
+        "sourceRows": [
+          11810
+        ]
+      },
+      {
+        "id": "second|NOM",
+        "sourceRows": [
+          11812
+        ]
+      },
+      {
+        "id": "secouer|VER",
+        "sourceRows": [
+          11815
+        ]
+      },
+      {
+        "id": "secours|NOM",
+        "sourceRows": [
+          11817
+        ]
+      },
+      {
+        "id": "secret|ADJ",
+        "sourceRows": [
+          11820
+        ]
+      },
+      {
+        "id": "secrètement|ADV",
+        "sourceRows": [
+          11821
+        ]
+      },
+      {
+        "id": "section|NOM",
+        "sourceRows": [
+          11826
+        ]
+      },
+      {
+        "id": "seigneur|NOM",
+        "sourceRows": [
+          11827
+        ]
+      },
+      {
+        "id": "sein|NOM",
+        "sourceRows": [
+          11830
+        ]
+      },
+      {
+        "id": "sel|NOM",
+        "sourceRows": [
+          11832
+        ]
+      },
+      {
+        "id": "semblable|ADJ",
+        "sourceRows": [
+          11839
+        ]
+      },
+      {
+        "id": "semblant|NOM",
+        "sourceRows": [
+          11840
+        ]
+      },
+      {
+        "id": "sensation|NOM",
+        "sourceRows": [
+          11851
+        ]
+      },
+      {
+        "id": "sentier|NOM",
+        "sourceRows": [
+          11866
+        ]
+      },
+      {
+        "id": "serrer|VER",
+        "sourceRows": [
+          11887
+        ]
+      },
+      {
+        "id": "serrure|NOM",
+        "sourceRows": [
+          11888
+        ]
+      },
+      {
+        "id": "servante|NOM",
+        "sourceRows": [
+          11891
+        ]
+      },
+      {
+        "id": "serviette|NOM",
+        "sourceRows": [
+          11895
+        ]
+      },
+      {
+        "id": "serviteur|NOM",
+        "sourceRows": [
+          11897
+        ]
+      },
+      {
+        "id": "seuil|NOM",
+        "sourceRows": [
+          11899
+        ]
+      },
+      {
+        "id": "sexe|NOM",
+        "sourceRows": [
+          11908
+        ]
+      },
+      {
+        "id": "sexuel|ADJ",
+        "sourceRows": [
+          11912
+        ]
+      },
+      {
+        "id": "short|NOM",
+        "sourceRows": [
+          11920
+        ]
+      },
+      {
+        "id": "sien|PRO",
+        "sourceRows": [
+          11930
+        ]
+      },
+      {
+        "id": "siffler|VER",
+        "sourceRows": [
+          11935
+        ]
+      },
+      {
+        "id": "signaler|VER",
+        "sourceRows": [
+          11940
+        ]
+      },
+      {
+        "id": "signer|VER",
+        "sourceRows": [
+          11946
+        ]
+      },
+      {
+        "id": "signifier|VER",
+        "sourceRows": [
+          11949
+        ]
+      },
+      {
+        "id": "silencieusement|ADV",
+        "sourceRows": [
+          11953
+        ]
+      },
+      {
+        "id": "silencieux|ADJ",
+        "sourceRows": [
+          11955
+        ]
+      },
+      {
+        "id": "silhouette|NOM",
+        "sourceRows": [
+          11956
+        ]
+      },
+      {
+        "id": "simplicité|NOM",
+        "sourceRows": [
+          11967
+        ]
+      },
+      {
+        "id": "sire|NOM",
+        "sourceRows": [
+          11990
+        ]
+      },
+      {
+        "id": "sirène|NOM",
+        "sourceRows": [
+          11992
+        ]
+      },
+      {
+        "id": "siège|NOM",
+        "sourceRows": [
+          11999
+        ]
+      },
+      {
+        "id": "smoking|NOM",
+        "sourceRows": [
+          12005
+        ]
+      },
+      {
+        "id": "soi|PRO",
+        "sourceRows": [
+          12029
+        ]
+      },
+      {
+        "id": "soigner|VER",
+        "sourceRows": [
+          12033
+        ]
+      },
+      {
+        "id": "soigneusement|ADV",
+        "sourceRows": [
+          12034
+        ]
+      },
+      {
+        "id": "soigné|ADJ",
+        "sourceRows": [
+          12035
+        ]
+      },
+      {
+        "id": "soin|NOM",
+        "sourceRows": [
+          12036
+        ]
+      },
+      {
+        "id": "sol|NOM",
+        "sourceRows": [
+          12043
+        ]
+      },
+      {
+        "id": "solennel|ADJ",
+        "sourceRows": [
+          12050
+        ]
+      },
+      {
+        "id": "solide|ADJ",
+        "sourceRows": [
+          12055
+        ]
+      },
+      {
+        "id": "solitaire|ADJ",
+        "sourceRows": [
+          12060
+        ]
+      },
+      {
+        "id": "solo|NOM",
+        "sourceRows": [
+          12063
+        ]
+      },
+      {
+        "id": "sombre|ADJ",
+        "sourceRows": [
+          12068
+        ]
+      },
+      {
+        "id": "somme|NOM",
+        "sourceRows": [
+          12071
+        ]
+      },
+      {
+        "id": "songe|NOM",
+        "sourceRows": [
+          12086
+        ]
+      },
+      {
+        "id": "songer|VER",
+        "sourceRows": [
+          12087
+        ]
+      },
+      {
+        "id": "sortant|NOM",
+        "sourceRows": [
+          12103
+        ]
+      },
+      {
+        "id": "sorte|NOM",
+        "sourceRows": [
+          12104
+        ]
+      },
+      {
+        "id": "sou|NOM",
+        "sourceRows": [
+          12112
+        ]
+      },
+      {
+        "id": "souffle|NOM",
+        "sourceRows": [
+          12126
+        ]
+      },
+      {
+        "id": "souffrir|VER",
+        "sourceRows": [
+          12131
+        ]
+      },
+      {
+        "id": "souhait|NOM",
+        "sourceRows": [
+          12133
+        ]
+      },
+      {
+        "id": "soulager|VER",
+        "sourceRows": [
+          12140
+        ]
+      },
+      {
+        "id": "soulever|VER",
+        "sourceRows": [
+          12141
+        ]
+      },
+      {
+        "id": "souper|NOM",
+        "sourceRows": [
+          12148
+        ]
+      },
+      {
+        "id": "souple|ADJ",
+        "sourceRows": [
+          12151
+        ]
+      },
+      {
+        "id": "source|NOM",
+        "sourceRows": [
+          12156
+        ]
+      },
+      {
+        "id": "sourcil|NOM",
+        "sourceRows": [
+          12158
+        ]
+      },
+      {
+        "id": "sourd|ADJ",
+        "sourceRows": [
+          12161
+        ]
+      },
+      {
+        "id": "souris|NOM",
+        "sourceRows": [
+          12165
+        ]
+      },
+      {
+        "id": "spacieux|ADJ",
+        "sourceRows": [
+          12200
+        ]
+      },
+      {
+        "id": "spatial|ADJ",
+        "sourceRows": [
+          12202
+        ]
+      },
+      {
+        "id": "spécialiste|NOM",
+        "sourceRows": [
+          12236
+        ]
+      },
+      {
+        "id": "square|NOM",
+        "sourceRows": [
+          12248
+        ]
+      },
+      {
+        "id": "stabilité|NOM",
+        "sourceRows": [
+          12254
+        ]
+      },
+      {
+        "id": "stade|NOM",
+        "sourceRows": [
+          12256
+        ]
+      },
+      {
+        "id": "stand|NOM",
+        "sourceRows": [
+          12263
+        ]
+      },
+      {
+        "id": "standard|NOM",
+        "sourceRows": [
+          12264
+        ]
+      },
+      {
+        "id": "star|NOM",
+        "sourceRows": [
+          12269
+        ]
+      },
+      {
+        "id": "statue|NOM",
+        "sourceRows": [
+          12276
+        ]
+      },
+      {
+        "id": "stress|NOM",
+        "sourceRows": [
+          12307
+        ]
+      },
+      {
+        "id": "strict|ADJ",
+        "sourceRows": [
+          12310
+        ]
+      },
+      {
+        "id": "structure|NOM",
+        "sourceRows": [
+          12314
+        ]
+      },
+      {
+        "id": "stupéfaction|NOM",
+        "sourceRows": [
+          12322
+        ]
+      },
+      {
+        "id": "subventionner|VER",
+        "sourceRows": [
+          12363
+        ]
+      },
+      {
+        "id": "successif|ADJ",
+        "sourceRows": [
+          12367
+        ]
+      },
+      {
+        "id": "sucrer|VER",
+        "sourceRows": [
+          12379
+        ]
+      },
+      {
+        "id": "sud|ADJ",
+        "sourceRows": [
+          12382
+        ]
+      },
+      {
+        "id": "suffisant|ADJ",
+        "sourceRows": [
+          12393
+        ]
+      },
+      {
+        "id": "sujet|ADJ",
+        "sourceRows": [
+          12409
+        ]
+      },
+      {
+        "id": "supplier|VER",
+        "sourceRows": [
+          12431
+        ]
+      },
+      {
+        "id": "supplémentaire|ADJ",
+        "sourceRows": [
+          12436
+        ]
+      },
+      {
+        "id": "support|NOM",
+        "sourceRows": [
+          12437
+        ]
+      },
+      {
+        "id": "supporter|VER",
+        "sourceRows": [
+          12440
+        ]
+      },
+      {
+        "id": "supposer|VER",
+        "sourceRows": [
+          12441
+        ]
+      },
+      {
+        "id": "supprimer|VER",
+        "sourceRows": [
+          12444
+        ]
+      },
+      {
+        "id": "supérieur|NOM",
+        "sourceRows": [
+          12449
+        ]
+      },
+      {
+        "id": "surface|NOM",
+        "sourceRows": [
+          12463
+        ]
+      },
+      {
+        "id": "surgeler|VER",
+        "sourceRows": [
+          12465
+        ]
+      },
+      {
+        "id": "surmonter|VER",
+        "sourceRows": [
+          12473
+        ]
+      },
+      {
+        "id": "sursauter|VER",
+        "sourceRows": [
+          12489
+        ]
+      },
+      {
+        "id": "survivre|VER",
+        "sourceRows": [
+          12503
+        ]
+      },
+      {
+        "id": "symbolique|ADJ",
+        "sourceRows": [
+          12527
+        ]
+      },
+      {
+        "id": "synthétique|ADJ",
+        "sourceRows": [
+          12559
+        ]
+      },
+      {
+        "id": "système|NOM",
+        "sourceRows": [
+          12562
+        ]
+      },
+      {
+        "id": "sèche|ADJ",
+        "sourceRows": [
+          12566
+        ]
+      },
+      {
+        "id": "séance|NOM",
+        "sourceRows": [
+          12569
+        ]
+      },
+      {
+        "id": "séduire|VER",
+        "sourceRows": [
+          12586
+        ]
+      },
+      {
+        "id": "sélectif|ADJ",
+        "sourceRows": [
+          12592
+        ]
+      },
+      {
+        "id": "sélectionner|VER",
+        "sourceRows": [
+          12594
+        ]
+      },
+      {
+        "id": "sénéchal|NOM",
+        "sourceRows": [
+          12601
+        ]
+      },
+      {
+        "id": "série|NOM",
+        "sourceRows": [
+          12613
+        ]
+      },
+      {
+        "id": "sérieusement|ADV",
+        "sourceRows": [
+          12615
+        ]
+      },
+      {
+        "id": "sérieux|NOM",
+        "sourceRows": [
+          12617
+        ]
+      },
+      {
+        "id": "tabac|NOM",
+        "sourceRows": [
+          12627
+        ]
+      },
+      {
+        "id": "tailleur|NOM",
+        "sourceRows": [
+          12653
+        ]
+      },
+      {
+        "id": "talent|NOM",
+        "sourceRows": [
+          12656
+        ]
+      },
+      {
+        "id": "talon|NOM",
+        "sourceRows": [
+          12659
+        ]
+      },
+      {
+        "id": "tambour|NOM",
+        "sourceRows": [
+          12663
+        ]
+      },
+      {
+        "id": "tambourin|NOM",
+        "sourceRows": [
+          12664
+        ]
+      },
+      {
+        "id": "tandis|KON",
+        "sourceRows": [
+          12668
+        ]
+      },
+      {
+        "id": "tantôt|ADV",
+        "sourceRows": [
+          12674
+        ]
+      },
+      {
+        "id": "taper|VER",
+        "sourceRows": [
+          12678
+        ]
+      },
+      {
+        "id": "tarder|VER",
+        "sourceRows": [
+          12685
+        ]
+      },
+      {
+        "id": "tas|NOM",
+        "sourceRows": [
+          12696
+        ]
+      },
+      {
+        "id": "tasse|NOM",
+        "sourceRows": [
+          12697
+        ]
+      },
+      {
+        "id": "taureau|NOM",
+        "sourceRows": [
+          12701
+        ]
+      },
+      {
+        "id": "technicien|NOM",
+        "sourceRows": [
+          12714
+        ]
+      },
+      {
+        "id": "technique|ADJ",
+        "sourceRows": [
+          12716
+        ]
+      },
+      {
+        "id": "technologique|ADJ",
+        "sourceRows": [
+          12722
+        ]
+      },
+      {
+        "id": "tee-shirt|NOM",
+        "sourceRows": [
+          12724
+        ]
+      },
+      {
+        "id": "temple|NOM",
+        "sourceRows": [
+          12734
+        ]
+      },
+      {
+        "id": "tempête|NOM",
+        "sourceRows": [
+          12742
+        ]
+      },
+      {
+        "id": "tendance|NOM",
+        "sourceRows": [
+          12746
+        ]
+      },
+      {
+        "id": "tendre|ADJ",
+        "sourceRows": [
+          12747
+        ]
+      },
+      {
+        "id": "tendre|VER",
+        "sourceRows": [
+          12748
+        ]
+      },
+      {
+        "id": "tendrement|ADV",
+        "sourceRows": [
+          12749
+        ]
+      },
+      {
+        "id": "tenter|VER",
+        "sourceRows": [
+          12763
+        ]
+      },
+      {
+        "id": "tenue|NOM",
+        "sourceRows": [
+          12766
+        ]
+      },
+      {
+        "id": "terriblement|ADV",
+        "sourceRows": [
+          12783
+        ]
+      },
+      {
+        "id": "test|NOM",
+        "sourceRows": [
+          12796
+        ]
+      },
+      {
+        "id": "tester|VER",
+        "sourceRows": [
+          12797
+        ]
+      },
+      {
+        "id": "thème|NOM",
+        "sourceRows": [
+          12810
+        ]
+      },
+      {
+        "id": "ticket|NOM",
+        "sourceRows": [
+          12833
+        ]
+      },
+      {
+        "id": "tiers|NOM",
+        "sourceRows": [
+          12836
+        ]
+      },
+      {
+        "id": "tigre|NOM",
+        "sourceRows": [
+          12838
+        ]
+      },
+      {
+        "id": "tilleul|NOM",
+        "sourceRows": [
+          12839
+        ]
+      },
+      {
+        "id": "tissu|NOM",
+        "sourceRows": [
+          12861
+        ]
+      },
+      {
+        "id": "toile|NOM",
+        "sourceRows": [
+          12876
+        ]
+      },
+      {
+        "id": "tolérance|NOM",
+        "sourceRows": [
+          12881
+        ]
+      },
+      {
+        "id": "tombe|NOM",
+        "sourceRows": [
+          12888
+        ]
+      },
+      {
+        "id": "tombée|NOM",
+        "sourceRows": [
+          12893
+        ]
+      },
+      {
+        "id": "ton|NOM",
+        "sourceRows": [
+          12898
+        ]
+      },
+      {
+        "id": "tonne|NOM",
+        "sourceRows": [
+          12904
+        ]
+      },
+      {
+        "id": "tonneau|NOM",
+        "sourceRows": [
+          12905
+        ]
+      },
+      {
+        "id": "tort|NOM",
+        "sourceRows": [
+          12923
+        ]
+      },
+      {
+        "id": "total|ADJ",
+        "sourceRows": [
+          12930
+        ]
+      },
+      {
+        "id": "totalement|ADV",
+        "sourceRows": [
+          12932
+        ]
+      },
+      {
+        "id": "touche|NOM",
+        "sourceRows": [
+          12938
+        ]
+      },
+      {
+        "id": "toucher|NOM",
+        "sourceRows": [
+          12939
+        ]
+      },
+      {
+        "id": "tourmenter|VER",
+        "sourceRows": [
+          12950
+        ]
+      },
+      {
+        "id": "tournant|NOM",
+        "sourceRows": [
+          12952
+        ]
+      },
+      {
+        "id": "tournoi|NOM",
+        "sourceRows": [
+          12957
+        ]
+      },
+      {
+        "id": "tournée|NOM",
+        "sourceRows": [
+          12960
+        ]
+      },
+      {
+        "id": "tous|NOM",
+        "sourceRows": [
+          12963
+        ]
+      },
+      {
+        "id": "tousser|VER",
+        "sourceRows": [
+          12964
+        ]
+      },
+      {
+        "id": "toute|ADV",
+        "sourceRows": [
+          12969
+        ]
+      },
+      {
+        "id": "toutefois|ADV",
+        "sourceRows": [
+          12971
+        ]
+      },
+      {
+        "id": "trace|NOM",
+        "sourceRows": [
+          12981
+        ]
+      },
+      {
+        "id": "traduire|VER",
+        "sourceRows": [
+          12993
+        ]
+      },
+      {
+        "id": "trafic|NOM",
+        "sourceRows": [
+          12994
+        ]
+      },
+      {
+        "id": "tragique|ADJ",
+        "sourceRows": [
+          12996
+        ]
+      },
+      {
+        "id": "tragédie|NOM",
+        "sourceRows": [
+          12997
+        ]
+      },
+      {
+        "id": "traiter|VER",
+        "sourceRows": [
+          13007
+        ]
+      },
+      {
+        "id": "trajet|NOM",
+        "sourceRows": [
+          13011
+        ]
+      },
+      {
+        "id": "tranche|NOM",
+        "sourceRows": [
+          13019
+        ]
+      },
+      {
+        "id": "transformation|NOM",
+        "sourceRows": [
+          13033
+        ]
+      },
+      {
+        "id": "transmettre|VER",
+        "sourceRows": [
+          13045
+        ]
+      },
+      {
+        "id": "transmission|NOM",
+        "sourceRows": [
+          13047
+        ]
+      },
+      {
+        "id": "transparent|ADJ",
+        "sourceRows": [
+          13051
+        ]
+      },
+      {
+        "id": "transporter|VER",
+        "sourceRows": [
+          13057
+        ]
+      },
+      {
+        "id": "travailleur|ADJ",
+        "sourceRows": [
+          13070
+        ]
+      },
+      {
+        "id": "travers|NOM",
+        "sourceRows": [
+          13072
+        ]
+      },
+      {
+        "id": "traîner|VER",
+        "sourceRows": [
+          13084
+        ]
+      },
+      {
+        "id": "tremblant|ADJ",
+        "sourceRows": [
+          13089
+        ]
+      },
+      {
+        "id": "trembler|VER",
+        "sourceRows": [
+          13092
+        ]
+      },
+      {
+        "id": "trentaine|NOM",
+        "sourceRows": [
+          13097
+        ]
+      },
+      {
+        "id": "tri|NOM",
+        "sourceRows": [
+          13102
+        ]
+      },
+      {
+        "id": "tribunal|NOM",
+        "sourceRows": [
+          13106
+        ]
+      },
+      {
+        "id": "tristement|ADV",
+        "sourceRows": [
+          13130
+        ]
+      },
+      {
+        "id": "tristesse|NOM",
+        "sourceRows": [
+          13131
+        ]
+      },
+      {
+        "id": "trottoir|NOM",
+        "sourceRows": [
+          13162
+        ]
+      },
+      {
+        "id": "trou|NOM",
+        "sourceRows": [
+          13163
+        ]
+      },
+      {
+        "id": "trouble|NOM",
+        "sourceRows": [
+          13166
+        ]
+      },
+      {
+        "id": "troubler|VER",
+        "sourceRows": [
+          13168
+        ]
+      },
+      {
+        "id": "troupe|NOM",
+        "sourceRows": [
+          13170
+        ]
+      },
+      {
+        "id": "trésor|NOM",
+        "sourceRows": [
+          13184
+        ]
+      },
+      {
+        "id": "tube|NOM",
+        "sourceRows": [
+          13192
+        ]
+      },
+      {
+        "id": "tuyau|NOM",
+        "sourceRows": [
+          13220
+        ]
+      },
+      {
+        "id": "typiquement|ADV",
+        "sourceRows": [
+          13225
+        ]
+      },
+      {
+        "id": "tâche|NOM",
+        "sourceRows": [
+          13232
+        ]
+      },
+      {
+        "id": "télécommande|NOM",
+        "sourceRows": [
+          13237
+        ]
+      },
+      {
+        "id": "téléphonique|ADJ",
+        "sourceRows": [
+          13248
+        ]
+      },
+      {
+        "id": "téléspectateur|NOM",
+        "sourceRows": [
+          13251
+        ]
+      },
+      {
+        "id": "témoignage|NOM",
+        "sourceRows": [
+          13256
+        ]
+      },
+      {
+        "id": "témoigner|VER",
+        "sourceRows": [
+          13257
+        ]
+      },
+      {
+        "id": "témoin|NOM",
+        "sourceRows": [
+          13258
+        ]
+      },
+      {
+        "id": "uni|ADJ",
+        "sourceRows": [
+          13290
+        ]
+      },
+      {
+        "id": "uniforme|NOM",
+        "sourceRows": [
+          13294
+        ]
+      },
+      {
+        "id": "unique|ADJ",
+        "sourceRows": [
+          13300
+        ]
+      },
+      {
+        "id": "uniquement|ADV",
+        "sourceRows": [
+          13301
+        ]
+      },
+      {
+        "id": "unir|VER",
+        "sourceRows": [
+          13302
+        ]
+      },
+      {
+        "id": "universel|ADJ",
+        "sourceRows": [
+          13305
+        ]
+      },
+      {
+        "id": "urbain|ADJ",
+        "sourceRows": [
+          13309
+        ]
+      },
+      {
+        "id": "urgence|NOM",
+        "sourceRows": [
+          13313
+        ]
+      },
+      {
+        "id": "usage|NOM",
+        "sourceRows": [
+          13320
+        ]
+      },
+      {
+        "id": "user|VER",
+        "sourceRows": [
+          13324
+        ]
+      },
+      {
+        "id": "utilisation|NOM",
+        "sourceRows": [
+          13338
+        ]
+      },
+      {
+        "id": "vache|NOM",
+        "sourceRows": [
+          13355
+        ]
+      },
+      {
+        "id": "vague|NOM",
+        "sourceRows": [
+          13361
+        ]
+      },
+      {
+        "id": "vague|ADJ",
+        "sourceRows": [
+          13362
+        ]
+      },
+      {
+        "id": "vainqueur|NOM",
+        "sourceRows": [
+          13369
+        ]
+      },
+      {
+        "id": "vaisselle|NOM",
+        "sourceRows": [
+          13371
+        ]
+      },
+      {
+        "id": "valise|NOM",
+        "sourceRows": [
+          13382
+        ]
+      },
+      {
+        "id": "valoir|VER",
+        "sourceRows": [
+          13384
+        ]
+      },
+      {
+        "id": "variable|ADJ",
+        "sourceRows": [
+          13402
+        ]
+      },
+      {
+        "id": "varié|ADJ",
+        "sourceRows": [
+          13407
+        ]
+      },
+      {
+        "id": "variété|NOM",
+        "sourceRows": [
+          13408
+        ]
+      },
+      {
+        "id": "vase|NOM",
+        "sourceRows": [
+          13410
+        ]
+      },
+      {
+        "id": "vaste|ADJ",
+        "sourceRows": [
+          13413
+        ]
+      },
+      {
+        "id": "veau|NOM",
+        "sourceRows": [
+          13415
+        ]
+      },
+      {
+        "id": "veille|NOM",
+        "sourceRows": [
+          13419
+        ]
+      },
+      {
+        "id": "vendeur|ADJ",
+        "sourceRows": [
+          13428
+        ]
+      },
+      {
+        "id": "venger|VER",
+        "sourceRows": [
+          13434
+        ]
+      },
+      {
+        "id": "vente|NOM",
+        "sourceRows": [
+          13438
+        ]
+      },
+      {
+        "id": "ventre|NOM",
+        "sourceRows": [
+          13442
+        ]
+      },
+      {
+        "id": "verbal|ADJ",
+        "sourceRows": [
+          13446
+        ]
+      },
+      {
+        "id": "vert|NOM",
+        "sourceRows": [
+          13481
+        ]
+      },
+      {
+        "id": "victime|NOM",
+        "sourceRows": [
+          13514
+        ]
+      },
+      {
+        "id": "victoire|NOM",
+        "sourceRows": [
+          13515
+        ]
+      },
+      {
+        "id": "vidéo|ADJ",
+        "sourceRows": [
+          13525
+        ]
+      },
+      {
+        "id": "vieillard|NOM",
+        "sourceRows": [
+          13528
+        ]
+      },
+      {
+        "id": "vieillir|VER",
+        "sourceRows": [
+          13531
+        ]
+      },
+      {
+        "id": "vigne|NOM",
+        "sourceRows": [
+          13547
+        ]
+      },
+      {
+        "id": "villa|NOM",
+        "sourceRows": [
+          13554
+        ]
+      },
+      {
+        "id": "vingtaine|NOM",
+        "sourceRows": [
+          13562
+        ]
+      },
+      {
+        "id": "violemment|ADV",
+        "sourceRows": [
+          13565
+        ]
+      },
+      {
+        "id": "violence|NOM",
+        "sourceRows": [
+          13566
+        ]
+      },
+      {
+        "id": "violet|ADJ",
+        "sourceRows": [
+          13569
+        ]
+      },
+      {
+        "id": "vision|NOM",
+        "sourceRows": [
+          13594
+        ]
+      },
+      {
+        "id": "vitesse|NOM",
+        "sourceRows": [
+          13611
+        ]
+      },
+      {
+        "id": "vitre|NOM",
+        "sourceRows": [
+          13615
+        ]
+      },
+      {
+        "id": "vivant|NOM",
+        "sourceRows": [
+          13620
+        ]
+      },
+      {
+        "id": "vivant|ADJ",
+        "sourceRows": [
+          13621
+        ]
+      },
+      {
+        "id": "vivement|ADV",
+        "sourceRows": [
+          13622
+        ]
+      },
+      {
+        "id": "vocal|ADJ",
+        "sourceRows": [
+          13629
+        ]
+      },
+      {
+        "id": "vocation|NOM",
+        "sourceRows": [
+          13630
+        ]
+      },
+      {
+        "id": "voie|NOM",
+        "sourceRows": [
+          13635
+        ]
+      },
+      {
+        "id": "voire|ADV",
+        "sourceRows": [
+          13642
+        ]
+      },
+      {
+        "id": "volcan|NOM",
+        "sourceRows": [
+          13659
+        ]
+      },
+      {
+        "id": "volet|NOM",
+        "sourceRows": [
+          13662
+        ]
+      },
+      {
+        "id": "voleur|ADJ",
+        "sourceRows": [
+          13664
+        ]
+      },
+      {
+        "id": "volontiers|ADV",
+        "sourceRows": [
+          13671
+        ]
+      },
+      {
+        "id": "volonté|NOM",
+        "sourceRows": [
+          13672
+        ]
+      },
+      {
+        "id": "vote|NOM",
+        "sourceRows": [
+          13680
+        ]
+      },
+      {
+        "id": "voter|VER",
+        "sourceRows": [
+          13681
+        ]
+      },
+      {
+        "id": "voyageur|ADJ",
+        "sourceRows": [
+          13692
+        ]
+      },
+      {
+        "id": "vrai|NOM",
+        "sourceRows": [
+          13703
+        ]
+      },
+      {
+        "id": "végétal|ADJ",
+        "sourceRows": [
+          13716
+        ]
+      },
+      {
+        "id": "véritablement|ADV",
+        "sourceRows": [
+          13733
+        ]
+      },
+      {
+        "id": "vôtre|PRO",
+        "sourceRows": [
+          13742
+        ]
+      },
+      {
+        "id": "zéro|NOM",
+        "sourceRows": [
+          13769
+        ]
+      },
+      {
+        "id": "âme|NOM",
+        "sourceRows": [
+          13781
+        ]
+      },
+      {
+        "id": "éblouir|VER",
+        "sourceRows": [
+          13792
+        ]
+      },
+      {
+        "id": "écart|NOM",
+        "sourceRows": [
+          13801
+        ]
+      },
+      {
+        "id": "échapper|VER",
+        "sourceRows": [
+          13809
+        ]
+      },
+      {
+        "id": "échec|NOM",
+        "sourceRows": [
+          13813
+        ]
+      },
+      {
+        "id": "éclair|NOM",
+        "sourceRows": [
+          13824
+        ]
+      },
+      {
+        "id": "éclairer|VER",
+        "sourceRows": [
+          13830
+        ]
+      },
+      {
+        "id": "éclater|VER",
+        "sourceRows": [
+          13835
+        ]
+      },
+      {
+        "id": "écologie|NOM",
+        "sourceRows": [
+          13842
+        ]
+      },
+      {
+        "id": "économiser|VER",
+        "sourceRows": [
+          13850
+        ]
+      },
+      {
+        "id": "écouler|VER",
+        "sourceRows": [
+          13859
+        ]
+      },
+      {
+        "id": "écraser|VER",
+        "sourceRows": [
+          13867
+        ]
+      },
+      {
+        "id": "écrier|VER",
+        "sourceRows": [
+          13870
+        ]
+      },
+      {
+        "id": "écrit|NOM",
+        "sourceRows": [
+          13872
+        ]
+      },
+      {
+        "id": "écriture|NOM",
+        "sourceRows": [
+          13873
+        ]
+      },
+      {
+        "id": "écureuil|NOM",
+        "sourceRows": [
+          13879
+        ]
+      },
+      {
+        "id": "édifier|VER",
+        "sourceRows": [
+          13886
+        ]
+      },
+      {
+        "id": "éditeur|NOM",
+        "sourceRows": [
+          13889
+        ]
+      },
+      {
+        "id": "édition|NOM",
+        "sourceRows": [
+          13890
+        ]
+      },
+      {
+        "id": "éducatif|ADJ",
+        "sourceRows": [
+          13895
+        ]
+      },
+      {
+        "id": "éducation|NOM",
+        "sourceRows": [
+          13896
+        ]
+      },
+      {
+        "id": "égal|ADJ",
+        "sourceRows": [
+          13900
+        ]
+      },
+      {
+        "id": "élan|NOM",
+        "sourceRows": [
+          13924
+        ]
+      },
+      {
+        "id": "électeur|NOM",
+        "sourceRows": [
+          13930
+        ]
+      },
+      {
+        "id": "élection|NOM",
+        "sourceRows": [
+          13932
+        ]
+      },
+      {
+        "id": "électronique|ADJ",
+        "sourceRows": [
+          13948
+        ]
+      },
+      {
+        "id": "élever|VER",
+        "sourceRows": [
+          13951
+        ]
+      },
+      {
+        "id": "éloigner|VER",
+        "sourceRows": [
+          13963
+        ]
+      },
+      {
+        "id": "élégance|NOM",
+        "sourceRows": [
+          13971
+        ]
+      },
+      {
+        "id": "émerveiller|VER",
+        "sourceRows": [
+          13990
+        ]
+      },
+      {
+        "id": "émettre|VER",
+        "sourceRows": [
+          13992
+        ]
+      },
+      {
+        "id": "émouvoir|VER",
+        "sourceRows": [
+          14007
+        ]
+      },
+      {
+        "id": "énerver|VER",
+        "sourceRows": [
+          14015
+        ]
+      },
+      {
+        "id": "énigmatique|ADJ",
+        "sourceRows": [
+          14016
+        ]
+      },
+      {
+        "id": "énormément|ADV",
+        "sourceRows": [
+          14022
+        ]
+      },
+      {
+        "id": "épais|ADJ",
+        "sourceRows": [
+          14026
+        ]
+      },
+      {
+        "id": "épaule|NOM",
+        "sourceRows": [
+          14037
+        ]
+      },
+      {
+        "id": "épicerie|NOM",
+        "sourceRows": [
+          14049
+        ]
+      },
+      {
+        "id": "épingle|NOM",
+        "sourceRows": [
+          14060
+        ]
+      },
+      {
+        "id": "épouse|NOM",
+        "sourceRows": [
+          14073
+        ]
+      },
+      {
+        "id": "époux|NOM",
+        "sourceRows": [
+          14078
+        ]
+      },
+      {
+        "id": "épreuve|NOM",
+        "sourceRows": [
+          14081
+        ]
+      },
+      {
+        "id": "équipage|NOM",
+        "sourceRows": [
+          14098
+        ]
+      },
+      {
+        "id": "équiper|VER",
+        "sourceRows": [
+          14101
+        ]
+      },
+      {
+        "id": "établir|VER",
+        "sourceRows": [
+          14122
+        ]
+      },
+      {
+        "id": "établissement|NOM",
+        "sourceRows": [
+          14123
+        ]
+      },
+      {
+        "id": "étagère|NOM",
+        "sourceRows": [
+          14126
+        ]
+      },
+      {
+        "id": "état|NOM",
+        "sourceRows": [
+          14136
+        ]
+      },
+      {
+        "id": "éternel|ADJ",
+        "sourceRows": [
+          14141
+        ]
+      },
+      {
+        "id": "éternité|NOM",
+        "sourceRows": [
+          14143
+        ]
+      },
+      {
+        "id": "étiquette|NOM",
+        "sourceRows": [
+          14150
+        ]
+      },
+      {
+        "id": "étonnant|ADJ",
+        "sourceRows": [
+          14158
+        ]
+      },
+      {
+        "id": "étonnement|NOM",
+        "sourceRows": [
+          14159
+        ]
+      },
+      {
+        "id": "étouffer|VER",
+        "sourceRows": [
+          14164
+        ]
+      },
+      {
+        "id": "étrange|NOM",
+        "sourceRows": [
+          14168
+        ]
+      },
+      {
+        "id": "étrange|ADJ",
+        "sourceRows": [
+          14169
+        ]
+      },
+      {
+        "id": "évaluer|VER",
+        "sourceRows": [
+          14197
+        ]
+      },
+      {
+        "id": "évanouir|VER",
+        "sourceRows": [
+          14201
+        ]
+      },
+      {
+        "id": "éveiller|VER",
+        "sourceRows": [
+          14209
+        ]
+      },
+      {
+        "id": "évidence|NOM",
+        "sourceRows": [
+          14217
+        ]
+      },
+      {
+        "id": "évident|ADJ",
+        "sourceRows": [
+          14218
+        ]
+      },
+      {
+        "id": "éviter|VER",
+        "sourceRows": [
+          14222
+        ]
+      },
+      {
+        "id": "événement|NOM",
+        "sourceRows": [
+          14228
+        ]
+      },
+      {
+        "id": "évêque|NOM",
+        "sourceRows": [
+          14230
+        ]
+      },
+      {
+        "id": "être|NOM",
+        "sourceRows": [
+          14231
+        ]
+      }
+    ]
+  },
+  "authoringStatus": {
+    "completedEntries": 1753,
+    "requiredEntries": 1753,
+    "unreviewedEntries": 0,
+    "unexpectedAuthoringIDs": 0,
+    "refreshedAt": "2026-10-28",
+    "batchCounts": [
+      {
+        "file": "Resources/vocabulary_authoring/batch-01.jsonl",
+        "entries": 350,
+        "authoredStatus": 350,
+        "ready": 350
+      },
+      {
+        "file": "Resources/vocabulary_authoring/batch-02.jsonl",
+        "entries": 350,
+        "authoredStatus": 350,
+        "ready": 350
+      },
+      {
+        "file": "Resources/vocabulary_authoring/batch-03.jsonl",
+        "entries": 350,
+        "authoredStatus": 350,
+        "ready": 350
+      },
+      {
+        "file": "Resources/vocabulary_authoring/batch-04.jsonl",
+        "entries": 350,
+        "authoredStatus": 350,
+        "ready": 350
+      },
+      {
+        "file": "Resources/vocabulary_authoring/batch-05.jsonl",
+        "entries": 353,
+        "authoredStatus": 353,
+        "ready": 353
+      }
+    ],
+    "note": "Completed means the row has authored, non-empty meanings and definition, three distinct punctuated examples, valid noun metadata (or an explicit source-tag note), and status authored. This count does not certify linguistic quality; entries still require human review."
+  },
+  "referenceDictionaries": [
+    {
+      "title": "Dictionnaire de français Larousse — ailler",
+      "url": "https://www.larousse.fr/dictionnaires/francais/ailler/1913",
+      "purpose": "Checked the rare verb meaning; the app examples were written independently."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+FLELex / Beacco attribution and license notice
+
+Source: FLELex / Beacco with TreeTagger parts of speech, provided by CENTAL at UCLouvain and collaborators.
+Source data: Resources/FleLex_TT_Beacco.tsv (the original downloadable TSV is retained in this repository).
+This project filters the rows tagged level B1 and adds original learner-facing meanings, definitions, examples, and editorial notes. The FLELex-derived selection and this adapted vocabulary database are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+
+The full official license text is bundled next to this notice as CC-BY-NC-SA-4.0-Legalcode.txt.
+Official legal code source:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+Canonical license deed:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Attribution and citation:
+François, T., Gala, N., Watrin, P. & Fairon, C. (2014). “FLELex: a graded lexical resource for French foreign learners.” Proceedings of LREC 2014.
+Pintard, A. & François, T. (2020). “Combining expert knowledge with frequency information to infer CEFR levels for words.” Proceedings of the 1st Workshop on Tools and Resources to Empower People with REAding DIfficulties (READI), pp. 85–92.
+
+Source pages:
+https://cental.uclouvain.be/cefrlex/flelex/
+https://cental.uclouvain.be/cefrlex/flelex/download/
+
+The original lexicon is credited to its creators. The CEFR level subset, normalized IDs, row mapping, and any other changes to the resource are indicated in Resources/provenance.json and Documentation/VOCABULARY.md. The source is provided as-is; consult the linked full license for its terms, including non-commercial use and share-alike requirements.
