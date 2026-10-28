@@ -54,8 +54,44 @@ public enum CorpusLoader {
             guard vocabulary.snapshotSHA256 == "e0cbdb672fa4f83155acec4c8f01f179b30be08cb3d2d6cf0d9f25042b01e3d4" else {
                 throw CorpusLoaderError.invalidField(file: vocabularyFilename, item: "snapshotSHA256", field: "does not match the pinned FLELex snapshot")
             }
+            try validateOfflineTranslations(vocabulary: vocabulary, conjugations: conjugations)
         }
         return LoadedCorpus(vocabulary: vocabulary, conjugations: conjugations)
+    }
+
+    private static func validateOfflineTranslations(vocabulary: VocabularyFile, conjugations: ConjugationFile) throws {
+        for entry in vocabulary.entries {
+            let item = "entries (\(entry.id))"
+            guard let definitionTranslation = entry.frenchTranslation else {
+                throw CorpusLoaderError.invalidField(file: vocabularyFilename, item: item, field: "frenchTranslation is required for the bundled corpus")
+            }
+            try requireText(definitionTranslation, file: vocabularyFilename, item: item, field: "frenchTranslation")
+            guard let translations = entry.exampleTranslations, translations.count == entry.examples.count else {
+                throw CorpusLoaderError.invalidField(file: vocabularyFilename, item: item, field: "exampleTranslations must match the example count")
+            }
+            for (index, translation) in translations.enumerated() {
+                try requireText(translation, file: vocabularyFilename, item: item, field: "exampleTranslations[\(index)]")
+            }
+        }
+        for verb in conjugations.verbs {
+            for tense in verb.tenses {
+                for (index, row) in tense.rows.enumerated() {
+                    guard let exampleTranslation = row.exampleTranslation else {
+                        throw CorpusLoaderError.invalidField(
+                            file: verbsFilename,
+                            item: "\(verb.entryID).\(tense.id).rows[\(index)]",
+                            field: "exampleTranslation is required for the bundled corpus"
+                        )
+                    }
+                    try requireText(
+                        exampleTranslation,
+                        file: verbsFilename,
+                        item: "\(verb.entryID).\(tense.id).rows[\(index)]",
+                        field: "exampleTranslation"
+                    )
+                }
+            }
+        }
     }
 
     private static func decode<T: Decodable>(_ type: T.Type, from url: URL) throws -> T {

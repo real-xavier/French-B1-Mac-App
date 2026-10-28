@@ -41,6 +41,10 @@ public struct WordDetailView: View {
                         sectionLabel("French definition")
                         SelectableText(entry.french, font: .systemFont(ofSize: 17))
                             .frame(maxWidth: .infinity, alignment: .leading)
+                        if let translation = entry.frenchTranslation, !translation.isEmpty {
+                            SelectableText(translation, font: .systemFont(ofSize: 13), color: .secondaryLabelColor)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
                     }
                 }
 
@@ -53,9 +57,15 @@ public struct WordDetailView: View {
                     } else {
                         VStack(alignment: .leading, spacing: 0) {
                             ForEach(Array(entry.examples.enumerated()), id: \.offset) { index, example in
-                                SelectableText(example, font: .systemFont(ofSize: 15))
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .padding(.vertical, 11)
+                                VStack(alignment: .leading, spacing: 4) {
+                                    SelectableText(example, font: .systemFont(ofSize: 15))
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    if let translation = translation(forExampleAt: index) {
+                                        SelectableText(translation, font: .systemFont(ofSize: 13), color: .secondaryLabelColor)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                    }
+                                }
+                                .padding(.vertical, 11)
                                 if index < entry.examples.count - 1 {
                                     Divider()
                                 }
@@ -136,5 +146,10 @@ public struct WordDetailView: View {
         if calendar.isDateInToday(date) { return "Due today" }
         if date <= store.currentDate() { return "Due now" }
         return "Due \(date.formatted(date: .abbreviated, time: .omitted))"
+    }
+
+    private func translation(forExampleAt index: Int) -> String? {
+        guard let translations = entry.exampleTranslations, translations.indices.contains(index) else { return nil }
+        return translations[index].isEmpty ? nil : translations[index]
     }
 }

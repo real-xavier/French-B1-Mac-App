@@ -8,6 +8,7 @@ python3 Tools/import_vocabulary.py
 python3 Tools/refresh_vocabulary_provenance.py
 python3 Tools/validate_content.py
 python3 Tools/build_verbs.py
+python3 Tools/apply_translations.py
 python3 Tools/validate_verbs.py
 export CLANG_MODULE_CACHE_PATH="/private/tmp/FrenchB1-clang-cache"
 export SWIFTPM_MODULECACHE_OVERRIDE="/private/tmp/FrenchB1-swift-cache"

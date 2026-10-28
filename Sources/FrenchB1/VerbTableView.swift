@@ -59,8 +59,14 @@ public struct VerbTableView: View {
                                     )
                                     .frame(width: 150, alignment: .leading)
 
-                                    SelectableText(row.example, font: .systemFont(ofSize: 14))
-                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        SelectableText(row.example, font: .systemFont(ofSize: 14))
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                        if let translation = row.exampleTranslation, !translation.isEmpty {
+                                            SelectableText(translation, font: .systemFont(ofSize: 12), color: .secondaryLabelColor)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
+                                        }
+                                    }
                                 }
                                 .padding(.vertical, 10)
 

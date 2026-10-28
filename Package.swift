@@ -17,7 +17,7 @@ let package = Package(
         .executableTarget(
             name: "FrenchB1",
             path: ".",
-            exclude: ["Package.swift", "README.md", "Documentation", "Tests", "Tools", ".build", "Resources/FleLex_TT_Beacco.tsv", "Resources/morphology", "Resources/verb_metadata.json", "Resources/vocabulary_authoring", "Resources/AppIcon.icns", "Resources/AppIcon-1024.png"],
+            exclude: ["Package.swift", "README.md", "Documentation", "Tests", "Tools", ".build", "Resources/FleLex_TT_Beacco.tsv", "Resources/morphology", "Resources/verb_metadata.json", "Resources/vocabulary_authoring", "Resources/example_translations", "Resources/AppIcon.icns", "Resources/AppIcon-1024.png"],
             sources: ["Sources/FrenchB1"],
             resources: bundledResources.map { .copy($0) }
         ),

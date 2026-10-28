@@ -4,7 +4,7 @@ A native macOS vocabulary app for personal, noncommercial study. It works offlin
 
 ## Study
 
-Open **French B1.app**. Use **Learn** to browse the dictionary or search French and English without worrying about case or accents. Click a word to see its English meaning, a simple French definition, and three French examples. **Add to review** schedules the word for tomorrow. Verb entries also show seven tense/mood tables with examples.
+Open **French B1.app**. Use **Learn** to browse the dictionary or search French and English without worrying about case or accents. Click a word to see its English meaning, a simple French definition followed by a smaller gray English translation, and three French examples each followed by a smaller gray English translation. **Add to review** schedules the word for tomorrow. Verb entries also show seven tense/mood tables; every conjugated form's French example is followed by its English translation.
 
 In **Review**, **Due now** shows cards whose due time has arrived, earliest first. **All learned** includes future cards. **Show answer** reveals the meanings and examples. Then choose **Again** to retry in ten minutes, or **Remembered** to advance through 3, 7, 14, 30, and 60 calendar-day intervals. Later successes stay at 60 days. A success after Again starts again at one calendar day. Words remain available in both sections.
 
@@ -31,6 +31,7 @@ python3 Tools/import_vocabulary.py
 python3 Tools/refresh_vocabulary_provenance.py
 python3 Tools/validate_content.py
 python3 Tools/build_verbs.py
+python3 Tools/apply_translations.py
 python3 Tools/validate_verbs.py
 CLANG_MODULE_CACHE_PATH=/private/tmp/FrenchB1-ClangModuleCache \
 SWIFTPM_MODULECACHE_OVERRIDE=/private/tmp/FrenchB1-SwiftModuleCache \
@@ -39,6 +40,8 @@ Tools/build_app.sh
 ```
 
 `Tools/build_app.sh` checks complete content before creating an ad-hoc signed local `.app`. It currently writes to the approved output folder recorded in that script. A packaged app resolves its study content explicitly within its own bundle, without using SwiftPM development paths. `FRENCHB1_PROGRESS_PATH` can point to an isolated local JSON file for UI verification; normal launches use Application Support.
+
+English definition and example translations are bundled with the corpus, so they display without an internet connection.
 
 ## Attribution
 

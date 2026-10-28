@@ -20,7 +20,9 @@ public struct VocabularyEntry: Codable, Identifiable, Hashable {
     public let article: String?
     public let english: String
     public let french: String
+    public let frenchTranslation: String?
     public let examples: [String]
+    public let exampleTranslations: [String]?
     public let sourceRow: Int
     public let usageNote: String?
 
@@ -32,7 +34,9 @@ public struct VocabularyEntry: Codable, Identifiable, Hashable {
         article: String?,
         english: String,
         french: String,
+        frenchTranslation: String? = nil,
         examples: [String],
+        exampleTranslations: [String]? = nil,
         sourceRow: Int,
         usageNote: String?
     ) {
@@ -43,7 +47,9 @@ public struct VocabularyEntry: Codable, Identifiable, Hashable {
         self.article = article
         self.english = english
         self.french = french
+        self.frenchTranslation = frenchTranslation
         self.examples = examples
+        self.exampleTranslations = exampleTranslations
         self.sourceRow = sourceRow
         self.usageNote = usageNote
     }
@@ -117,11 +123,13 @@ public struct ConjugationRow: Codable, Hashable {
     public let person: String
     public let form: String
     public let example: String
+    public let exampleTranslation: String?
 
-    public init(person: String, form: String, example: String) {
+    public init(person: String, form: String, example: String, exampleTranslation: String? = nil) {
         self.person = person
         self.form = form
         self.example = example
+        self.exampleTranslation = exampleTranslation
     }
 }
 
